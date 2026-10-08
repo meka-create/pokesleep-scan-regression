@@ -1,0 +1,62 @@
+{
+  "runnerId": "candidate120-device-regression-runner-v1",
+  "candidateReleaseId": "2026-10-07-candidate120-ios-ocr-recycle-hardening",
+  "status": "BUILT_TEST_ONLY",
+  "primaryDeviceGates": [
+    "iPhone Safari",
+    "Android Chrome"
+  ],
+  "corpora": [
+    {
+      "id": "meka142",
+      "label": "meka142",
+      "category": "owner",
+      "priority": "P0_HIGHEST",
+      "status": "ACTIVE_CANONICAL",
+      "count": 142,
+      "defaultActive": true,
+      "manifest": "corpora/meka142/manifest.json"
+    },
+    {
+      "id": "nano30",
+      "label": "nano30",
+      "category": "real-user",
+      "priority": "P1_REAL_USER",
+      "status": "ACTIVE_CANONICAL",
+      "count": 30,
+      "defaultActive": true,
+      "manifest": "corpora/nano30/manifest.json"
+    },
+    {
+      "id": "legacy51",
+      "label": "legacy51",
+      "category": "legacy",
+      "priority": "P9_LEGACY",
+      "status": "PENDING_FUTURE_DELETE",
+      "count": 51,
+      "defaultActive": false,
+      "manifest": "corpora/legacy51/manifest.json"
+    }
+  ],
+  "productionRuntimeHashes": {
+    "master_data.js": "b0f3bc100966de43dfdd4bd2d6b2036d8f7609b718b241a60674612aaf384ab4",
+    "classifier.js": "93a1fbe56887ae9683409ca5db48563f18c78711aedac01b8758510768ec7c71",
+    "food_features.js": "d5f68af858d37abfbdfad50138f9f9bd5dc6cdc7bf91ea56f5e0b684e9b61750",
+    "food_color_features.js": "e00286ae2e8fe96d6f0b49c93e03150469175382ba09c62b499e6f33d85ae444",
+    "food_matcher.js": "68f20e2ce1ab45222824669514eaa62077add12dfe8949658caf0f6a9589c9a7",
+    "app.js": "6255d2ab5fcb70ad0362137c3c5e8a4029f742092380046075ea3630001453e1"
+  },
+  "appOriginalByteIdentical": true,
+  "appRegressionPatchReversibleToExactOriginal": true,
+  "testOnlyDeviations": [
+    "isolated IndexedDB database name",
+    "narrow regression API export",
+    "runner page disables Service Worker registration",
+    "runner page disables Tips auto-show"
+  ],
+  "productionMaxFiles": 100,
+  "meka142PartitionPlan": [
+    100,
+    42
+  ]
+}

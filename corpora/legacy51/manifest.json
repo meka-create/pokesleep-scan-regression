@@ -1,0 +1,1797 @@
+{
+  "schema": 1,
+  "corpusId": "legacy51",
+  "label": "legacy51",
+  "category": "legacy",
+  "priority": "P9_LEGACY",
+  "status": "PENDING_FUTURE_DELETE",
+  "count": 51,
+  "notes": "Temporary low-priority legacy corpus; planned for later removal/re-audit. Nickname/food are not scored because the legacy fixture does not establish those goldens.",
+  "records": [
+    {
+      "file": "HS6M3YhbQAABXOI.jpg",
+      "expected": {
+        "species": "ラルトス",
+        "level": 14,
+        "sp": 494,
+        "helpSeconds": 4675,
+        "carry": 9,
+        "skillLevel": 1,
+        "mainSkill": "げんきオールS",
+        "nature": "なまいき",
+        "subskills": [
+          "おてつだいボーナス",
+          "最大所持数アップS",
+          "おてつだいスピードS",
+          "スキル確率アップM",
+          "食材確率アップS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-001",
+      "imagePath": "corpora/legacy51/images/HS6M3YhbQAABXOI.jpg",
+      "sha256": "a4d797f6407bec9f4cc0a12d5e6cd945a4f7199b303792847d5acdae8130923b"
+    },
+    {
+      "file": "HS70aqKaIAAi-B5.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 26,
+        "sp": 1535,
+        "helpSeconds": 2185,
+        "carry": null,
+        "skillLevel": 1,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "すなお",
+        "subskills": [
+          "最大所持数アップL",
+          "スキル確率アップM",
+          "スキル確率アップS",
+          "食材確率アップS",
+          "最大所持数アップS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-002",
+      "imagePath": "corpora/legacy51/images/HS70aqKaIAAi-B5.jpg",
+      "sha256": "92b7b2305e193cd3c1f8b203413a8843de75f385634cfadcc26f9827a2d64688"
+    },
+    {
+      "file": "HS70bA4aAAAWWCC.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 30,
+        "sp": 1554,
+        "helpSeconds": 1863,
+        "carry": null,
+        "skillLevel": 1,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "おとなしい",
+        "subskills": [
+          "食材確率アップS",
+          "おてつだいスピードM",
+          "最大所持数アップS",
+          "げんき回復ボーナス",
+          "食材確率アップM"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-003",
+      "imagePath": "corpora/legacy51/images/HS70bA4aAAAWWCC.jpg",
+      "sha256": "1daa4e9c179a8ba26e722838da33335dcc2309443ec0298dc0ab18c678d96512"
+    },
+    {
+      "file": "HS71WNiaEAA3Bnb.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 30,
+        "sp": 1555,
+        "helpSeconds": 2166,
+        "carry": 30,
+        "skillLevel": 1,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "ようき",
+        "subskills": [
+          "最大所持数アップS",
+          "スキル確率アップM",
+          "おてつだいスピードM",
+          "おてつだいスピードS",
+          "おてつだいボーナス"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-004",
+      "imagePath": "corpora/legacy51/images/HS71WNiaEAA3Bnb.jpg",
+      "sha256": "fb1785c13471132d9b4ca0935298277900141829505db001ee28341863a8d216"
+    },
+    {
+      "file": "HS74T1wbYAAX2Dy.jpg",
+      "expected": {
+        "species": "マニューラ",
+        "level": 28,
+        "sp": 1068,
+        "helpSeconds": 2137,
+        "carry": 26,
+        "skillLevel": 1,
+        "mainSkill": "料理チャンスS",
+        "nature": "さみしがり",
+        "subskills": [
+          "おてつだいスピードS",
+          "食材確率アップM",
+          "おてつだいスピードM",
+          "きのみの数S",
+          "最大所持数アップS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-005",
+      "imagePath": "corpora/legacy51/images/HS74T1wbYAAX2Dy.jpg",
+      "sha256": "570721923f233f215f9a1d93bee3755b5144bf2406e0544c2e5e418e3eaff234"
+    },
+    {
+      "file": "HS7cjfPagAAPBeX.jpg",
+      "expected": {
+        "species": "ネイティ",
+        "level": 15,
+        "sp": 458,
+        "helpSeconds": 4067,
+        "carry": 11,
+        "skillLevel": 1,
+        "mainSkill": "食材ゲットS",
+        "nature": "れいせい",
+        "subskills": [
+          "おてつだいスピードS",
+          "最大所持数アップS",
+          "食材確率アップM",
+          "スキル確率アップS",
+          "睡眠EXPボーナス"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-006",
+      "imagePath": "corpora/legacy51/images/HS7cjfPagAAPBeX.jpg",
+      "sha256": "374f919f4f1f79f78db04b959d52d5796a05bf49e8e4941d228a64ff0f34fdf8"
+    },
+    {
+      "file": "HS7z03IbwAAu_k6.jpg",
+      "expected": {
+        "species": "ネイティ",
+        "level": 15,
+        "sp": 513,
+        "helpSeconds": 4702,
+        "carry": 11,
+        "skillLevel": 1,
+        "mainSkill": "食材ゲットS",
+        "nature": "おくびょう",
+        "subskills": [
+          "きのみの数S",
+          "おてつだいスピードS",
+          "スキル確率アップS",
+          "食材確率アップS",
+          "おてつだいボーナス"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-007",
+      "imagePath": "corpora/legacy51/images/HS7z03IbwAAu_k6.jpg",
+      "sha256": "c54e60ba363f6f7ae1bcfcf2baf6f43735c82456157681d22da28e9c953c88eb"
+    },
+    {
+      "file": "HS8DI_DbgAAmvQK.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 26,
+        "sp": 1470,
+        "helpSeconds": 1966,
+        "carry": 24,
+        "skillLevel": 1,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "ゆうかん",
+        "subskills": [
+          "スキル確率アップM",
+          "食材確率アップS",
+          "おてつだいスピードS",
+          "最大所持数アップL",
+          "最大所持数アップS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-008",
+      "imagePath": "corpora/legacy51/images/HS8DI_DbgAAmvQK.jpg",
+      "sha256": "19ea0cfbcd26d1cd12eab10c87eab24285dc40a6136b84ad70ca2542bd5b37b2"
+    },
+    {
+      "file": "HS8DI_JbIAAw3Jp.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 26,
+        "sp": 1405,
+        "helpSeconds": 2185,
+        "carry": 24,
+        "skillLevel": 1,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "すなお",
+        "subskills": [
+          "スキル確率アップM",
+          "スキル確率アップS",
+          "食材確率アップS",
+          "スキルレベルアップS",
+          "最大所持数アップS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-009",
+      "imagePath": "corpora/legacy51/images/HS8DI_JbIAAw3Jp.jpg",
+      "sha256": "e5dbae09a3d9741c814f57c06cd32b6c8fbb5f4101ddcd2447d0544341862c54"
+    },
+    {
+      "file": "HS8Myc_bQAAFwz0.jpg",
+      "expected": {
+        "species": "マルノーム",
+        "level": 70,
+        "sp": 9600,
+        "helpSeconds": 3017,
+        "carry": 30,
+        "skillLevel": 8,
+        "mainSkill": "ゆめのかけらゲットS",
+        "nature": "しんちょう",
+        "subskills": [
+          "きのみの数S",
+          "スキル確率アップM",
+          "スキル確率アップS",
+          "おてつだいボーナス",
+          "最大所持数アップM"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-010",
+      "imagePath": "corpora/legacy51/images/HS8Myc_bQAAFwz0.jpg",
+      "sha256": "b40c4cb1c485a707417b8a931337cc2d0d2dc9804e6766473f3cd52bdeeb2537"
+    },
+    {
+      "file": "HS8qaelbEAAhfFR.jpg",
+      "expected": {
+        "species": "ムンナ",
+        "level": 14,
+        "sp": 549,
+        "helpSeconds": 4996,
+        "carry": 12,
+        "skillLevel": 1,
+        "mainSkill": "ゆめのかけらゲットS",
+        "nature": "ゆうかん",
+        "subskills": [
+          "きのみの数S",
+          "おてつだいボーナス",
+          "スキル確率アップS",
+          "食材確率アップS",
+          "おてつだいスピードS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-011",
+      "imagePath": "corpora/legacy51/images/HS8qaelbEAAhfFR.jpg",
+      "sha256": "8581fd1c898616541fbf8833d4dd7ea06071179eea2b963c054055b42dc654ba"
+    },
+    {
+      "file": "HS9QvXPbkAAcEF7.jpg",
+      "expected": {
+        "species": "バリヤード",
+        "level": 50,
+        "sp": 3536,
+        "helpSeconds": 2171,
+        "carry": 29,
+        "skillLevel": 7,
+        "mainSkill": "ものまね (スキルコピー)",
+        "nature": "きまぐれ",
+        "subskills": [
+          "食材確率アップM",
+          "おてつだいスピードM",
+          "最大所持数アップS",
+          "おてつだいスピードS",
+          "最大所持数アップL"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-012",
+      "imagePath": "corpora/legacy51/images/HS9QvXPbkAAcEF7.jpg",
+      "sha256": "9d0532f64d5fcdd9a5ee22752ff48a8cf57bdd06981a16ed01ff9ed9c409e015"
+    },
+    {
+      "file": "HS_NVVpbgAAUajH.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 28,
+        "sp": 1429,
+        "helpSeconds": 1871,
+        "carry": 36,
+        "skillLevel": 1,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "のうてんき",
+        "subskills": [
+          "最大所持数アップM",
+          "おてつだいスピードM",
+          "スキルレベルアップS",
+          "げんき回復ボーナス",
+          "おてつだいスピードS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-013",
+      "imagePath": "corpora/legacy51/images/HS_NVVpbgAAUajH.jpg",
+      "sha256": "8ee03dcae40b635aaa353138f12ce301dd9e796008e4cc1047bc664661523250"
+    },
+    {
+      "file": "HTA3-7RbMAAWHnZ.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 28,
+        "sp": 1559,
+        "helpSeconds": 1871,
+        "carry": 24,
+        "skillLevel": 1,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "しんちょう",
+        "subskills": [
+          "スキル確率アップS",
+          "おてつだいスピードM",
+          "おてつだいスピードS",
+          "最大所持数アップL",
+          "スキルレベルアップS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-014",
+      "imagePath": "corpora/legacy51/images/HTA3-7RbMAAWHnZ.jpg",
+      "sha256": "af5bd3663357127343964fb9de44885382b02c29528ac8901063b9929cd8c8d7"
+    },
+    {
+      "file": "HTBDCzcbYAAj6A8.jpg",
+      "expected": {
+        "species": "ドオー",
+        "level": 21,
+        "sp": 913,
+        "helpSeconds": 2889,
+        "carry": 25,
+        "skillLevel": 1,
+        "mainSkill": "げんきチャージS",
+        "nature": "れいせい",
+        "subskills": [
+          "おてつだいスピードM",
+          "スキルレベルアップS",
+          "最大所持数アップM",
+          "スキル確率アップM",
+          "食材確率アップS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-015",
+      "imagePath": "corpora/legacy51/images/HTBDCzcbYAAj6A8.jpg",
+      "sha256": "6fff9f31df2fa0889159a3ae55bad543338f0ac295f8916b2bd606a83b192c57"
+    },
+    {
+      "file": "HTBDCzebsAApLm6.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 29,
+        "sp": 1376,
+        "helpSeconds": 2019,
+        "carry": 24,
+        "skillLevel": 1,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "なまいき",
+        "subskills": [
+          "食材確率アップM",
+          "おてつだいスピードS",
+          "スキルレベルアップM",
+          "おてつだいスピードM",
+          "最大所持数アップS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-016",
+      "imagePath": "corpora/legacy51/images/HTBDCzebsAApLm6.jpg",
+      "sha256": "9c3b365deb8f908925d307f9a26b99de0e2c5c71d769da6224b3c4f8c1f384c6"
+    },
+    {
+      "file": "HTCJ4JtaQAAvF-b.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 27,
+        "sp": 1257,
+        "helpSeconds": 2180,
+        "carry": 24,
+        "skillLevel": 1,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "おとなしい",
+        "subskills": [
+          "食材確率アップS",
+          "スキル確率アップS",
+          "最大所持数アップS",
+          "スキルレベルアップM",
+          "スキル確率アップM"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-017",
+      "imagePath": "corpora/legacy51/images/HTCJ4JtaQAAvF-b.jpg",
+      "sha256": "a8b27db7f57398533149243c6cad7cf6f52eddd414d1908884a1dd72dcb77dfb"
+    },
+    {
+      "file": "HTClcWqa4AEZTrD.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 28,
+        "sp": 1707,
+        "helpSeconds": 1871,
+        "carry": 24,
+        "skillLevel": 1,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "しんちょう",
+        "subskills": [
+          "スキル確率アップM",
+          "おてつだいスピードM",
+          "おてつだいスピードS",
+          "最大所持数アップL",
+          "スキルレベルアップS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-018",
+      "imagePath": "corpora/legacy51/images/HTClcWqa4AEZTrD.jpg",
+      "sha256": "3f0c44b49d9c97a7d4812f9164d4e70153e7231bb2cb0175272ee84b1a276db7"
+    },
+    {
+      "file": "HTD_3bHagAANKlp.jpg",
+      "expected": {
+        "species": "ムンナ",
+        "level": 15,
+        "sp": 496,
+        "helpSeconds": 5540,
+        "carry": 12,
+        "skillLevel": 1,
+        "mainSkill": "ゆめのかけらゲットS",
+        "nature": "すなお",
+        "subskills": [
+          "きのみの数S",
+          "スキル確率アップM",
+          "最大所持数アップL",
+          "おてつだいスピードM",
+          "スキル確率アップS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-019",
+      "imagePath": "corpora/legacy51/images/HTD_3bHagAANKlp.jpg",
+      "sha256": "c09e9f38acb0dfc7aef631c7ff7263053a39d53e7805e0c268c4b7add0a09ee1"
+    },
+    {
+      "file": "HTFaALKaIAEpbKR.jpg",
+      "expected": {
+        "species": "スイクン",
+        "level": 29,
+        "sp": 1536,
+        "helpSeconds": 2548,
+        "carry": 17,
+        "skillLevel": 1,
+        "mainSkill": "おてつだいブースト",
+        "nature": "おとなしい",
+        "subskills": [
+          "おてつだいボーナス",
+          "スキル確率アップM",
+          "最大所持数アップL",
+          "食材確率アップS",
+          "スキル確率アップS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-020",
+      "imagePath": "corpora/legacy51/images/HTFaALKaIAEpbKR.jpg",
+      "sha256": "a4f0bd90e8c9c192000a4626aed5cc61a95beeff5c63998f48f67f579b4b260e"
+    },
+    {
+      "file": "HTFrxXBb0AAHAyj.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 26,
+        "sp": 1291,
+        "helpSeconds": 2185,
+        "carry": 24,
+        "skillLevel": 1,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "むじゃき",
+        "subskills": [
+          "リサーチEXPボーナス",
+          "スキル確率アップS",
+          "食材確率アップM",
+          "食材確率アップS",
+          "最大所持数アップS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-021",
+      "imagePath": "corpora/legacy51/images/HTFrxXBb0AAHAyj.jpg",
+      "sha256": "989a38c5cd49b8b8345a26b4f11667d4d028d5ff98c7ebd61c35bfc1536c1bec"
+    },
+    {
+      "file": "HTGMW5casAAYyBz.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 27,
+        "sp": 2104,
+        "helpSeconds": 2180,
+        "carry": 24,
+        "skillLevel": 3,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "しんちょう",
+        "subskills": [
+          "スキル確率アップS",
+          "スキルレベルアップM",
+          "最大所持数アップS",
+          "リサーチEXPボーナス",
+          "食材確率アップM"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-022",
+      "imagePath": "corpora/legacy51/images/HTGMW5casAAYyBz.jpg",
+      "sha256": "c098c18af8f007ce168f01357888912bbb924fa11884466f0ca5b4874c945ea5"
+    },
+    {
+      "file": "HTGmngTbwAEsCUK.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 29,
+        "sp": 1605,
+        "helpSeconds": 1867,
+        "carry": 24,
+        "skillLevel": 1,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "せっかち",
+        "subskills": [
+          "きのみの数S",
+          "おてつだいスピードM",
+          "スキル確率アップS",
+          "おてつだいスピードS",
+          "食材確率アップS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-023",
+      "imagePath": "corpora/legacy51/images/HTGmngTbwAEsCUK.jpg",
+      "sha256": "bf374ab4defc4b522f2e120141bf5cc7f5d0ce40132cd3b80d3207a580551912"
+    },
+    {
+      "file": "HTGxtsjbIAAAfit.jpg",
+      "expected": {
+        "species": "クレセリア",
+        "level": 26,
+        "sp": 1222,
+        "helpSeconds": 2185,
+        "carry": 22,
+        "skillLevel": 1,
+        "mainSkill": "みかづきのいのり (げんきオールS)",
+        "nature": "のんき",
+        "subskills": [
+          "食材確率アップS",
+          "食材確率アップM",
+          "最大所持数アップM",
+          "最大所持数アップL",
+          "リサーチEXPボーナス"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-024",
+      "imagePath": "corpora/legacy51/images/HTGxtsjbIAAAfit.jpg",
+      "sha256": "cb4e0869f3e853432666f5dd0a6160815b142453b381d09817a1e1a6e3fe1aa1"
+    },
+    {
+      "file": "HTIkxDsbsAAE6Pl.jpg",
+      "expected": {
+        "species": "ムンナ",
+        "level": 14,
+        "sp": 480,
+        "helpSeconds": 5967,
+        "carry": 12,
+        "skillLevel": 1,
+        "mainSkill": "ゆめのかけらゲットS",
+        "nature": "おだやか",
+        "subskills": [
+          "きのみの数S",
+          "スキルレベルアップS",
+          "最大所持数アップM",
+          "スキル確率アップM",
+          "げんき回復ボーナス"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-025",
+      "imagePath": "corpora/legacy51/images/HTIkxDsbsAAE6Pl.jpg",
+      "sha256": "ae0869e67177c30158095e39d1e0f210099bba1467cb9bd02f1e045f64f57f6c"
+    },
+    {
+      "file": "HTInUbzaMAAnH7K.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 30,
+        "sp": 1683,
+        "helpSeconds": 2166,
+        "carry": 24,
+        "skillLevel": 1,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "せっかち",
+        "subskills": [
+          "睡眠EXPボーナス",
+          "スキル確率アップM",
+          "リサーチEXPボーナス",
+          "おてつだいスピードM",
+          "食材確率アップS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-026",
+      "imagePath": "corpora/legacy51/images/HTInUbzaMAAnH7K.jpg",
+      "sha256": "17075133496fa026cf6ca70cbd2d0aba9af1382520015c87bfa2315c2ecc2c9f"
+    },
+    {
+      "file": "HTIvqZIb0AAcIHO.jpg",
+      "expected": {
+        "species": "ゼニガメ",
+        "level": 15,
+        "sp": 538,
+        "helpSeconds": 4702,
+        "carry": 10,
+        "skillLevel": 1,
+        "mainSkill": "食材ゲットS",
+        "nature": "ずぶとい",
+        "subskills": [
+          "おてつだいボーナス",
+          "おてつだいスピードM",
+          "食材確率アップS",
+          "最大所持数アップL",
+          "食材確率アップM"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-027",
+      "imagePath": "corpora/legacy51/images/HTIvqZIb0AAcIHO.jpg",
+      "sha256": "4257a7b2f13df2ad06c7ba2cc86f6b1fa96e5e0d37fd338974a68ab4a86814e5"
+    },
+    {
+      "file": "HTJMDsCaQAEOfI9.jpg",
+      "expected": {
+        "species": "ミミッキュ",
+        "level": 32,
+        "sp": 1189,
+        "helpSeconds": 2110,
+        "carry": 31,
+        "skillLevel": 1,
+        "mainSkill": "ばけのかわ (きのみバースト)",
+        "nature": "ゆうかん",
+        "subskills": [
+          "食材確率アップS",
+          "最大所持数アップM",
+          "スキル確率アップS",
+          "最大所持数アップL",
+          "きのみの数S"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-028",
+      "imagePath": "corpora/legacy51/images/HTJMDsCaQAEOfI9.jpg",
+      "sha256": "1ebc82d81f9f04f8babcb1e9699c51faaaf88d026294186c656036a51d62eef6"
+    },
+    {
+      "file": "HTJMDsIb0AAMErG.jpg",
+      "expected": {
+        "species": "フワライド",
+        "level": 21,
+        "sp": 924,
+        "helpSeconds": 2160,
+        "carry": 22,
+        "skillLevel": 2,
+        "mainSkill": "たくわえる (エナジーチャージS)",
+        "nature": "やんちゃ",
+        "subskills": [
+          "スキル確率アップS",
+          "最大所持数アップS",
+          "おてつだいスピードS",
+          "きのみの数S",
+          "おてつだいボーナス"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-029",
+      "imagePath": "corpora/legacy51/images/HTJMDsIb0AAMErG.jpg",
+      "sha256": "1fb7fdb48e5747b29b8d3b55422c05de076de0e71e963c2d172626b07f645bb2"
+    },
+    {
+      "file": "HTJOHLZaUAA5fSK.jpg",
+      "expected": {
+        "species": "ボスゴドラ",
+        "level": 34,
+        "sp": 1468,
+        "helpSeconds": 2802,
+        "carry": 34,
+        "skillLevel": 2,
+        "mainSkill": "げんきチャージS",
+        "nature": "おっとり",
+        "subskills": [
+          "スキル確率アップS",
+          "最大所持数アップS",
+          "おてつだいスピードS",
+          "食材確率アップS",
+          "最大所持数アップL"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-030",
+      "imagePath": "corpora/legacy51/images/HTJOHLZaUAA5fSK.jpg",
+      "sha256": "8ba90acd7b108a5d9fbe9c7a5a92a64b05fda79550dc054949bedfdd9627c18a"
+    },
+    {
+      "file": "HTJOHLabkAAlz77.jpg",
+      "expected": {
+        "species": "フライゴン",
+        "level": 35,
+        "sp": 2383,
+        "helpSeconds": 2516,
+        "carry": 27,
+        "skillLevel": 3,
+        "mainSkill": "エナジーチャージS",
+        "nature": "うっかりや",
+        "subskills": [
+          "きのみの数S",
+          "食材確率アップM",
+          "おてつだいスピードM",
+          "最大所持数アップS",
+          "最大所持数アップL"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-031",
+      "imagePath": "corpora/legacy51/images/HTJOHLabkAAlz77.jpg",
+      "sha256": "074089c62f97a668ced0871f1cb3d92b751e12bd414444dbbf52d0be1acbee91"
+    },
+    {
+      "file": "HTK8VkeawAAK-fT.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 26,
+        "sp": 2067,
+        "helpSeconds": 2185,
+        "carry": 24,
+        "skillLevel": 4,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "きまぐれ",
+        "subskills": [
+          "スキルレベルアップM",
+          "スキルレベルアップS",
+          "リサーチEXPボーナス",
+          "最大所持数アップM",
+          "おてつだいスピードS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-032",
+      "imagePath": "corpora/legacy51/images/HTK8VkeawAAK-fT.jpg",
+      "sha256": "1e96b3e413e7facb441fb8f7664744302d014386103b3a4dcf927dd51856aeb1"
+    },
+    {
+      "file": "HTK9X11aUAE93cC.jpg",
+      "expected": {
+        "species": "クレセリア",
+        "level": 70,
+        "sp": 10813,
+        "helpSeconds": 1534,
+        "carry": 46,
+        "skillLevel": 6,
+        "mainSkill": "みかづきのいのり (げんきオールS)",
+        "nature": "ゆうかん",
+        "subskills": [
+          "最大所持数アップL",
+          "スキル確率アップM",
+          "きのみの数S",
+          "おてつだいスピードM",
+          "スキルレベルアップS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-033",
+      "imagePath": "corpora/legacy51/images/HTK9X11aUAE93cC.jpg",
+      "sha256": "5637606353543e1182fa6ef73215de7911eb814d95d63c4fed90e9c79c61c60e"
+    },
+    {
+      "file": "HTL3cOAacAA0l3o.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 30,
+        "sp": 1358,
+        "helpSeconds": 2166,
+        "carry": 24,
+        "skillLevel": 1,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "うっかりや",
+        "subskills": [
+          "スキル確率アップS",
+          "食材確率アップS",
+          "おてつだいスピードS",
+          "最大所持数アップS",
+          "おてつだいスピードM"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-034",
+      "imagePath": "corpora/legacy51/images/HTL3cOAacAA0l3o.jpg",
+      "sha256": "1f14092ca2ce3b6828542b3f88fb3fb236a35794d287497d19555df2a003e0ce"
+    },
+    {
+      "file": "HTLCgIebIAAo8vM.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 29,
+        "sp": 1512,
+        "helpSeconds": 1954,
+        "carry": 24,
+        "skillLevel": 2,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "いじっぱり",
+        "subskills": [
+          "スキルレベルアップS",
+          "食材確率アップM",
+          "ゆめのかけらボーナス",
+          "食材確率アップS",
+          "リサーチEXPボーナス"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-035",
+      "imagePath": "corpora/legacy51/images/HTLCgIebIAAo8vM.jpg",
+      "sha256": "406b76ad6000577ffca970700255dc731c768c310ab2d9cb889efeed27a4a62e"
+    },
+    {
+      "file": "HTLizq4bQAEtj-R.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 29,
+        "sp": 1500,
+        "helpSeconds": 2171,
+        "carry": 24,
+        "skillLevel": 1,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "がんばりや",
+        "subskills": [
+          "ゆめのかけらボーナス",
+          "スキル確率アップS",
+          "おてつだいスピードS",
+          "食材確率アップS",
+          "最大所持数アップM"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-036",
+      "imagePath": "corpora/legacy51/images/HTLizq4bQAEtj-R.jpg",
+      "sha256": "8419e671177f6208eec1e48d8fe335bab68375ceb2766fd8245e4bb0d4e44857"
+    },
+    {
+      "file": "HTLjkmib0AEKQos.jpg",
+      "expected": {
+        "species": "ミュウ",
+        "level": 60,
+        "sp": 7647,
+        "helpSeconds": 2199,
+        "carry": 29,
+        "skillLevel": 8,
+        "mainSkill": "オールマイティー",
+        "nature": "きまぐれ",
+        "subskills": [
+          "おてつだいスピードM",
+          "おてつだいボーナス",
+          "きのみの数S",
+          "スキル確率アップM",
+          ""
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-037",
+      "imagePath": "corpora/legacy51/images/HTLjkmib0AEKQos.jpg",
+      "sha256": "ca8a08bd90c2ea2df13995465728b1d232e3de367c440707bc1f1b4954c52245"
+    },
+    {
+      "file": "HTLzXjWbgAAmweE.jpg",
+      "expected": {
+        "species": "ニャオハ",
+        "level": 14,
+        "sp": 536,
+        "helpSeconds": 4480,
+        "carry": 10,
+        "skillLevel": 1,
+        "mainSkill": "料理パワーアップS",
+        "nature": "てれや",
+        "subskills": [
+          "おてつだいボーナス",
+          "食材確率アップS",
+          "おてつだいスピードS",
+          "食材確率アップM",
+          "最大所持数アップS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-038",
+      "imagePath": "corpora/legacy51/images/HTLzXjWbgAAmweE.jpg",
+      "sha256": "4a5ca975a281de41d801f0a4ce3eab4995b5e743382a198cad7a49c489294ce7"
+    },
+    {
+      "file": "HTM2xYzboAAAW4D.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 28,
+        "sp": 1437,
+        "helpSeconds": 1718,
+        "carry": 24,
+        "skillLevel": 1,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "おとなしい",
+        "subskills": [
+          "おてつだいスピードS",
+          "おてつだいスピードM",
+          "食材確率アップS",
+          "スキル確率アップM",
+          "スキル確率アップS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-039",
+      "imagePath": "corpora/legacy51/images/HTM2xYzboAAAW4D.jpg",
+      "sha256": "06e30789db6d843a5576b7353938d8d21f3fe3f15ae710d476f3f3da25594d32"
+    },
+    {
+      "file": "HTMPc1jbUAAqCLT.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 26,
+        "sp": 1470,
+        "helpSeconds": 1966,
+        "carry": 24,
+        "skillLevel": 1,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "ゆうかん",
+        "subskills": [
+          "スキル確率アップM",
+          "食材確率アップS",
+          "おてつだいスピードS",
+          "最大所持数アップL",
+          "最大所持数アップS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-040",
+      "imagePath": "corpora/legacy51/images/HTMPc1jbUAAqCLT.jpg",
+      "sha256": "db1d2faaaa67f6cc5b9beefcdea3ff2af348f7d7926f222357f2bc443e4088b3"
+    },
+    {
+      "file": "HTMTDLFacAAVSVB.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 26,
+        "sp": 1564,
+        "helpSeconds": 1879,
+        "carry": 24,
+        "skillLevel": 1,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "おとなしい",
+        "subskills": [
+          "おてつだいスピードM",
+          "スキル確率アップM",
+          "スキルレベルアップS",
+          "スキル確率アップS",
+          "食材確率アップM"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-041",
+      "imagePath": "corpora/legacy51/images/HTMTDLFacAAVSVB.jpg",
+      "sha256": "7fb0552e2dd33bc96ecb0a962eab384b295d95311991198cd827aa5943da3206"
+    },
+    {
+      "file": "HTMa4fDaEAA8rOw.jpg",
+      "expected": {
+        "species": "リザードン",
+        "level": 50,
+        "sp": 2902,
+        "helpSeconds": 2001,
+        "carry": 29,
+        "skillLevel": 5,
+        "mainSkill": "食材ゲットS",
+        "nature": "ひかえめ",
+        "subskills": [
+          "スキルレベルアップM",
+          "おてつだいスピードM",
+          "食材確率アップM",
+          "スキル確率アップS",
+          "食材確率アップS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-042",
+      "imagePath": "corpora/legacy51/images/HTMa4fDaEAA8rOw.jpg",
+      "sha256": "e3be2be069e886ce9f841b12d262d4fe93294d48a436e5df33f09b3bd37f247e"
+    },
+    {
+      "file": "HTMa4tqbMAAnSeC.jpg",
+      "expected": {
+        "species": "ガーディ",
+        "level": 15,
+        "sp": 526,
+        "helpSeconds": 3761,
+        "carry": 8,
+        "skillLevel": 1,
+        "mainSkill": "おてつだいサポートS",
+        "nature": "さみしがり",
+        "subskills": [
+          "おてつだいボーナス",
+          "おてつだいスピードS",
+          "スキル確率アップM",
+          "スキルレベルアップS",
+          "スキル確率アップS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-043",
+      "imagePath": "corpora/legacy51/images/HTMa4tqbMAAnSeC.jpg",
+      "sha256": "c75657bfc9e2eaef0d19566b63690ca1be35308bac2e9bf1f022d6466602f79d"
+    },
+    {
+      "file": "HTN1BnGagAA_8xj.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 46,
+        "sp": 2948,
+        "helpSeconds": 2093,
+        "carry": 24,
+        "skillLevel": 3,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "わんぱく",
+        "subskills": [
+          "スキル確率アップM",
+          "スキル確率アップS",
+          "最大所持数アップL",
+          "おてつだいスピードM",
+          "食材確率アップM"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-044",
+      "imagePath": "corpora/legacy51/images/HTN1BnGagAA_8xj.jpg",
+      "sha256": "531934adda0e8df9dfa8330ebe4a29c382a4d6b2d323e9e107caaa75a83bf1c8"
+    },
+    {
+      "file": "HTN7jx3a0AA_h5N.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 30,
+        "sp": 2074,
+        "helpSeconds": 2166,
+        "carry": 42,
+        "skillLevel": 1,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "しんちょう",
+        "subskills": [
+          "きのみの数S",
+          "最大所持数アップL",
+          "睡眠EXPボーナス",
+          "最大所持数アップS",
+          "おてつだいスピードS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-045",
+      "imagePath": "corpora/legacy51/images/HTN7jx3a0AA_h5N.jpg",
+      "sha256": "f2a2dc35f0c5be6ac996ab55759162a7bacb7fbdf8ec20464f49a41f3bac5f99"
+    },
+    {
+      "file": "HTN7jx3aIAAgKFV.jpg",
+      "expected": {
+        "species": "ミュウツー",
+        "level": 28,
+        "sp": 1341,
+        "helpSeconds": 2023,
+        "carry": 24,
+        "skillLevel": 1,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "おとなしい",
+        "subskills": [
+          "おてつだいスピードS",
+          "スキル確率アップS",
+          "スキルレベルアップS",
+          "最大所持数アップS",
+          "食材確率アップS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-046",
+      "imagePath": "corpora/legacy51/images/HTN7jx3aIAAgKFV.jpg",
+      "sha256": "9096e52a6087fff72f4629f7a2e6da2b73e230ab308a395262631f8c75324807"
+    },
+    {
+      "file": "Screenshot_20261003-091049.png",
+      "expected": {
+        "species": "ツボツボ",
+        "level": 52,
+        "sp": 1627,
+        "helpSeconds": 3232,
+        "carry": 22,
+        "skillLevel": 1,
+        "mainSkill": "きのみジュース (げんきオールS)",
+        "nature": "ようき",
+        "subskills": [
+          "おてつだいボーナス",
+          "スキル確率アップM",
+          "最大所持数アップS",
+          "スキル確率アップS",
+          "おてつだいスピードS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-047",
+      "imagePath": "corpora/legacy51/images/Screenshot_20261003-091049.png",
+      "sha256": "772a1324dfbd18acffdb957477786c20c230817eef94e4fc490c1a31a72b37a5"
+    },
+    {
+      "file": "Screenshot_20261003-091115.png",
+      "expected": {
+        "species": "パンプジン (ギガだましゅ)",
+        "level": 50,
+        "sp": 2565,
+        "helpSeconds": 2637,
+        "carry": 48,
+        "skillLevel": 2,
+        "mainSkill": "エナジーチャージS",
+        "nature": "がんばりや",
+        "subskills": [
+          "食材確率アップS",
+          "おてつだいスピードM",
+          "最大所持数アップL",
+          "最大所持数アップM",
+          "睡眠EXPボーナス"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-048",
+      "imagePath": "corpora/legacy51/images/Screenshot_20261003-091115.png",
+      "sha256": "0d6c3bad14644bedb3bd11939c3c858b5474cc4162923063f87d4a66a8ce3d17"
+    },
+    {
+      "file": "Screenshot_20261003-091128.png",
+      "expected": {
+        "species": "タツベイ",
+        "level": 14,
+        "sp": 550,
+        "helpSeconds": 4645,
+        "carry": 9,
+        "skillLevel": 1,
+        "mainSkill": "料理パワーアップS",
+        "nature": "さみしがり",
+        "subskills": [
+          "おてつだいボーナス",
+          "きのみの数S",
+          "スキル確率アップS",
+          "げんき回復ボーナス",
+          "スキル確率アップM"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-049",
+      "imagePath": "corpora/legacy51/images/Screenshot_20261003-091128.png",
+      "sha256": "94f94f9ff011c1ede59e8869715025bab724d675f0bbb7f68aa07cb68989767c"
+    },
+    {
+      "file": "Screenshot_20261003-091151.png",
+      "expected": {
+        "species": "マダツボミ",
+        "level": 14,
+        "sp": 449,
+        "helpSeconds": 5064,
+        "carry": 8,
+        "skillLevel": 1,
+        "mainSkill": "げんきチャージS",
+        "nature": "まじめ",
+        "subskills": [
+          "ゆめのかけらボーナス",
+          "スキル確率アップM",
+          "食材確率アップS",
+          "おてつだいスピードS",
+          "最大所持数アップS"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-050",
+      "imagePath": "corpora/legacy51/images/Screenshot_20261003-091151.png",
+      "sha256": "e4d24ea7ccf8a01458bc269867d23caeaea6df30efc8d9ba577a4fb2f62e0e04"
+    },
+    {
+      "file": "Screenshot_20261003-091155.png",
+      "expected": {
+        "species": "キモリ",
+        "level": 14,
+        "sp": 530,
+        "helpSeconds": 4383,
+        "carry": 8,
+        "skillLevel": 1,
+        "mainSkill": "きのみバースト",
+        "nature": "がんばりや",
+        "subskills": [
+          "リサーチEXPボーナス",
+          "きのみの数S",
+          "食材確率アップS",
+          "最大所持数アップS",
+          "最大所持数アップM"
+        ]
+      },
+      "goldenStatus": "LEGACY_FIXTURE",
+      "scoreFields": [
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills"
+      ],
+      "assetId": "LEGACY51-051",
+      "imagePath": "corpora/legacy51/images/Screenshot_20261003-091155.png",
+      "sha256": "fa49a723cc318496b397dd7378312e61b0d4254edaad6ede58a43f0b66b0c323"
+    }
+  ]
+}

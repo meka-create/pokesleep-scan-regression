@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "runnerId": "candidate120-device-regression-runner-v1",
+  "candidateReleaseId": "2026-10-07-candidate120-ios-ocr-recycle-hardening",
+  "primaryDeviceGates": [
+    "iPhone Safari",
+    "Android Chrome"
+  ],
+  "corpora": [
+    {
+      "id": "meka142",
+      "label": "meka142",
+      "category": "owner",
+      "priority": "P0_HIGHEST",
+      "status": "ACTIVE_CANONICAL",
+      "count": 142,
+      "manifest": "corpora/meka142/manifest.json",
+      "defaultActive": true
+    },
+    {
+      "id": "nano30",
+      "label": "nano30",
+      "category": "real-user",
+      "priority": "P1_REAL_USER",
+      "status": "ACTIVE_CANONICAL",
+      "count": 30,
+      "manifest": "corpora/nano30/manifest.json",
+      "defaultActive": true
+    },
+    {
+      "id": "legacy51",
+      "label": "legacy51",
+      "category": "legacy",
+      "priority": "P9_LEGACY",
+      "status": "PENDING_FUTURE_DELETE",
+      "count": 51,
+      "manifest": "corpora/legacy51/manifest.json",
+      "defaultActive": false
+    }
+  ]
+}
