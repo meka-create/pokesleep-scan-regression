@@ -1,12 +1,32 @@
 {
-  "runnerId": "candidate121-device-regression-runner-v1",
-  "candidateReleaseId": "2026-10-08-candidate121-help-seconds-tolerance",
+  "runnerId": "candidate122-device-regression-runner-v1",
+  "candidateReleaseId": "2026-10-08-candidate122-review-safety-guard",
   "testOnly": true,
-  "candidateRecognitionLogicChanged": true,
+  "candidateRecognitionLogicChanged": false,
+  "formalGate": "meka142 142 + nano30 30 = 172 images; iPhone Safari + Android Chrome",
+  "legacy51Gate": false,
   "changes": [
-    "Candidate121 classifier help-time ±1 second tolerance",
-    "inherits Candidate120 Runner v3 scoring semantics",
-    "runner-only IndexedDB isolation/API hook"
+    "Candidate122 review-only false-confirm safety guards",
+    "Candidate121 ±1-second classifier tolerance inherited unchanged",
+    "Runner v3 semantic scoring equivalence inherited",
+    "meka142 golden v2 correction for MEKA142-104 Lv70 subskill (M -> S)",
+    "runner-only IndexedDB isolation and narrow TEST API hook"
   ],
-  "imagesBundled": false
+  "imagesBundled": false,
+  "validation": {
+    "productOriginalAppExact": true,
+    "productOriginalIndexExact": true,
+    "runnerAppReversesToProductApp": true,
+    "candidate121FrozenCoreExact": true,
+    "primaryCorpusCounts": {
+      "meka142": 142,
+      "nano30": 30,
+      "total": 172
+    },
+    "meka142GoldenVersion": "VERIFIED_GOLDEN_V2",
+    "legacy51FormalGate": false,
+    "bundledCorpusImages": 0,
+    "runnerJsSyntax": "PASS",
+    "runnerJsonParse": "PASS"
+  }
 }

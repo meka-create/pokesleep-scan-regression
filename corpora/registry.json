@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "runnerId": "candidate121-device-regression-runner-v1",
-  "candidateReleaseId": "2026-10-08-candidate121-help-seconds-tolerance",
+  "runnerId": "candidate122-device-regression-runner-v1",
+  "candidateReleaseId": "2026-10-08-candidate122-review-safety-guard",
   "primaryDeviceGates": [
     "iPhone Safari",
     "Android Chrome"

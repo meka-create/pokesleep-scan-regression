@@ -1,6 +1,8 @@
-Place regression images in these folders without renaming them:
+Formal Candidate122 Gate image folders (keep filenames unchanged):
 - corpora/meka142/images/
 - corpora/nano30/images/
+
+Archive only / not required for Candidate122 promotion:
 - corpora/legacy51/images/
 
 The manifests already contain the expected filenames.

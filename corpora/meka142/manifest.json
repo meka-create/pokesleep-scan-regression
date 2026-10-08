@@ -4453,7 +4453,7 @@
           "ゆめのかけらボーナス",
           "最大所持数アップL",
           "食材確率アップM",
-          "スキル確率アップM",
+          "スキル確率アップS",
           "最大所持数アップS"
         ],
         "foods": [
@@ -4462,7 +4462,7 @@
           "あまいミツ"
         ]
       },
-      "goldenStatus": "VERIFIED_GOLDEN",
+      "goldenStatus": "VERIFIED_GOLDEN_V2",
       "scoreFields": [
         "nickname",
         "species",
@@ -4478,7 +4478,8 @@
       ],
       "assetId": "MEKA142-104",
       "imagePath": "corpora/meka142/images/Screenshot_20261008-004736.png",
-      "sha256": "d518d587352a13972c6abe74e71545e70935c9bd615cd37b2980566eec250b3c"
+      "sha256": "d518d587352a13972c6abe74e71545e70935c9bd615cd37b2980566eec250b3c",
+      "goldenCorrectionNote": "canonical PNG audit: Lv70 is スキル確率アップS"
     },
     {
       "file": "Screenshot_20261008-004746.png",
