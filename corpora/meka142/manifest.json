@@ -1,0 +1,6118 @@
+{
+  "schema": 1,
+  "corpusId": "meka142",
+  "label": "meka142",
+  "category": "owner",
+  "priority": "P0_HIGHEST",
+  "status": "ACTIVE_CANONICAL",
+  "count": 142,
+  "notes": "Owner screenshots; highest-priority permanent regression corpus.",
+  "records": [
+    {
+      "file": "Screenshot_20261008-004313.png",
+      "expected": {
+        "nickname": "ミルナー",
+        "species": "カメックス",
+        "level": 60,
+        "sp": 4311,
+        "helpSeconds": 2123,
+        "carry": 51,
+        "skillLevel": 3,
+        "mainSkill": "食材ゲットS",
+        "nature": "きまぐれ",
+        "subskills": [
+          "食材確率アップM",
+          "最大所持数アップL",
+          "おてつだいスピードM",
+          "スキルレベルアップS",
+          "最大所持数アップM"
+        ],
+        "foods": [
+          "モーモーミルク",
+          "リラックスカカオ",
+          "モーモーミルク"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-001",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004313.png",
+      "sha256": "b6cdc7f80da9ad660cb8b6475f389c31bac096ed2e8c8cc09667b1cd971ebfc4"
+    },
+    {
+      "file": "Screenshot_20261008-004315.png",
+      "expected": {
+        "nickname": "ダンク",
+        "species": "デンリュウ",
+        "level": 55,
+        "sp": 5604,
+        "helpSeconds": 2230,
+        "carry": 33,
+        "skillLevel": 7,
+        "mainSkill": "エナジーチャージM",
+        "nature": "なまいき",
+        "subskills": [
+          "きのみの数S",
+          "食材確率アップM",
+          "スキル確率アップM",
+          "スキルレベルアップS",
+          "最大所持数アップS"
+        ],
+        "foods": [
+          "げきからハーブ",
+          "げきからハーブ",
+          "げきからハーブ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-002",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004315.png",
+      "sha256": "4f61d904e8b91a1995b43690402318a50df1c376db67fc7cd92f39f9ffe14b42"
+    },
+    {
+      "file": "Screenshot_20261008-004318.png",
+      "expected": {
+        "nickname": "ドンドン",
+        "species": "リザードン",
+        "level": 55,
+        "sp": 2965,
+        "helpSeconds": 2301,
+        "carry": 53,
+        "skillLevel": 5,
+        "mainSkill": "食材ゲットS",
+        "nature": "ひかえめ",
+        "subskills": [
+          "最大所持数アップL",
+          "スキルレベルアップM",
+          "食材確率アップM",
+          "おてつだいスピードM",
+          "最大所持数アップS"
+        ],
+        "foods": [
+          "マメミート",
+          "あったかジンジャー",
+          "あったかジンジャー"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-003",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004318.png",
+      "sha256": "8c87f272c7cdfd2ec97158587b4b1fc874040fbe51a6cc63f6f73214adbd978d"
+    },
+    {
+      "file": "Screenshot_20261008-004320.png",
+      "expected": {
+        "nickname": "たそ",
+        "species": "グレイシア",
+        "level": 52,
+        "sp": 5277,
+        "helpSeconds": 2471,
+        "carry": 29,
+        "skillLevel": 7,
+        "mainSkill": "料理パワーアップS",
+        "nature": "おとなしい",
+        "subskills": [
+          "おてつだいスピードM",
+          "スキル確率アップM",
+          "最大所持数アップS",
+          "食材確率アップS",
+          "睡眠EXPボーナス"
+        ],
+        "foods": [
+          "モーモーミルク",
+          "モーモーミルク",
+          "モーモーミルク"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-004",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004320.png",
+      "sha256": "4f02592ab61f51579ab299c428d9fd9b6f084fef1a0f3122528751008ec01ce7"
+    },
+    {
+      "file": "Screenshot_20261008-004323.png",
+      "expected": {
+        "nickname": "ふぁてぃ",
+        "species": "ダグトリオ",
+        "level": 60,
+        "sp": 3526,
+        "helpSeconds": 2010,
+        "carry": 39,
+        "skillLevel": 2,
+        "mainSkill": "エナジーチャージS",
+        "nature": "てれや",
+        "subskills": [
+          "おてつだいスピードM",
+          "食材確率アップM",
+          "最大所持数アップM",
+          "最大所持数アップL",
+          "きのみの数S"
+        ],
+        "foods": [
+          "あんみんトマト",
+          "ふといながねぎ",
+          "ふといながねぎ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-005",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004323.png",
+      "sha256": "4b56361ac83ca0e04f3b7fd00df968c8e034cbc4977ba1089c99f56708a1ed89"
+    },
+    {
+      "file": "Screenshot_20261008-004325.png",
+      "expected": {
+        "nickname": "ハーランド",
+        "species": "トドゼルガ",
+        "level": 60,
+        "sp": 4280,
+        "helpSeconds": 2047,
+        "carry": 34,
+        "skillLevel": 3,
+        "mainSkill": "食材ゲットS",
+        "nature": "ゆうかん",
+        "subskills": [
+          "おてつだいスピードM",
+          "きのみの数S",
+          "スキル確率アップM",
+          "最大所持数アップS",
+          "スキルレベルアップS"
+        ],
+        "foods": [
+          "ピュアなオイル",
+          "ピュアなオイル",
+          "ピュアなオイル"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-006",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004325.png",
+      "sha256": "9762c1b10d242820fd08d3558b6b72fe085401f96fec5005ce2d2777e285db0b"
+    },
+    {
+      "file": "Screenshot_20261008-004328.png",
+      "expected": {
+        "nickname": "ワンダラダ",
+        "species": "オーダイル",
+        "level": 61,
+        "sp": 3721,
+        "helpSeconds": 2464,
+        "carry": 41,
+        "skillLevel": 3,
+        "mainSkill": "エナジーチャージS",
+        "nature": "ようき",
+        "subskills": [
+          "きのみの数S",
+          "最大所持数アップS",
+          "スキル確率アップM",
+          "スキル確率アップS",
+          "最大所持数アップM"
+        ],
+        "foods": [
+          "マメミート",
+          "ピュアなオイル",
+          "ピュアなオイル"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-007",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004328.png",
+      "sha256": "909ac1da51486eed411e0df9fdb147f8e7c711b1551a2bb595375c9f14ed80f8"
+    },
+    {
+      "file": "Screenshot_20261008-004330.png",
+      "expected": {
+        "nickname": "A56",
+        "species": "ピカチュウ (ホリデー)",
+        "level": 15,
+        "sp": 702,
+        "helpSeconds": 2430,
+        "carry": 20,
+        "skillLevel": 1,
+        "mainSkill": "ゆめのかけらゲットS",
+        "nature": "うっかりや",
+        "subskills": [
+          "リサーチEXPボーナス",
+          "おてつだいボーナス",
+          "最大所持数アップS",
+          "スキルレベルアップM",
+          "最大所持数アップM"
+        ],
+        "foods": [
+          "とくせんリンゴ",
+          "あったかジンジャー",
+          "とくせんリンゴ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-008",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004330.png",
+      "sha256": "35bbdc2904653b474d175895887ac5a827e7ba3d5b2d9276522a1fd21b56cd36"
+    },
+    {
+      "file": "Screenshot_20261008-004332.png",
+      "expected": {
+        "nickname": "オラクル★",
+        "species": "メガニウム",
+        "level": 69,
+        "sp": 5144,
+        "helpSeconds": 1872,
+        "carry": 36,
+        "skillLevel": 3,
+        "mainSkill": "エナジーチャージS",
+        "nature": "さみしがり",
+        "subskills": [
+          "きのみの数S",
+          "食材確率アップM",
+          "おてつだいスピードM",
+          "最大所持数アップL",
+          "おてつだいボーナス"
+        ],
+        "foods": [
+          "リラックスカカオ",
+          "リラックスカカオ",
+          "あまいミツ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-009",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004332.png",
+      "sha256": "fae99bd0ad8c44aa52ca48e826d098c610b49cd974d5c2d51ebf640e54b05efe"
+    },
+    {
+      "file": "Screenshot_20261008-004335.png",
+      "expected": {
+        "nickname": "ユルゲ",
+        "species": "デリバード",
+        "level": 60,
+        "sp": 3448,
+        "helpSeconds": 1896,
+        "carry": 23,
+        "skillLevel": 1,
+        "mainSkill": "プレゼント (食材ゲットS)",
+        "nature": "てれや",
+        "subskills": [
+          "スキル確率アップM",
+          "おてつだいスピードM",
+          "食材確率アップM",
+          "スキル確率アップS",
+          "最大所持数アップL"
+        ],
+        "foods": [
+          "とくせんエッグ",
+          "とくせんリンゴ",
+          "とくせんエッグ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-010",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004335.png",
+      "sha256": "20a03661d09b63216cb4e9f375f5fa5c5a2eb3e2d86196be98a1706d88008689"
+    },
+    {
+      "file": "Screenshot_20261008-004338.png",
+      "expected": {
+        "nickname": "バレバ",
+        "species": "ゴローニャ",
+        "level": 55,
+        "sp": 2446,
+        "helpSeconds": 2765,
+        "carry": 27,
+        "skillLevel": 3,
+        "mainSkill": "エナジーチャージS",
+        "nature": "てれや",
+        "subskills": [
+          "食材確率アップS",
+          "スキル確率アップS",
+          "食材確率アップM",
+          "おてつだいボーナス",
+          "最大所持数アップS"
+        ],
+        "foods": [
+          "ワカクサ大豆",
+          "ワカクサ大豆",
+          "あじわいキノコ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-011",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004338.png",
+      "sha256": "263eabbbe054663b8766f3fe9f2a8a0f64e144b99a86beca6e0ce0ca9fd9504b"
+    },
+    {
+      "file": "Screenshot_20261008-004340.png",
+      "expected": {
+        "nickname": "チェルシー",
+        "species": "ドクロッグ",
+        "level": 60,
+        "sp": 3260,
+        "helpSeconds": 2788,
+        "carry": 25,
+        "skillLevel": 1,
+        "mainSkill": "エナジーチャージS",
+        "nature": "れいせい",
+        "subskills": [
+          "スキル確率アップM",
+          "食材確率アップM",
+          "おてつだいスピードS",
+          "おてつだいスピードM",
+          "最大所持数アップS"
+        ],
+        "foods": [
+          "ピュアなオイル",
+          "ピュアなオイル",
+          "ピュアなオイル"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-012",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004340.png",
+      "sha256": "bc309eb35d071f7b460d3e39de98d3ce006e8da599c7b1f46272aa2b12096247"
+    },
+    {
+      "file": "Screenshot_20261008-004343.png",
+      "expected": {
+        "nickname": "SS78ABC",
+        "species": "ミニリュウ",
+        "level": 13,
+        "sp": 549,
+        "helpSeconds": 4392,
+        "carry": 9,
+        "skillLevel": 1,
+        "mainSkill": "げんきチャージS",
+        "nature": "やんちゃ",
+        "subskills": [
+          "おてつだいボーナス",
+          "げんき回復ボーナス",
+          "食材確率アップS",
+          "スキル確率アップS",
+          "おてつだいスピードS"
+        ],
+        "foods": [
+          "げきからハーブ",
+          "ワカクサコーン",
+          "ピュアなオイル"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-013",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004343.png",
+      "sha256": "e7b2cde1687ce51608d68e2a0ae23786ac073a3d1ec4f41bebf91d9fcfdd2806"
+    },
+    {
+      "file": "Screenshot_20261008-004345.png",
+      "expected": {
+        "nickname": "ルチョ",
+        "species": "オコリザル",
+        "level": 55,
+        "sp": 2931,
+        "helpSeconds": 2247,
+        "carry": 28,
+        "skillLevel": 2,
+        "mainSkill": "エナジーチャージS",
+        "nature": "やんちゃ",
+        "subskills": [
+          "きのみの数S",
+          "食材確率アップS",
+          "睡眠EXPボーナス",
+          "スキル確率アップM",
+          "最大所持数アップS"
+        ],
+        "foods": [
+          "マメミート",
+          "あじわいキノコ",
+          "あじわいキノコ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-014",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004345.png",
+      "sha256": "e15ad5b39cf861825b1c8b0a2d210e3366621c21644c0482e7d58413b9531d19"
+    },
+    {
+      "file": "Screenshot_20261008-004347.png",
+      "expected": {
+        "nickname": "ワッパー",
+        "species": "キテルグマ",
+        "level": 60,
+        "sp": 5183,
+        "helpSeconds": 2123,
+        "carry": 46,
+        "skillLevel": 2,
+        "mainSkill": "エナジーチャージS",
+        "nature": "れいせい",
+        "subskills": [
+          "食材確率アップM",
+          "最大所持数アップL",
+          "おてつだいスピードM",
+          "きのみの数S",
+          "最大所持数アップM"
+        ],
+        "foods": [
+          "ワカクサコーン",
+          "マメミート",
+          "ワカクサコーン"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-015",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004347.png",
+      "sha256": "bb69fe0e114d68cdae338a3dffe57fda701129eeffcf9e8276229af93b5fc57a"
+    },
+    {
+      "file": "Screenshot_20261008-004349.png",
+      "expected": {
+        "nickname": "ペドロ",
+        "species": "ゲンガー",
+        "level": 60,
+        "sp": 4928,
+        "helpSeconds": 1668,
+        "carry": 31,
+        "skillLevel": 3,
+        "mainSkill": "エナジーチャージS",
+        "nature": "がんばりや",
+        "subskills": [
+          "きのみの数S",
+          "食材確率アップM",
+          "おてつだいスピードM",
+          "最大所持数アップS",
+          "スキルレベルアップS"
+        ],
+        "foods": [
+          "げきからハーブ",
+          "あじわいキノコ",
+          "あじわいキノコ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-016",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004349.png",
+      "sha256": "866b18c7122fd6d425da6e49f6b79b6fe66dd52551fc8e4e38cfffb3e573db44"
+    },
+    {
+      "file": "Screenshot_20261008-004352.png",
+      "expected": {
+        "nickname": "SS82ABC",
+        "species": "フシギダネ",
+        "level": 12,
+        "sp": 501,
+        "helpSeconds": 4303,
+        "carry": 11,
+        "skillLevel": 1,
+        "mainSkill": "食材ゲットS",
+        "nature": "むじゃき",
+        "subskills": [
+          "おてつだいボーナス",
+          "おてつだいスピードS",
+          "食材確率アップM",
+          "食材確率アップS",
+          "スキル確率アップS"
+        ],
+        "foods": [
+          "あまいミツ",
+          "あんみんトマト",
+          "ほっこりポテト"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-017",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004352.png",
+      "sha256": "a10d00b67bb2a3440d8bba313e68589c5280cc77d5f571631bc1d88bf7dd1f6c"
+    },
+    {
+      "file": "Screenshot_20261008-004354.png",
+      "expected": {
+        "nickname": "らいてう",
+        "species": "ライチュウ",
+        "level": 55,
+        "sp": 3555,
+        "helpSeconds": 1687,
+        "carry": 34,
+        "skillLevel": 4,
+        "mainSkill": "エナジーチャージS",
+        "nature": "のうてんき",
+        "subskills": [
+          "きのみの数S",
+          "スキルレベルアップM",
+          "おてつだいスピードM",
+          "リサーチEXPボーナス",
+          "食材確率アップM"
+        ],
+        "foods": [
+          "とくせんリンゴ",
+          "あったかジンジャー",
+          "あったかジンジャー"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-018",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004354.png",
+      "sha256": "1acd86fede790c56e9e9b3e5441d865c14b933517ce3db57bb77401120ca43a4"
+    },
+    {
+      "file": "Screenshot_20261008-004356.png",
+      "expected": {
+        "nickname": "ぺかちう",
+        "species": "ライチュウ",
+        "level": 55,
+        "sp": 3945,
+        "helpSeconds": 1766,
+        "carry": 38,
+        "skillLevel": 3,
+        "mainSkill": "エナジーチャージS",
+        "nature": "いじっぱり",
+        "subskills": [
+          "きのみの数S",
+          "最大所持数アップS",
+          "げんき回復ボーナス",
+          "おてつだいスピードS",
+          "食材確率アップS"
+        ],
+        "foods": [
+          "とくせんリンゴ",
+          "とくせんリンゴ",
+          "とくせんリンゴ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-019",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004356.png",
+      "sha256": "2797d1d47120d3011d9bac24cb2fd3dd5e76243f1fe32dd5e463ab6b7a98c2ae"
+    },
+    {
+      "file": "Screenshot_20261008-004358.png",
+      "expected": {
+        "nickname": "ドッグミート",
+        "species": "ヘルガー",
+        "level": 52,
+        "sp": 3240,
+        "helpSeconds": 2548,
+        "carry": 22,
+        "skillLevel": 2,
+        "mainSkill": "エナジーチャージM",
+        "nature": "れいせい",
+        "subskills": [
+          "きのみの数S",
+          "おてつだいスピードM",
+          "睡眠EXPボーナス",
+          "げんき回復ボーナス",
+          "おてつだいスピードS"
+        ],
+        "foods": [
+          "げきからハーブ",
+          "げきからハーブ",
+          "げきからハーブ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-020",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004358.png",
+      "sha256": "04366e050db64a2674291193fc731e79028436171af2b1613ef6c955e3e7eede"
+    },
+    {
+      "file": "Screenshot_20261008-004401.png",
+      "expected": {
+        "nickname": "にゅうし",
+        "species": "ラッタ",
+        "level": 50,
+        "sp": 2750,
+        "helpSeconds": 2394,
+        "carry": 27,
+        "skillLevel": 2,
+        "mainSkill": "げんきチャージS",
+        "nature": "ゆうかん",
+        "subskills": [
+          "きのみの数S",
+          "ゆめのかけらボーナス",
+          "最大所持数アップS",
+          "食材確率アップM",
+          "おてつだいスピードM"
+        ],
+        "foods": [
+          "とくせんリンゴ",
+          "とくせんリンゴ",
+          "ワカクサ大豆"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-021",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004401.png",
+      "sha256": "1c4669d7e1582f3e2bf4d1948a9bfb33a99bae028e5f0b0bd4f2ec424313cd3a"
+    },
+    {
+      "file": "Screenshot_20261008-004404.png",
+      "expected": {
+        "nickname": "A70",
+        "species": "ピカチュウ (ハロウィン)",
+        "level": 17,
+        "sp": 722,
+        "helpSeconds": 2601,
+        "carry": 24,
+        "skillLevel": 1,
+        "mainSkill": "エナジーチャージS",
+        "nature": "ひかえめ",
+        "subskills": [
+          "最大所持数アップS",
+          "おてつだいスピードM",
+          "きのみの数S",
+          "げんき回復ボーナス",
+          "食材確率アップS"
+        ],
+        "foods": [
+          "とくせんリンゴ",
+          "あったかジンジャー",
+          "とくせんリンゴ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-022",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004404.png",
+      "sha256": "25819af1c27711d5591c63ab7accae0fcd17af10df1f3828c492ebbdc9e77e67"
+    },
+    {
+      "file": "Screenshot_20261008-004407.png",
+      "expected": {
+        "nickname": "ブイ",
+        "species": "エーフィ",
+        "level": 60,
+        "sp": 6670,
+        "helpSeconds": 2116,
+        "carry": 45,
+        "skillLevel": 7,
+        "mainSkill": "エナジーチャージM",
+        "nature": "のんき",
+        "subskills": [
+          "おてつだいボーナス",
+          "最大所持数アップL",
+          "きのみの数S",
+          "スキル確率アップS",
+          "食材確率アップM"
+        ],
+        "foods": [
+          "モーモーミルク",
+          "リラックスカカオ",
+          "マメミート"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-023",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004407.png",
+      "sha256": "fd045ac1de0407eb2df7bc8dda362d1494f1666307254a7aab3a89dd2e26b929"
+    },
+    {
+      "file": "Screenshot_20261008-004410.png",
+      "expected": {
+        "nickname": "葛藤Tomorrow",
+        "species": "バクフーン",
+        "level": 57,
+        "sp": 4067,
+        "helpSeconds": 2131,
+        "carry": 51,
+        "skillLevel": 3,
+        "mainSkill": "エナジーチャージS",
+        "nature": "きまぐれ",
+        "subskills": [
+          "げんき回復ボーナス",
+          "きのみの数S",
+          "最大所持数アップM",
+          "スキル確率アップM",
+          "ゆめのかけらボーナス"
+        ],
+        "foods": [
+          "あったかジンジャー",
+          "げきからハーブ",
+          "げきからハーブ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-024",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004410.png",
+      "sha256": "761399af26a5658dd1fb3588cc3a35ab3c30ea4270d2c8a86999d7341ca01298"
+    },
+    {
+      "file": "Screenshot_20261008-004412.png",
+      "expected": {
+        "nickname": "タマウガチ",
+        "species": "バンギラス",
+        "level": 60,
+        "sp": 4188,
+        "helpSeconds": 2380,
+        "carry": 35,
+        "skillLevel": 3,
+        "mainSkill": "げんきチャージS",
+        "nature": "おくびょう",
+        "subskills": [
+          "きのみの数S",
+          "おてつだいスピードS",
+          "食材確率アップM",
+          "おてつだいスピードM",
+          "スキル確率アップM"
+        ],
+        "foods": [
+          "あったかジンジャー",
+          "ワカクサ大豆",
+          "ワカクサ大豆"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-025",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004412.png",
+      "sha256": "45185e04ae4f554c02cf7eca085410cdde99e7400faef9ef0d507477595e5d6e"
+    },
+    {
+      "file": "Screenshot_20261008-004415.png",
+      "expected": {
+        "nickname": "れたす",
+        "species": "リーフィア",
+        "level": 35,
+        "sp": 1676,
+        "helpSeconds": 2796,
+        "carry": 19,
+        "skillLevel": 2,
+        "mainSkill": "げんきエールS",
+        "nature": "おとなしい",
+        "subskills": [
+          "きのみの数S",
+          "おてつだいボーナス",
+          "食材確率アップS",
+          "食材確率アップM",
+          "最大所持数アップM"
+        ],
+        "foods": [
+          "モーモーミルク",
+          "リラックスカカオ",
+          "モーモーミルク"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-026",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004415.png",
+      "sha256": "6757638a0a92f0125c244e4d2b9a3f53414c61a2df4d37547e522e9bdf5dc4da"
+    },
+    {
+      "file": "Screenshot_20261008-004417.png",
+      "expected": {
+        "nickname": "モー",
+        "species": "エンテイ",
+        "level": 56,
+        "sp": 5959,
+        "helpSeconds": 1922,
+        "carry": 22,
+        "skillLevel": 6,
+        "mainSkill": "おてつだいブースト",
+        "nature": "いじっぱり",
+        "subskills": [
+          "スキルレベルアップM",
+          "睡眠EXPボーナス",
+          "スキル確率アップM",
+          "おてつだいスピードM",
+          "最大所持数アップL"
+        ],
+        "foods": [
+          "ピュアなオイル",
+          "あんみんトマト",
+          "ピュアなオイル"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-027",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004417.png",
+      "sha256": "9313d2c339b2e84430f723beee97edfc793b042a6316f2755bfc430be2fb8cf3"
+    },
+    {
+      "file": "Screenshot_20261008-004421.png",
+      "expected": {
+        "nickname": "サトシの",
+        "species": "バタフリー",
+        "level": 60,
+        "sp": 3656,
+        "helpSeconds": 1896,
+        "carry": 40,
+        "skillLevel": 3,
+        "mainSkill": "食材ゲットS",
+        "nature": "てれや",
+        "subskills": [
+          "きのみの数S",
+          "最大所持数アップS",
+          "おてつだいスピードM",
+          "食材確率アップS",
+          "睡眠EXPボーナス"
+        ],
+        "foods": [
+          "あまいミツ",
+          "あんみんトマト",
+          "あまいミツ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-028",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004421.png",
+      "sha256": "56ac828a23d0bd89188d5ba7966655067e2ea9ae7293c35a34be157e57ad4717"
+    },
+    {
+      "file": "Screenshot_20261008-004423.png",
+      "expected": {
+        "nickname": "ツヨノウブル",
+        "species": "サーナイト",
+        "level": 70,
+        "sp": 8391,
+        "helpSeconds": 2068,
+        "carry": 36,
+        "skillLevel": 6,
+        "mainSkill": "げんきオールS",
+        "nature": "しんちょう",
+        "subskills": [
+          "おてつだいボーナス",
+          "スキル確率アップM",
+          "睡眠EXPボーナス",
+          "リサーチEXPボーナス",
+          "おてつだいスピードS"
+        ],
+        "foods": [
+          "とくせんリンゴ",
+          "とくせんリンゴ",
+          "とくせんリンゴ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-029",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004423.png",
+      "sha256": "1fd5f4545710504f8a455d96804ba61ae1b63c897cd84d63942efdfbb8916f65"
+    },
+    {
+      "file": "Screenshot_20261008-004425.png",
+      "expected": {
+        "nickname": "ファプタ",
+        "species": "マスカーニャ",
+        "level": 60,
+        "sp": 4072,
+        "helpSeconds": 2063,
+        "carry": 41,
+        "skillLevel": 3,
+        "mainSkill": "料理パワーアップS",
+        "nature": "さみしがり",
+        "subskills": [
+          "食材確率アップM",
+          "最大所持数アップM",
+          "食材確率アップS",
+          "最大所持数アップS",
+          "おてつだいスピードS"
+        ],
+        "foods": [
+          "ほっこりポテト",
+          "ほっこりポテト",
+          "ほっこりポテト"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-030",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004425.png",
+      "sha256": "5420a540919020b0ded9877981f6209f986743341f891383aa65c6bcf2797632"
+    },
+    {
+      "file": "Screenshot_20261008-004428.png",
+      "expected": {
+        "nickname": "S73AAA",
+        "species": "ガルーラ",
+        "level": 46,
+        "sp": 2268,
+        "helpSeconds": 2170,
+        "carry": 33,
+        "skillLevel": 1,
+        "mainSkill": "食材ゲットS",
+        "nature": "さみしがり",
+        "subskills": [
+          "最大所持数アップM",
+          "食材確率アップM",
+          "食材確率アップS",
+          "おてつだいスピードM",
+          "おてつだいボーナス"
+        ],
+        "foods": [
+          "あったかジンジャー",
+          "あったかジンジャー",
+          "あったかジンジャー"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-031",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004428.png",
+      "sha256": "a98fc56b6724de771e77787a6f41ce65d6cef962b436cdedb8cea7b3b66bc2d3"
+    },
+    {
+      "file": "Screenshot_20261008-004430.png",
+      "expected": {
+        "nickname": "特者",
+        "species": "キュワワー",
+        "level": 60,
+        "sp": 4831,
+        "helpSeconds": 1896,
+        "carry": 23,
+        "skillLevel": 1,
+        "mainSkill": "げんきエールS",
+        "nature": "うっかりや",
+        "subskills": [
+          "食材確率アップM",
+          "きのみの数S",
+          "おてつだいスピードM",
+          "最大所持数アップM",
+          "スキル確率アップS"
+        ],
+        "foods": [
+          "ワカクサコーン",
+          "あったかジンジャー",
+          "ワカクサコーン"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-032",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004430.png",
+      "sha256": "fe3416114c2e5cb5b40143678da700bb76533fcb99a4977aca257c9db87c003b"
+    },
+    {
+      "file": "Screenshot_20261008-004432.png",
+      "expected": {
+        "nickname": "SS76ABA",
+        "species": "フシギソウ",
+        "level": 22,
+        "sp": 693,
+        "helpSeconds": 2939,
+        "carry": 19,
+        "skillLevel": 1,
+        "mainSkill": "食材ゲットS",
+        "nature": "おっとり",
+        "subskills": [
+          "おてつだいスピードS",
+          "食材確率アップM",
+          "げんき回復ボーナス",
+          "食材確率アップS",
+          "最大所持数アップM"
+        ],
+        "foods": [
+          "あまいミツ",
+          "あんみんトマト",
+          "あまいミツ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-033",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004432.png",
+      "sha256": "822f121f957011a30e0f75957068da1a9a3943be6bc085e566b24d1d6cb0f699"
+    },
+    {
+      "file": "Screenshot_20261008-004435.png",
+      "expected": {
+        "nickname": "KMG",
+        "species": "デデンネ",
+        "level": 62,
+        "sp": 4715,
+        "helpSeconds": 2195,
+        "carry": 25,
+        "skillLevel": 6,
+        "mainSkill": "料理チャンスS",
+        "nature": "すなお",
+        "subskills": [
+          "スキル確率アップM",
+          "スキル確率アップS",
+          "睡眠EXPボーナス",
+          "おてつだいスピードM",
+          "最大所持数アップL"
+        ],
+        "foods": [
+          "とくせんリンゴ",
+          "リラックスカカオ",
+          "リラックスカカオ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-034",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004435.png",
+      "sha256": "3f2e3dbb39bff8a1ca10d26278569fb2b347922f02b191b24d7262552a400c2d"
+    },
+    {
+      "file": "Screenshot_20261008-004437.png",
+      "expected": {
+        "nickname": "SS79ABB",
+        "species": "グレッグル",
+        "level": 15,
+        "sp": 403,
+        "helpSeconds": 5443,
+        "carry": 10,
+        "skillLevel": 1,
+        "mainSkill": "エナジーチャージS",
+        "nature": "おっとり",
+        "subskills": [
+          "食材確率アップS",
+          "おてつだいスピードS",
+          "最大所持数アップS",
+          "スキル確率アップS",
+          "きのみの数S"
+        ],
+        "foods": [
+          "ピュアなオイル",
+          "マメミート",
+          "マメミート"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-035",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004437.png",
+      "sha256": "88fe46ee45ea0ccd9a1d4fdb6af5b884085315a89d861898a385000762722511"
+    },
+    {
+      "file": "Screenshot_20261008-004439.png",
+      "expected": {
+        "nickname": "ダダダモン",
+        "species": "メタモン",
+        "level": 60,
+        "sp": 2884,
+        "helpSeconds": 3087,
+        "carry": 17,
+        "skillLevel": 1,
+        "mainSkill": "へんしん (スキルコピー)",
+        "nature": "おっとり",
+        "subskills": [
+          "スキル確率アップM",
+          "食材確率アップM",
+          "食材確率アップS",
+          "最大所持数アップL",
+          "スキル確率アップS"
+        ],
+        "foods": [
+          "ピュアなオイル",
+          "ピュアなオイル",
+          "おいしいシッポ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-036",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004439.png",
+      "sha256": "81a1913beb169e48e2774bf162ec78c1d1672b3bba9fe261dff4ee75c8265347"
+    },
+    {
+      "file": "Screenshot_20261008-004442.png",
+      "expected": {
+        "nickname": "SS78ABA",
+        "species": "ウパー",
+        "level": 14,
+        "sp": 411,
+        "helpSeconds": 5312,
+        "carry": 10,
+        "skillLevel": 1,
+        "mainSkill": "げんきチャージS",
+        "nature": "おくびょう",
+        "subskills": [
+          "おてつだいスピードM",
+          "おてつだいボーナス",
+          "食材確率アップS",
+          "スキルレベルアップS",
+          "最大所持数アップL"
+        ],
+        "foods": [
+          "あじわいキノコ",
+          "ほっこりポテト",
+          "あじわいキノコ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-037",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004442.png",
+      "sha256": "7cb471c0175939911300fcbab4ddfa21636701546d5e23aad4849d9bf693ef15"
+    },
+    {
+      "file": "Screenshot_20261008-004444.png",
+      "expected": {
+        "nickname": "バウバウ",
+        "species": "チルタリス",
+        "level": 64,
+        "sp": 4753,
+        "helpSeconds": 2367,
+        "carry": 25,
+        "skillLevel": 2,
+        "mainSkill": "げんきチャージS",
+        "nature": "さみしがり",
+        "subskills": [
+          "睡眠EXPボーナス",
+          "おてつだいスピードM",
+          "きのみの数S",
+          "最大所持数アップL",
+          "スキル確率アップM"
+        ],
+        "foods": [
+          "とくせんエッグ",
+          "ワカクサ大豆",
+          "とくせんリンゴ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-038",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004444.png",
+      "sha256": "b935a63fd91743019ab1e55bf137d0a11f14aa7e0731ed572e8b1805781e14fc"
+    },
+    {
+      "file": "Screenshot_20261008-004446.png",
+      "expected": {
+        "nickname": "SS75",
+        "species": "イーブイ",
+        "level": 13,
+        "sp": 620,
+        "helpSeconds": 3882,
+        "carry": 12,
+        "skillLevel": 1,
+        "mainSkill": "食材ゲットS",
+        "nature": "おだやか",
+        "subskills": [
+          "睡眠EXPボーナス",
+          "スキル確率アップM",
+          "スキルレベルアップS",
+          "最大所持数アップS",
+          "食材確率アップM"
+        ],
+        "foods": [
+          "モーモーミルク",
+          "リラックスカカオ",
+          "モーモーミルク"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-039",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004446.png",
+      "sha256": "56381e74a1f64cab34724d0d8c14671c7cdc11a42df9a4aa003946ccd63655ff"
+    },
+    {
+      "file": "Screenshot_20261008-004448.png",
+      "expected": {
+        "nickname": "シト",
+        "species": "ニンフィア",
+        "level": 55,
+        "sp": 5302,
+        "helpSeconds": 1795,
+        "carry": 26,
+        "skillLevel": 6,
+        "mainSkill": "げんきオールS",
+        "nature": "ゆうかん",
+        "subskills": [
+          "おてつだいボーナス",
+          "スキル確率アップM",
+          "おてつだいスピードM",
+          "リサーチEXPボーナス",
+          "げんき回復ボーナス"
+        ],
+        "foods": [
+          "モーモーミルク",
+          "リラックスカカオ",
+          "リラックスカカオ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-040",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004448.png",
+      "sha256": "36fe1d10bf6b2292db9769cdd041b6208e39ff44da15130b5d940a44f91482c4"
+    },
+    {
+      "file": "Screenshot_20261008-004451.png",
+      "expected": {
+        "nickname": "スイさん",
+        "species": "スイクン",
+        "level": 50,
+        "sp": 3607,
+        "helpSeconds": 1884,
+        "carry": 29,
+        "skillLevel": 3,
+        "mainSkill": "おてつだいブースト",
+        "nature": "ゆうかん",
+        "subskills": [
+          "最大所持数アップM",
+          "スキル確率アップM",
+          "おてつだいスピードM",
+          "スキルレベルアップS",
+          "食材確率アップS"
+        ],
+        "foods": [
+          "とくせんリンゴ",
+          "ピュアなオイル",
+          "ワカクサコーン"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-041",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004451.png",
+      "sha256": "2f8575b881c743c70aa46259ea676389c2bb6af2427defd76cc017d7aba0c692"
+    },
+    {
+      "file": "Screenshot_20261008-004454.png",
+      "expected": {
+        "nickname": "リスナー",
+        "species": "ウツボット",
+        "level": 50,
+        "sp": 2726,
+        "helpSeconds": 2714,
+        "carry": 28,
+        "skillLevel": 3,
+        "mainSkill": "げんきチャージS",
+        "nature": "ひかえめ",
+        "subskills": [
+          "おてつだいボーナス",
+          "食材確率アップM",
+          "食材確率アップS",
+          "おてつだいスピードS",
+          "きのみの数S"
+        ],
+        "foods": [
+          "あんみんトマト",
+          "ほっこりポテト",
+          "あんみんトマト"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-042",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004454.png",
+      "sha256": "134e3386c7426be8f8094b1183b9b01d8326ebcd9233c98449e3a665e9a4dcd7"
+    },
+    {
+      "file": "Screenshot_20261008-004457.png",
+      "expected": {
+        "nickname": "SS78",
+        "species": "イーブイ",
+        "level": 14,
+        "sp": 770,
+        "helpSeconds": 3873,
+        "carry": 12,
+        "skillLevel": 3,
+        "mainSkill": "食材ゲットS",
+        "nature": "おだやか",
+        "subskills": [
+          "スキルレベルアップM",
+          "スキル確率アップM",
+          "スキル確率アップS",
+          "スキルレベルアップS",
+          "食材確率アップM"
+        ],
+        "foods": [
+          "モーモーミルク",
+          "リラックスカカオ",
+          "リラックスカカオ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-043",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004457.png",
+      "sha256": "b01e284a5e5d3f255919eb45ae3a9cf252741d04a3601dcd288d57524876591c"
+    },
+    {
+      "file": "Screenshot_20261008-004459.png",
+      "expected": {
+        "nickname": "SS78ABC",
+        "species": "クワッス",
+        "level": 13,
+        "sp": 507,
+        "helpSeconds": 5036,
+        "carry": 10,
+        "skillLevel": 1,
+        "mainSkill": "エナジーチャージM",
+        "nature": "おだやか",
+        "subskills": [
+          "おてつだいボーナス",
+          "食材確率アップS",
+          "おてつだいスピードS",
+          "最大所持数アップM",
+          "スキル確率アップM"
+        ],
+        "foods": [
+          "ワカクサ大豆",
+          "ふといながねぎ",
+          "ピュアなオイル"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-044",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004459.png",
+      "sha256": "0b6618f8ad031772bee6c032edb74b1ccc4c503f031daec44ab80dbaa8c06da2"
+    },
+    {
+      "file": "Screenshot_20261008-004501.png",
+      "expected": {
+        "nickname": "T-60",
+        "species": "ボスゴドラ",
+        "level": 58,
+        "sp": 2836,
+        "helpSeconds": 2658,
+        "carry": 35,
+        "skillLevel": 3,
+        "mainSkill": "げんきチャージS",
+        "nature": "きまぐれ",
+        "subskills": [
+          "最大所持数アップS",
+          "スキル確率アップM",
+          "食材確率アップM",
+          "おてつだいスピードS",
+          "睡眠EXPボーナス"
+        ],
+        "foods": [
+          "マメミート",
+          "マメミート",
+          "マメミート"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-045",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004501.png",
+      "sha256": "1fec97957c8e0d0dc8cbc9d7a6f8693e5845ad8a8d7a186126e828ac00ebee22"
+    },
+    {
+      "file": "Screenshot_20261008-004503.png",
+      "expected": {
+        "nickname": "フワライド",
+        "species": "フワライド",
+        "level": 50,
+        "sp": 4853,
+        "helpSeconds": 2255,
+        "carry": 23,
+        "skillLevel": 7,
+        "mainSkill": "たくわえる (エナジーチャージS)",
+        "nature": "おとなしい",
+        "subskills": [
+          "スキル確率アップM",
+          "おてつだいボーナス",
+          "食材確率アップS",
+          "最大所持数アップS",
+          "おてつだいスピードS"
+        ],
+        "foods": [
+          "ワカクサコーン",
+          "ピュアなオイル",
+          "ほっこりポテト"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-046",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004503.png",
+      "sha256": "c70e37d1f79dfb3f35e38d350aae0884bf690005ed1ea71b212fc1d1d034b0df"
+    },
+    {
+      "file": "Screenshot_20261008-004506.png",
+      "expected": {
+        "nickname": "カイロス",
+        "species": "クワガノン",
+        "level": 60,
+        "sp": 3854,
+        "helpSeconds": 2222,
+        "carry": 30,
+        "skillLevel": 3,
+        "mainSkill": "エナジーチャージS",
+        "nature": "さみしがり",
+        "subskills": [
+          "スキル確率アップS",
+          "食材確率アップM",
+          "食材確率アップS",
+          "睡眠EXPボーナス",
+          "おてつだいスピードS"
+        ],
+        "foods": [
+          "めざましコーヒー",
+          "めざましコーヒー",
+          "めざましコーヒー"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-047",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004506.png",
+      "sha256": "0dac76f8d1ffdeb31b7a6b869255e95043fea9eb56c734ddbee0d0cb001644c3"
+    },
+    {
+      "file": "Screenshot_20261008-004508.png",
+      "expected": {
+        "nickname": "S65ABB",
+        "species": "アチゲータ",
+        "level": 21,
+        "sp": 772,
+        "helpSeconds": 2559,
+        "carry": 21,
+        "skillLevel": 1,
+        "mainSkill": "げんきチャージS",
+        "nature": "なまいき",
+        "subskills": [
+          "おてつだいスピードM",
+          "スキルレベルアップS",
+          "食材確率アップS",
+          "最大所持数アップS",
+          "おてつだいスピードS"
+        ],
+        "foods": [
+          "とくせんリンゴ",
+          "マメミート",
+          "マメミート"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-048",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004508.png",
+      "sha256": "891f8dbadfb5f4d6e0db78cf102ca08a799fdfc301b08441a232e33e35efd6af"
+    },
+    {
+      "file": "Screenshot_20261008-004510.png",
+      "expected": {
+        "nickname": "SS77ABA",
+        "species": "クワッス",
+        "level": 14,
+        "sp": 587,
+        "helpSeconds": 4675,
+        "carry": 10,
+        "skillLevel": 1,
+        "mainSkill": "エナジーチャージM",
+        "nature": "れいせい",
+        "subskills": [
+          "きのみの数S",
+          "食材確率アップM",
+          "おてつだいスピードM",
+          "食材確率アップS",
+          "最大所持数アップL"
+        ],
+        "foods": [
+          "ワカクサ大豆",
+          "ふといながねぎ",
+          "ワカクサ大豆"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-049",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004510.png",
+      "sha256": "fe469456e7a934a52cf3c00549cea1f8fef9bacd40bcf08abe740b7637b6a252"
+    },
+    {
+      "file": "Screenshot_20261008-004512.png",
+      "expected": {
+        "nickname": "SS74AAC",
+        "species": "レントラー",
+        "level": 32,
+        "sp": 2089,
+        "helpSeconds": 2251,
+        "carry": 31,
+        "skillLevel": 3,
+        "mainSkill": "料理パワーアップS",
+        "nature": "がんばりや",
+        "subskills": [
+          "おてつだいボーナス",
+          "食材確率アップM",
+          "最大所持数アップL",
+          "スキル確率アップM",
+          "最大所持数アップS"
+        ],
+        "foods": [
+          "あんみんトマト",
+          "あんみんトマト",
+          "めざましコーヒー"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-050",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004512.png",
+      "sha256": "7ad5ea5274d555d1efc2bab851430a3aa49bdcd61b9c986d7bf4f626d28f8a25"
+    },
+    {
+      "file": "Screenshot_20261008-004515.png",
+      "expected": {
+        "nickname": "特級遺物",
+        "species": "ジュペッタ",
+        "level": 55,
+        "sp": 3154,
+        "helpSeconds": 1795,
+        "carry": 25,
+        "skillLevel": 2,
+        "mainSkill": "エナジーチャージS",
+        "nature": "いじっぱり",
+        "subskills": [
+          "きのみの数S",
+          "おてつだいスピードM",
+          "食材確率アップM",
+          "スキルレベルアップS",
+          "食材確率アップS"
+        ],
+        "foods": [
+          "ピュアなオイル",
+          "あったかジンジャー",
+          "ピュアなオイル"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-051",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004515.png",
+      "sha256": "1d223026584fa76cf9df112c218ce0d459909db010703ee53219f786a71e016a"
+    },
+    {
+      "file": "Screenshot_20261008-004517.png",
+      "expected": {
+        "nickname": "狐面愛好会",
+        "species": "キュウコン",
+        "level": 57,
+        "sp": 2989,
+        "helpSeconds": 1985,
+        "carry": 29,
+        "skillLevel": 2,
+        "mainSkill": "げんきエールS",
+        "nature": "せっかち",
+        "subskills": [
+          "きのみの数S",
+          "おてつだいスピードM",
+          "食材確率アップS",
+          "げんき回復ボーナス",
+          "スキル確率アップM"
+        ],
+        "foods": [
+          "ワカクサ大豆",
+          "ワカクサコーン",
+          "ワカクサ大豆"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-052",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004517.png",
+      "sha256": "efed6d9d932e95b477d79cd270dd8d107b53199a24844cc6edd17b08d45a0b27"
+    },
+    {
+      "file": "Screenshot_20261008-004519.png",
+      "expected": {
+        "nickname": "B58",
+        "species": "ピカチュウ (ハロウィン)",
+        "level": 16,
+        "sp": 727,
+        "helpSeconds": 2425,
+        "carry": 18,
+        "skillLevel": 1,
+        "mainSkill": "エナジーチャージS",
+        "nature": "なまいき",
+        "subskills": [
+          "食材確率アップS",
+          "おてつだいボーナス",
+          "最大所持数アップS",
+          "ゆめのかけらボーナス",
+          "スキル確率アップS"
+        ],
+        "foods": [
+          "とくせんリンゴ",
+          "あったかジンジャー",
+          "とくせんエッグ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-053",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004519.png",
+      "sha256": "8ce23e4932d73ac223523fd969fc82f3e0e79ce428e19d60fb633b7bb5e70ac7"
+    },
+    {
+      "file": "Screenshot_20261008-004521.png",
+      "expected": {
+        "nickname": "GreeeeeeN★",
+        "species": "フシギバナ",
+        "level": 54,
+        "sp": 3917,
+        "helpSeconds": 2503,
+        "carry": 30,
+        "skillLevel": 7,
+        "mainSkill": "食材ゲットS",
+        "nature": "れいせい",
+        "subskills": [
+          "おてつだいボーナス",
+          "食材確率アップM",
+          "スキルレベルアップM",
+          "おてつだいスピードS",
+          "食材確率アップS"
+        ],
+        "foods": [
+          "あまいミツ",
+          "あまいミツ",
+          "あまいミツ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-054",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004521.png",
+      "sha256": "5fadb590b6d92968c80fb4417079a9caf17195ce9555eb7cf463f8d4927ef1b5"
+    },
+    {
+      "file": "Screenshot_20261008-004524.png",
+      "expected": {
+        "nickname": "SS76AAB",
+        "species": "ヨーギラス",
+        "level": 15,
+        "sp": 477,
+        "helpSeconds": 4199,
+        "carry": 9,
+        "skillLevel": 3,
+        "mainSkill": "げんきチャージS",
+        "nature": "さみしがり",
+        "subskills": [
+          "スキルレベルアップM",
+          "食材確率アップS",
+          "おてつだいスピードM",
+          "おてつだいスピードS",
+          "ゆめのかけらボーナス"
+        ],
+        "foods": [
+          "あったかジンジャー",
+          "あったかジンジャー",
+          "ワカクサ大豆"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-055",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004524.png",
+      "sha256": "e3fc99b055220f34494717ec1d5317838d5461f298b814f4f8efb423ac225c01"
+    },
+    {
+      "file": "Screenshot_20261008-004526.png",
+      "expected": {
+        "nickname": "C49",
+        "species": "イーブイ (ホリデー)",
+        "level": 13,
+        "sp": 872,
+        "helpSeconds": 2723,
+        "carry": 38,
+        "skillLevel": 1,
+        "mainSkill": "ゆめのかけらゲットS",
+        "nature": "ゆうかん",
+        "subskills": [
+          "最大所持数アップL",
+          "食材確率アップS",
+          "最大所持数アップS",
+          "おてつだいスピードS",
+          "きのみの数S"
+        ],
+        "foods": [
+          "モーモーミルク",
+          "リラックスカカオ",
+          "モーモーミルク"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-056",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004526.png",
+      "sha256": "17f54b8af1afffd891ad3927dee3070d2400d74c48d30746a46d37ce79e80a04"
+    },
+    {
+      "file": "Screenshot_20261008-004528.png",
+      "expected": {
+        "nickname": "ペパ",
+        "species": "パーモット",
+        "level": 55,
+        "sp": 5812,
+        "helpSeconds": 1841,
+        "carry": 52,
+        "skillLevel": 6,
+        "mainSkill": "げんきオールS",
+        "nature": "なまいき",
+        "subskills": [
+          "最大所持数アップL",
+          "おてつだいスピードM",
+          "スキル確率アップM",
+          "食材確率アップS",
+          "きのみの数S"
+        ],
+        "foods": [
+          "リラックスカカオ",
+          "リラックスカカオ",
+          "リラックスカカオ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-057",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004528.png",
+      "sha256": "652866975c6a7aa98b8e7fdec3e29a683a4c1aeb66f531e36cdef8b58d10bb74"
+    },
+    {
+      "file": "Screenshot_20261008-004531.png",
+      "expected": {
+        "nickname": "SS74AAC",
+        "species": "ユキカブリ",
+        "level": 15,
+        "sp": 398,
+        "helpSeconds": 5443,
+        "carry": 10,
+        "skillLevel": 1,
+        "mainSkill": "エナジーチャージS",
+        "nature": "すなお",
+        "subskills": [
+          "食材確率アップS",
+          "食材確率アップM",
+          "おてつだいスピードM",
+          "最大所持数アップM",
+          "きのみの数S"
+        ],
+        "foods": [
+          "あんみんトマト",
+          "あんみんトマト",
+          "あじわいキノコ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-058",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004531.png",
+      "sha256": "d1203eb4aae33dcb687a1f1b8b423c628731a27acff4dee3700c819cb8cf7da5"
+    },
+    {
+      "file": "Screenshot_20261008-004533.png",
+      "expected": {
+        "nickname": "アメブ候補",
+        "species": "ユキカブリ",
+        "level": 14,
+        "sp": 394,
+        "helpSeconds": 4908,
+        "carry": 10,
+        "skillLevel": 1,
+        "mainSkill": "エナジーチャージS",
+        "nature": "いじっぱり",
+        "subskills": [
+          "食材確率アップS",
+          "おてつだいスピードM",
+          "食材確率アップM",
+          "最大所持数アップM",
+          "げんき回復ボーナス"
+        ],
+        "foods": [
+          "あんみんトマト",
+          "あんみんトマト",
+          "あんみんトマト"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-059",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004533.png",
+      "sha256": "3bb3c908afa24c77fa7fd8d38798b50d1f6ecb16be5f15871047f5ef6ab3607e"
+    },
+    {
+      "file": "Screenshot_20261008-004535.png",
+      "expected": {
+        "nickname": "ドラモン",
+        "species": "カイリュー",
+        "level": 61,
+        "sp": 5014,
+        "helpSeconds": 2288,
+        "carry": 33,
+        "skillLevel": 3,
+        "mainSkill": "げんきチャージS",
+        "nature": "むじゃき",
+        "subskills": [
+          "きのみの数S",
+          "食材確率アップM",
+          "スキル確率アップM",
+          "スキルレベルアップS",
+          "最大所持数アップL"
+        ],
+        "foods": [
+          "げきからハーブ",
+          "げきからハーブ",
+          "げきからハーブ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-060",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004535.png",
+      "sha256": "86bca50d294201e2a18ad995f7cd9c098ee831c5151ae661bfaa6b97b535240b"
+    },
+    {
+      "file": "Screenshot_20261008-004537.png",
+      "expected": {
+        "nickname": "S64ok",
+        "species": "ゴクリン",
+        "level": 15,
+        "sp": 444,
+        "helpSeconds": 5734,
+        "carry": 8,
+        "skillLevel": 1,
+        "mainSkill": "ゆめのかけらゲットS",
+        "nature": "れいせい",
+        "subskills": [
+          "おてつだいボーナス",
+          "きのみの数S",
+          "最大所持数アップM",
+          "最大所持数アップL",
+          "食材確率アップS"
+        ],
+        "foods": [
+          "ワカクサ大豆",
+          "あじわいキノコ",
+          "ワカクサ大豆"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-061",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004537.png",
+      "sha256": "2aba4e06da74f2e518bead1a6ee4ce689cbdf57106ee4f79425c0f8cfb08f249"
+    },
+    {
+      "file": "Screenshot_20261008-004539.png",
+      "expected": {
+        "nickname": "Donちゃん",
+        "species": "ドオー",
+        "level": 58,
+        "sp": 2594,
+        "helpSeconds": 3101,
+        "carry": 37,
+        "skillLevel": 2,
+        "mainSkill": "げんきチャージS",
+        "nature": "むじゃき",
+        "subskills": [
+          "食材確率アップM",
+          "スキル確率アップS",
+          "最大所持数アップM",
+          "食材確率アップS",
+          "最大所持数アップS"
+        ],
+        "foods": [
+          "リラックスカカオ",
+          "リラックスカカオ",
+          "リラックスカカオ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-062",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004539.png",
+      "sha256": "4373efd01810398968ff6c5df18b4e57f7bb7a71aab9d62bdb4fb04ead97bacf"
+    },
+    {
+      "file": "Screenshot_20261008-004541.png",
+      "expected": {
+        "nickname": "のりたま",
+        "species": "ユキノオー",
+        "level": 32,
+        "sp": 1595,
+        "helpSeconds": 2814,
+        "carry": 26,
+        "skillLevel": 4,
+        "mainSkill": "エナジーチャージS",
+        "nature": "のうてんき",
+        "subskills": [
+          "スキルレベルアップM",
+          "食材確率アップM",
+          "最大所持数アップS",
+          "おてつだいスピードS",
+          "きのみの数S"
+        ],
+        "foods": [
+          "あんみんトマト",
+          "とくせんエッグ",
+          "とくせんエッグ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-063",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004541.png",
+      "sha256": "d41efb2ec54964511acdd9974fb39665ad48a7ffb782f59477c87db1c9889be0"
+    },
+    {
+      "file": "Screenshot_20261008-004543.png",
+      "expected": {
+        "nickname": "SS81ABC",
+        "species": "ヨーギラス",
+        "level": 15,
+        "sp": 498,
+        "helpSeconds": 4665,
+        "carry": 9,
+        "skillLevel": 1,
+        "mainSkill": "げんきチャージS",
+        "nature": "おっとり",
+        "subskills": [
+          "おてつだいボーナス",
+          "きのみの数S",
+          "食材確率アップS",
+          "おてつだいスピードS",
+          "最大所持数アップS"
+        ],
+        "foods": [
+          "あったかジンジャー",
+          "ワカクサ大豆",
+          "マメミート"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-064",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004543.png",
+      "sha256": "9dfd341b97801b5084ede815a5b899213fdb3dd827d2ef103dad1fa8d9ffb306"
+    },
+    {
+      "file": "Screenshot_20261008-004545.png",
+      "expected": {
+        "nickname": "M84",
+        "species": "ガーディ",
+        "level": 30,
+        "sp": 802,
+        "helpSeconds": 3645,
+        "carry": 8,
+        "skillLevel": 1,
+        "mainSkill": "おてつだいサポートS",
+        "nature": "さみしがり",
+        "subskills": [
+          "おてつだいボーナス",
+          "スキル確率アップM",
+          "おてつだいスピードS",
+          "食材確率アップM",
+          "最大所持数アップL"
+        ],
+        "foods": [
+          "げきからハーブ",
+          "マメミート",
+          "げきからハーブ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-065",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004545.png",
+      "sha256": "38baecd11cd99aee96f6b652d0bd660c4352b3f052214e8dde00d50c367d1686"
+    },
+    {
+      "file": "Screenshot_20261008-004548.png",
+      "expected": {
+        "nickname": "ブリキDZOM",
+        "species": "ジバコイル",
+        "level": 45,
+        "sp": 2907,
+        "helpSeconds": 2827,
+        "carry": 23,
+        "skillLevel": 5,
+        "mainSkill": "料理パワーアップS",
+        "nature": "しんちょう",
+        "subskills": [
+          "スキルレベルアップM",
+          "スキル確率アップM",
+          "最大所持数アップS",
+          "最大所持数アップL",
+          "最大所持数アップM"
+        ],
+        "foods": [
+          "ピュアなオイル",
+          "げきからハーブ",
+          "げきからハーブ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-066",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004548.png",
+      "sha256": "7594414a8d38981db3b35c51d1647da4a0a44550627c84a6c5c9695d33ab186c"
+    },
+    {
+      "file": "Screenshot_20261008-004550.png",
+      "expected": {
+        "nickname": "お通し",
+        "species": "クレセリア",
+        "level": 26,
+        "sp": 1519,
+        "helpSeconds": 2185,
+        "carry": 22,
+        "skillLevel": 2,
+        "mainSkill": "みかづきのいのり (げんきオールS)",
+        "nature": "がんばりや",
+        "subskills": [
+          "睡眠EXPボーナス",
+          "スキルレベルアップS",
+          "最大所持数アップL",
+          "おてつだいスピードS",
+          "スキル確率アップS"
+        ],
+        "foods": [
+          "あったかジンジャー",
+          "リラックスカカオ",
+          "リラックスカカオ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-067",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004550.png",
+      "sha256": "295b30b5cfbcecc415a96034fc24e7ad35dd1f61f84bf5ce2b9c4ae2ef14746a"
+    },
+    {
+      "file": "Screenshot_20261008-004553.png",
+      "expected": {
+        "nickname": "百Seria",
+        "species": "クレセリア",
+        "level": 29,
+        "sp": 1232,
+        "helpSeconds": 2171,
+        "carry": 28,
+        "skillLevel": 1,
+        "mainSkill": "みかづきのいのり (げんきオールS)",
+        "nature": "わんぱく",
+        "subskills": [
+          "食材確率アップS",
+          "最大所持数アップS",
+          "スキル確率アップS",
+          "おてつだいスピードS",
+          "おてつだいボーナス"
+        ],
+        "foods": [
+          "あったかジンジャー",
+          "あったかジンジャー",
+          "あったかジンジャー"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-068",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004553.png",
+      "sha256": "c9c2aec92846f82b40b53845156d58b37f3f4554e1b4eee253b7d30d22fb7251"
+    },
+    {
+      "file": "Screenshot_20261008-004555.png",
+      "expected": {
+        "nickname": "煉獄さん",
+        "species": "ダークライ",
+        "level": 59,
+        "sp": 7444,
+        "helpSeconds": 2204,
+        "carry": 34,
+        "skillLevel": 7,
+        "mainSkill": "ナイトメア (エナジーチャージM)",
+        "nature": "てれや",
+        "subskills": [
+          "おてつだいボーナス",
+          "きのみの数S",
+          "おてつだいスピードM",
+          "―",
+          "―"
+        ],
+        "foods": [
+          "マメミート",
+          "マメミート",
+          "げきからハーブ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-069",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004555.png",
+      "sha256": "e74a96c2c6eda551db126dc56606b4efd7d32ee6fac991dd574bd714df9eb518"
+    },
+    {
+      "file": "Screenshot_20261008-004558.png",
+      "expected": {
+        "nickname": "おまもり",
+        "species": "ラッキー",
+        "level": 22,
+        "sp": 772,
+        "helpSeconds": 3161,
+        "carry": 20,
+        "skillLevel": 2,
+        "mainSkill": "げんきオールS",
+        "nature": "わんぱく",
+        "subskills": [
+          "スキルレベルアップS",
+          "最大所持数アップL",
+          "最大所持数アップS",
+          "食材確率アップM",
+          "スキル確率アップM"
+        ],
+        "foods": [
+          "とくせんエッグ",
+          "ほっこりポテト",
+          "ほっこりポテト"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-070",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004558.png",
+      "sha256": "aca81f5de3cfcf444f1a3fb27a0c97a0165f886a5378b98c381bf07a688e9146"
+    },
+    {
+      "file": "Screenshot_20261008-004600.png",
+      "expected": {
+        "nickname": "アンセム",
+        "species": "トゲキッス",
+        "level": 50,
+        "sp": 3444,
+        "helpSeconds": 2016,
+        "carry": 26,
+        "skillLevel": 4,
+        "mainSkill": "ゆびをふる",
+        "nature": "しんちょう",
+        "subskills": [
+          "スキル確率アップM",
+          "おてつだいスピードM",
+          "おてつだいボーナス",
+          "最大所持数アップM",
+          "最大所持数アップS"
+        ],
+        "foods": [
+          "とくせんエッグ",
+          "とくせんエッグ",
+          "リラックスカカオ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-071",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004600.png",
+      "sha256": "7481babb8d93e534eb4c3c42b31f9f8857da836ba63dd983c8c8118856162358"
+    },
+    {
+      "file": "Screenshot_20261008-004603.png",
+      "expected": {
+        "nickname": "リュテル",
+        "species": "ラグラージ",
+        "level": 55,
+        "sp": 3900,
+        "helpSeconds": 2147,
+        "carry": 48,
+        "skillLevel": 3,
+        "mainSkill": "料理チャンスS",
+        "nature": "すなお",
+        "subskills": [
+          "きのみの数S",
+          "最大所持数アップL",
+          "おてつだいスピードM",
+          "スキル確率アップM",
+          "ゆめのかけらボーナス"
+        ],
+        "foods": [
+          "ワカクサコーン",
+          "モーモーミルク",
+          "あじわいキノコ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-072",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004603.png",
+      "sha256": "d2607f46926aba52cbfcce538d60f92b9f66b51eb368b378984a18a313a37554"
+    },
+    {
+      "file": "Screenshot_20261008-004605.png",
+      "expected": {
+        "nickname": "M86ABC",
+        "species": "ホゲータ",
+        "level": 15,
+        "sp": 575,
+        "helpSeconds": 3674,
+        "carry": 11,
+        "skillLevel": 1,
+        "mainSkill": "げんきチャージS",
+        "nature": "やんちゃ",
+        "subskills": [
+          "おてつだいボーナス",
+          "おてつだいスピードS",
+          "食材確率アップM",
+          "スキル確率アップM",
+          "スキル確率アップS"
+        ],
+        "foods": [
+          "とくせんリンゴ",
+          "マメミート",
+          "げきからハーブ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-073",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004605.png",
+      "sha256": "0f5de0dd053f1150a41dbba30ccf1fff4745e20189d2d47dfaa7b74d22beea41"
+    },
+    {
+      "file": "Screenshot_20261008-004610.png",
+      "expected": {
+        "nickname": "東出",
+        "species": "ジュカイン",
+        "level": 58,
+        "sp": 4934,
+        "helpSeconds": 2037,
+        "carry": 28,
+        "skillLevel": 6,
+        "mainSkill": "きのみバースト",
+        "nature": "おとなしい",
+        "subskills": [
+          "きのみの数S",
+          "食材確率アップM",
+          "スキル確率アップM",
+          "最大所持数アップM",
+          "最大所持数アップL"
+        ],
+        "foods": [
+          "とくせんエッグ",
+          "とくせんエッグ",
+          "めざましコーヒー"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-074",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004610.png",
+      "sha256": "055700ef18634e3388e49d5aaac7a377fdda4a1163aaa6574f2ae71b33323022"
+    },
+    {
+      "file": "Screenshot_20261008-004612.png",
+      "expected": {
+        "nickname": "ソボスライ",
+        "species": "バシャーモ",
+        "level": 55,
+        "sp": 3737,
+        "helpSeconds": 1994,
+        "carry": 44,
+        "skillLevel": 3,
+        "mainSkill": "げんきチャージS",
+        "nature": "ようき",
+        "subskills": [
+          "きのみの数S",
+          "おてつだいスピードM",
+          "最大所持数アップM",
+          "スキル確率アップS",
+          "食材確率アップS"
+        ],
+        "foods": [
+          "あじわいキノコ",
+          "ワカクサ大豆",
+          "ピュアなオイル"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-075",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004612.png",
+      "sha256": "0e768e700fd8192fec4cedc874e3f2ee926592530e294e21d22bd78c12745bc4"
+    },
+    {
+      "file": "Screenshot_20261008-004615.png",
+      "expected": {
+        "nickname": "ハセオ",
+        "species": "ライコウ",
+        "level": 50,
+        "sp": 3198,
+        "helpSeconds": 1346,
+        "carry": 22,
+        "skillLevel": 3,
+        "mainSkill": "おてつだいブースト",
+        "nature": "さみしがり",
+        "subskills": [
+          "スキル確率アップM",
+          "おてつだいスピードS",
+          "おてつだいスピードM",
+          "リサーチEXPボーナス",
+          "最大所持数アップL"
+        ],
+        "foods": [
+          "マメミート",
+          "げきからハーブ",
+          "ふといながねぎ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-076",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004615.png",
+      "sha256": "b6f271263edc42c3e20b9ac5d5fa9df30efce4d7a9285aae70a04670d4b85808"
+    },
+    {
+      "file": "Screenshot_20261008-004617.png",
+      "expected": {
+        "nickname": "S71ABC",
+        "species": "ニャオハ",
+        "level": 14,
+        "sp": 473,
+        "helpSeconds": 4480,
+        "carry": 10,
+        "skillLevel": 1,
+        "mainSkill": "料理パワーアップS",
+        "nature": "すなお",
+        "subskills": [
+          "食材確率アップS",
+          "食材確率アップM",
+          "最大所持数アップL",
+          "おてつだいスピードM",
+          "げんき回復ボーナス"
+        ],
+        "foods": [
+          "ほっこりポテト",
+          "モーモーミルク",
+          "あったかジンジャー"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-077",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004617.png",
+      "sha256": "5bdd51ac14ef5684ac348333c7325858a4781ec34cf6fa4d5ea6e5830357511b"
+    },
+    {
+      "file": "Screenshot_20261008-004619.png",
+      "expected": {
+        "nickname": "SS74",
+        "species": "ジュカイン",
+        "level": 28,
+        "sp": 1036,
+        "helpSeconds": 2023,
+        "carry": 27,
+        "skillLevel": 1,
+        "mainSkill": "きのみバースト",
+        "nature": "わんぱく",
+        "subskills": [
+          "食材確率アップS",
+          "おてつだいスピードS",
+          "スキル確率アップS",
+          "最大所持数アップS",
+          "きのみの数S"
+        ],
+        "foods": [
+          "とくせんエッグ",
+          "とくせんエッグ",
+          "めざましコーヒー"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-078",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004619.png",
+      "sha256": "b275a83da29e148634ead26c2277cd9355517e48a3a30d5b508449cd166c4174"
+    },
+    {
+      "file": "Screenshot_20261008-004622.png",
+      "expected": {
+        "nickname": "SS75",
+        "species": "フワンテ",
+        "level": 16,
+        "sp": 468,
+        "helpSeconds": 4656,
+        "carry": 21,
+        "skillLevel": 1,
+        "mainSkill": "たくわえる (エナジーチャージS)",
+        "nature": "なまいき",
+        "subskills": [
+          "最大所持数アップM",
+          "スキル確率アップS",
+          "スキルレベルアップS",
+          "おてつだいスピードS",
+          "最大所持数アップS"
+        ],
+        "foods": [
+          "ワカクサコーン",
+          "ワカクサコーン",
+          "ほっこりポテト"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-079",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004622.png",
+      "sha256": "0e5db8bf182b00e0d0c3702915ff8c855c2003c18138994795219eef35b075c0"
+    },
+    {
+      "file": "Screenshot_20261008-004625.png",
+      "expected": {
+        "nickname": "S69",
+        "species": "イーブイ (ハロウィン)",
+        "level": 15,
+        "sp": 709,
+        "helpSeconds": 3343,
+        "carry": 18,
+        "skillLevel": 2,
+        "mainSkill": "食材ゲットS",
+        "nature": "ひかえめ",
+        "subskills": [
+          "スキルレベルアップS",
+          "スキルレベルアップM",
+          "スキル確率アップS",
+          "食材確率アップM",
+          "最大所持数アップL"
+        ],
+        "foods": [
+          "ずっしりカボチャ",
+          "リラックスカカオ",
+          "ずっしりカボチャ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-080",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004625.png",
+      "sha256": "796577d87ee95c40a26b9705f73a6511b7339f1858c03ba06fa0ba8ef394029c"
+    },
+    {
+      "file": "Screenshot_20261008-004628.png",
+      "expected": {
+        "nickname": "S78ok",
+        "species": "チコリータ",
+        "level": 16,
+        "sp": 667,
+        "helpSeconds": 4268,
+        "carry": 12,
+        "skillLevel": 1,
+        "mainSkill": "エナジーチャージS",
+        "nature": "なまいき",
+        "subskills": [
+          "きのみの数S",
+          "おてつだいボーナス",
+          "食材確率アップM",
+          "リサーチEXPボーナス",
+          "睡眠EXPボーナス"
+        ],
+        "foods": [
+          "リラックスカカオ",
+          "リラックスカカオ",
+          "あまいミツ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-081",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004628.png",
+      "sha256": "2b9d073bdef9eaf124711fc75b5107049c2d5bb29ccd752f7059e913194a595a"
+    },
+    {
+      "file": "Screenshot_20261008-004630.png",
+      "expected": {
+        "nickname": "チョビトンボ",
+        "species": "フライゴン",
+        "level": 60,
+        "sp": 4288,
+        "helpSeconds": 2047,
+        "carry": 34,
+        "skillLevel": 3,
+        "mainSkill": "エナジーチャージS",
+        "nature": "おだやか",
+        "subskills": [
+          "食材確率アップM",
+          "おてつだいスピードM",
+          "最大所持数アップS",
+          "スキルレベルアップM",
+          "スキル確率アップM"
+        ],
+        "foods": [
+          "つやつやアボカド",
+          "つやつやアボカド",
+          "つやつやアボカド"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-082",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004630.png",
+      "sha256": "8c180b3d5a843f629f48416d9f181bfd4e0d5ff3f5bbce31ba0998373102d355"
+    },
+    {
+      "file": "Screenshot_20261008-004632.png",
+      "expected": {
+        "nickname": "SS79ABB",
+        "species": "イシズマイ",
+        "level": 14,
+        "sp": 611,
+        "helpSeconds": 3769,
+        "carry": 8,
+        "skillLevel": 2,
+        "mainSkill": "食材セレクトS",
+        "nature": "ゆうかん",
+        "subskills": [
+          "スキルレベルアップS",
+          "スキル確率アップS",
+          "スキル確率アップM",
+          "おてつだいスピードS",
+          "食材確率アップS"
+        ],
+        "foods": [
+          "つやつやアボカド",
+          "ほっこりポテト",
+          "ほっこりポテト"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-083",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004632.png",
+      "sha256": "63c870776d0deb471298c16ea8c7a85fb1ecd6c72382d4369fa31b5bbead4f74"
+    },
+    {
+      "file": "Screenshot_20261008-004634.png",
+      "expected": {
+        "nickname": "迷い宿",
+        "species": "ロコン",
+        "level": 70,
+        "sp": 3862,
+        "helpSeconds": 3221,
+        "carry": 19,
+        "skillLevel": 1,
+        "mainSkill": "げんきエールS",
+        "nature": "やんちゃ",
+        "subskills": [
+          "睡眠EXPボーナス",
+          "きのみの数S",
+          "おてつだいボーナス",
+          "おてつだいスピードS",
+          "食材確率アップM"
+        ],
+        "foods": [
+          "ワカクサ大豆",
+          "ワカクサ大豆",
+          "ワカクサ大豆"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-084",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004634.png",
+      "sha256": "ee1f72157fb8cbf32294990041de1b0e5bb006fd3c059999b6ef71c27158f91f"
+    },
+    {
+      "file": "Screenshot_20261008-004636.png",
+      "expected": {
+        "nickname": "SS78AAC",
+        "species": "バケッチャ (おおだましゅ)",
+        "level": 16,
+        "sp": 552,
+        "helpSeconds": 5335,
+        "carry": 15,
+        "skillLevel": 1,
+        "mainSkill": "エナジーチャージS",
+        "nature": "うっかりや",
+        "subskills": [
+          "きのみの数S",
+          "おてつだいスピードM",
+          "食材確率アップM",
+          "最大所持数アップM",
+          "最大所持数アップS"
+        ],
+        "foods": [
+          "ずっしりカボチャ",
+          "ずっしりカボチャ",
+          "ほっこりポテト"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-085",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004636.png",
+      "sha256": "751ab3921121c9454bc67276e8239a649d7f0dbacb1f772b0843a2ef25ac17bf"
+    },
+    {
+      "file": "Screenshot_20261008-004639.png",
+      "expected": {
+        "nickname": "SS80ABB",
+        "species": "バケッチャ (こだましゅ)",
+        "level": 16,
+        "sp": 570,
+        "helpSeconds": 4626,
+        "carry": 7,
+        "skillLevel": 1,
+        "mainSkill": "エナジーチャージS",
+        "nature": "ゆうかん",
+        "subskills": [
+          "おてつだいボーナス",
+          "睡眠EXPボーナス",
+          "食材確率アップM",
+          "おてつだいスピードM",
+          "スキル確率アップS"
+        ],
+        "foods": [
+          "ずっしりカボチャ",
+          "ワカクサ大豆",
+          "ワカクサ大豆"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-086",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004639.png",
+      "sha256": "809ad9156f8eef75e1471c8f0173b32dc041f4bf664a4db2c8ba390b41c8a124"
+    },
+    {
+      "file": "Screenshot_20261008-004641.png",
+      "expected": {
+        "nickname": "A71ok",
+        "species": "タマザラシ",
+        "level": 15,
+        "sp": 477,
+        "helpSeconds": 5851,
+        "carry": 9,
+        "skillLevel": 1,
+        "mainSkill": "食材ゲットS",
+        "nature": "ひかえめ",
+        "subskills": [
+          "きのみの数S",
+          "おてつだいボーナス",
+          "食材確率アップS",
+          "最大所持数アップS",
+          "スキル確率アップS"
+        ],
+        "foods": [
+          "ピュアなオイル",
+          "マメミート",
+          "ピュアなオイル"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-087",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004641.png",
+      "sha256": "3248d93dd73e0d94d9746771060a144e02263fb0f7bdb6d45d16e9e0a34f2d6f"
+    },
+    {
+      "file": "Screenshot_20261008-004643.png",
+      "expected": {
+        "nickname": "4.91",
+        "species": "タマザラシ (ホリデー)",
+        "level": 50,
+        "sp": 3569,
+        "helpSeconds": 2303,
+        "carry": 20,
+        "skillLevel": 6,
+        "mainSkill": "料理チャンスS",
+        "nature": "いじっぱり",
+        "subskills": [
+          "おてつだいスピードM",
+          "スキルレベルアップM",
+          "スキル確率アップM",
+          "食材確率アップS",
+          "最大所持数アップM"
+        ],
+        "foods": [
+          "ピュアなオイル",
+          "マメミート",
+          "あったかジンジャー"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-088",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004643.png",
+      "sha256": "c4fa15dbee67e284e96f9524839d28275d4f01a54d2e1ab9977cc3c8453d84c4"
+    },
+    {
+      "file": "Screenshot_20261008-004645.png",
+      "expected": {
+        "nickname": "Lv70ok★",
+        "species": "ミズゴロウ",
+        "level": 15,
+        "sp": 599,
+        "helpSeconds": 4111,
+        "carry": 11,
+        "skillLevel": 1,
+        "mainSkill": "料理チャンスS",
+        "nature": "さみしがり",
+        "subskills": [
+          "おてつだいボーナス",
+          "最大所持数アップL",
+          "おてつだいスピードS",
+          "きのみの数S",
+          "スキル確率アップS"
+        ],
+        "foods": [
+          "ワカクサコーン",
+          "モーモーミルク",
+          "あじわいキノコ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-089",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004645.png",
+      "sha256": "f1bb8347aebb5b37d9d32a36a1bdcc0d7b95982401b488831cd70b11fe36d691"
+    },
+    {
+      "file": "Screenshot_20261008-004647.png",
+      "expected": {
+        "nickname": "S82",
+        "species": "ネイティ",
+        "level": 14,
+        "sp": 531,
+        "helpSeconds": 4383,
+        "carry": 11,
+        "skillLevel": 1,
+        "mainSkill": "食材ゲットS",
+        "nature": "わんぱく",
+        "subskills": [
+          "ゆめのかけらボーナス",
+          "おてつだいスピードM",
+          "きのみの数S",
+          "げんき回復ボーナス",
+          "スキルレベルアップS"
+        ],
+        "foods": [
+          "とくせんエッグ",
+          "とくせんエッグ",
+          "とくせんリンゴ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-090",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004647.png",
+      "sha256": "a8fc56b78636232f990fd79db040bbca0a6cd6a0055de0a23da93d8b7970bea0"
+    },
+    {
+      "file": "Screenshot_20261008-004650.png",
+      "expected": {
+        "nickname": "3.50",
+        "species": "ツボツボ",
+        "level": 24,
+        "sp": 919,
+        "helpSeconds": 3691,
+        "carry": 16,
+        "skillLevel": 2,
+        "mainSkill": "きのみジュース (げんきオールS)",
+        "nature": "おだやか",
+        "subskills": [
+          "スキルレベルアップS",
+          "最大所持数アップM",
+          "最大所持数アップL",
+          "スキル確率アップM",
+          "食材確率アップS"
+        ],
+        "foods": [
+          "ピュアなオイル",
+          "ピュアなオイル",
+          "めざましコーヒー"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-091",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004650.png",
+      "sha256": "180173d8a344e4c09bd6309603bf2cfde5379b53ac59139955d21f4becc20fc7"
+    },
+    {
+      "file": "Screenshot_20261008-004652.png",
+      "expected": {
+        "nickname": "4.05",
+        "species": "ツボツボ",
+        "level": 23,
+        "sp": 896,
+        "helpSeconds": 3441,
+        "carry": 16,
+        "skillLevel": 1,
+        "mainSkill": "きのみジュース (げんきオールS)",
+        "nature": "わんぱく",
+        "subskills": [
+          "スキル確率アップM",
+          "最大所持数アップS",
+          "スキルレベルアップM",
+          "おてつだいスピードS",
+          "食材確率アップM"
+        ],
+        "foods": [
+          "ピュアなオイル",
+          "めざましコーヒー",
+          "あまいミツ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-092",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004652.png",
+      "sha256": "e360e3a2bfebd2c5396eabf540b379995edef40f643bfd7a3d0e167721e005b7"
+    },
+    {
+      "file": "Screenshot_20261008-004655.png",
+      "expected": {
+        "nickname": "ゆめボ",
+        "species": "ミズゴロウ",
+        "level": 16,
+        "sp": 564,
+        "helpSeconds": 4559,
+        "carry": 11,
+        "skillLevel": 1,
+        "mainSkill": "料理チャンスS",
+        "nature": "おとなしい",
+        "subskills": [
+          "ゆめのかけらボーナス",
+          "おてつだいボーナス",
+          "食材確率アップS",
+          "スキルレベルアップS",
+          "おてつだいスピードS"
+        ],
+        "foods": [
+          "ワカクサコーン",
+          "モーモーミルク",
+          "モーモーミルク"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-093",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004655.png",
+      "sha256": "5f8832fac6b4cf972ac6fce2ae44fe65fe6453146c66305969270f3f0e294c11"
+    },
+    {
+      "file": "Screenshot_20261008-004657.png",
+      "expected": {
+        "nickname": "ゆめボ",
+        "species": "ミズゴロウ",
+        "level": 14,
+        "sp": 643,
+        "helpSeconds": 4120,
+        "carry": 11,
+        "skillLevel": 1,
+        "mainSkill": "料理チャンスS",
+        "nature": "ゆうかん",
+        "subskills": [
+          "ゆめのかけらボーナス",
+          "おてつだいボーナス",
+          "睡眠EXPボーナス",
+          "食材確率アップS",
+          "おてつだいスピードS"
+        ],
+        "foods": [
+          "ワカクサコーン",
+          "ワカクサコーン",
+          "モーモーミルク"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-094",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004657.png",
+      "sha256": "0553b765b16ba03f610d9410f957a7906cf1d5e02ebec6eeffb59dac5d7de709"
+    },
+    {
+      "file": "Screenshot_20261008-004659.png",
+      "expected": {
+        "nickname": "ABB",
+        "species": "ヌイコグマ",
+        "level": 14,
+        "sp": 627,
+        "helpSeconds": 3993,
+        "carry": 13,
+        "skillLevel": 1,
+        "mainSkill": "エナジーチャージS",
+        "nature": "うっかりや",
+        "subskills": [
+          "リサーチEXPボーナス",
+          "食材確率アップS",
+          "食材確率アップM",
+          "スキル確率アップS",
+          "スキルレベルアップS"
+        ],
+        "foods": [
+          "ワカクサコーン",
+          "マメミート",
+          "マメミート"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-095",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004659.png",
+      "sha256": "23dc14a90ba9aacb750fd12e65036b687eb9899cb00c692876b4667411f67d65"
+    },
+    {
+      "file": "Screenshot_20261008-004701.png",
+      "expected": {
+        "nickname": "AAA",
+        "species": "キテルグマ",
+        "level": 57,
+        "sp": 3121,
+        "helpSeconds": 1924,
+        "carry": 28,
+        "skillLevel": 4,
+        "mainSkill": "エナジーチャージS",
+        "nature": "さみしがり",
+        "subskills": [
+          "スキルレベルアップM",
+          "食材確率アップM",
+          "おてつだいスピードM",
+          "最大所持数アップL",
+          "リサーチEXPボーナス"
+        ],
+        "foods": [
+          "ワカクサコーン",
+          "ワカクサコーン",
+          "ワカクサコーン"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-096",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004701.png",
+      "sha256": "9fa1409d3feab57be741e86a2f0140138cdab383982566bb875ada361ff006ff"
+    },
+    {
+      "file": "Screenshot_20261008-004704.png",
+      "expected": {
+        "nickname": "3.85",
+        "species": "ツボツボ",
+        "level": 22,
+        "sp": 787,
+        "helpSeconds": 3707,
+        "carry": 16,
+        "skillLevel": 1,
+        "mainSkill": "きのみジュース (げんきオールS)",
+        "nature": "おくびょう",
+        "subskills": [
+          "スキル確率アップM",
+          "スキル確率アップS",
+          "最大所持数アップS",
+          "最大所持数アップL",
+          "食材確率アップS"
+        ],
+        "foods": [
+          "ピュアなオイル",
+          "ピュアなオイル",
+          "ピュアなオイル"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-097",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004704.png",
+      "sha256": "81a9029a2669d058ee4b4d9d51fc3ba29a10b78a4ec41db3a92b59a44852e32b"
+    },
+    {
+      "file": "Screenshot_20261008-004706.png",
+      "expected": {
+        "nickname": "ゆめボ",
+        "species": "タツベイ",
+        "level": 16,
+        "sp": 561,
+        "helpSeconds": 5141,
+        "carry": 9,
+        "skillLevel": 1,
+        "mainSkill": "料理パワーアップS",
+        "nature": "ようき",
+        "subskills": [
+          "ゆめのかけらボーナス",
+          "おてつだいスピードM",
+          "おてつだいスピードS",
+          "最大所持数アップS",
+          "食材確率アップS"
+        ],
+        "foods": [
+          "ほっこりポテト",
+          "ほっこりポテト",
+          "マメミート"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-098",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004706.png",
+      "sha256": "f67099b145ab4405acd81f7390f51f43e886b0d20de30009775a0c9903c0bf3a"
+    },
+    {
+      "file": "Screenshot_20261008-004708.png",
+      "expected": {
+        "nickname": "SS105",
+        "species": "ムンナ",
+        "level": 15,
+        "sp": 560,
+        "helpSeconds": 4986,
+        "carry": 12,
+        "skillLevel": 1,
+        "mainSkill": "ゆめのかけらゲットS",
+        "nature": "いじっぱり",
+        "subskills": [
+          "きのみの数S",
+          "スキル確率アップM",
+          "おてつだいスピードM",
+          "おてつだいスピードS",
+          "ゆめのかけらボーナス"
+        ],
+        "foods": [
+          "モーモーミルク",
+          "あまいミツ",
+          "モーモーミルク"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-099",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004708.png",
+      "sha256": "d2f558cca6dd9f3da2393236e490ab8b86543b75f83b0651832aae55c823fa18"
+    },
+    {
+      "file": "Screenshot_20261008-004710.png",
+      "expected": {
+        "nickname": "ゆめボ",
+        "species": "タツベイ",
+        "level": 14,
+        "sp": 517,
+        "helpSeconds": 5162,
+        "carry": 9,
+        "skillLevel": 1,
+        "mainSkill": "料理パワーアップS",
+        "nature": "むじゃき",
+        "subskills": [
+          "ゆめのかけらボーナス",
+          "睡眠EXPボーナス",
+          "きのみの数S",
+          "最大所持数アップL",
+          "おてつだいスピードM"
+        ],
+        "foods": [
+          "ほっこりポテト",
+          "あったかジンジャー",
+          "マメミート"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-100",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004710.png",
+      "sha256": "642172f1f5090645e27bb8cc375fecabec4c99640979ef8420c3b3304b0d55a2"
+    },
+    {
+      "file": "Screenshot_20261008-004725.png",
+      "expected": {
+        "nickname": "ミュウ",
+        "species": "ミュウ",
+        "level": 59,
+        "sp": 6592,
+        "helpSeconds": 2563,
+        "carry": 44,
+        "skillLevel": 8,
+        "mainSkill": "オールマイティー",
+        "nature": "きまぐれ",
+        "subskills": [
+          "睡眠EXPボーナス",
+          "最大所持数アップM",
+          "スキル確率アップS",
+          "げんき回復ボーナス",
+          "―"
+        ],
+        "foods": [
+          "とくせんエッグ",
+          "げきからハーブ",
+          "―"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-101",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004725.png",
+      "sha256": "4e8b9219a4b4ea0c853e54ed38e63e92c400e13b9f2549dab222cfb311c705b1"
+    },
+    {
+      "file": "Screenshot_20261008-004731.png",
+      "expected": {
+        "nickname": "S102",
+        "species": "ロコン (アローラ)",
+        "level": 16,
+        "sp": 541,
+        "helpSeconds": 4888,
+        "carry": 10,
+        "skillLevel": 1,
+        "mainSkill": "おてつだいサポートS",
+        "nature": "いじっぱり",
+        "subskills": [
+          "リサーチEXPボーナス",
+          "おてつだいスピードM",
+          "きのみの数S",
+          "食材確率アップM",
+          "最大所持数アップM"
+        ],
+        "foods": [
+          "ワカクサ大豆",
+          "ワカクサ大豆",
+          "ワカクサコーン"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-102",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004731.png",
+      "sha256": "dc46953a1e05f9d27d6afc6153e4d61461490745c5a4866b15001e6ed4c27a55"
+    },
+    {
+      "file": "Screenshot_20261008-004733.png",
+      "expected": {
+        "nickname": "SS80ABA",
+        "species": "ゼニガメ",
+        "level": 16,
+        "sp": 546,
+        "helpSeconds": 4365,
+        "carry": 10,
+        "skillLevel": 1,
+        "mainSkill": "食材ゲットS",
+        "nature": "すなお",
+        "subskills": [
+          "おてつだいボーナス",
+          "食材確率アップS",
+          "おてつだいスピードS",
+          "最大所持数アップS",
+          "ゆめのかけらボーナス"
+        ],
+        "foods": [
+          "モーモーミルク",
+          "リラックスカカオ",
+          "モーモーミルク"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-103",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004733.png",
+      "sha256": "5700d5a2463bcacac044eaa7310d8a7a9f84fefef146d73a5454bdfbf7e0a89d"
+    },
+    {
+      "file": "Screenshot_20261008-004736.png",
+      "expected": {
+        "nickname": "3.72",
+        "species": "ツボツボ",
+        "level": 25,
+        "sp": 1134,
+        "helpSeconds": 3084,
+        "carry": 34,
+        "skillLevel": 1,
+        "mainSkill": "きのみジュース (げんきオールS)",
+        "nature": "ゆうかん",
+        "subskills": [
+          "ゆめのかけらボーナス",
+          "最大所持数アップL",
+          "食材確率アップM",
+          "スキル確率アップM",
+          "最大所持数アップS"
+        ],
+        "foods": [
+          "ピュアなオイル",
+          "めざましコーヒー",
+          "あまいミツ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-104",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004736.png",
+      "sha256": "d518d587352a13972c6abe74e71545e70935c9bd615cd37b2980566eec250b3c"
+    },
+    {
+      "file": "Screenshot_20261008-004746.png",
+      "expected": {
+        "nickname": "お通し",
+        "species": "ラティアス",
+        "level": 27,
+        "sp": 1543,
+        "helpSeconds": 2654,
+        "carry": 19,
+        "skillLevel": 2,
+        "mainSkill": "いやしのはどう (げんきエールS)",
+        "nature": "がんばりや",
+        "subskills": [
+          "睡眠EXPボーナス",
+          "スキルレベルアップS",
+          "最大所持数アップL",
+          "おてつだいスピードS",
+          "スキル確率アップS"
+        ],
+        "foods": [
+          "あんみんトマト",
+          "ずっしりカボチャ",
+          "あじわいキノコ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-105",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004746.png",
+      "sha256": "6af7a92c7bb26a7a09768f5bc4bcd4aeb4be226863dbc238a014b42f8fdabfd9"
+    },
+    {
+      "file": "Screenshot_20261008-004751.png",
+      "expected": {
+        "nickname": "SS80",
+        "species": "オンバーン",
+        "level": 54,
+        "sp": 3828,
+        "helpSeconds": 2413,
+        "carry": 24,
+        "skillLevel": 5,
+        "mainSkill": "エナジーチャージM",
+        "nature": "しんちょう",
+        "subskills": [
+          "スキルレベルアップM",
+          "スキル確率アップM",
+          "きのみの数S",
+          "食材確率アップS",
+          "最大所持数アップS"
+        ],
+        "foods": [
+          "とくせんリンゴ",
+          "ふといながねぎ",
+          "ふといながねぎ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-106",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004751.png",
+      "sha256": "8a1d99786e9e03e22002780ac3da2d2ff4af87101acc1c6db4c9b17e457a9ac1"
+    },
+    {
+      "file": "Screenshot_20261008-004757.png",
+      "expected": {
+        "nickname": "ラティアス",
+        "species": "ラティアス",
+        "level": 50,
+        "sp": 4891,
+        "helpSeconds": 2171,
+        "carry": 20,
+        "skillLevel": 4,
+        "mainSkill": "いやしのはどう (げんきエールS)",
+        "nature": "しんちょう",
+        "subskills": [
+          "ゆめのかけらボーナス",
+          "おてつだいスピードM",
+          "スキル確率アップM",
+          "食材確率アップM",
+          "食材確率アップS"
+        ],
+        "foods": [
+          "あんみんトマト",
+          "ずっしりカボチャ",
+          "あんみんトマト"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-107",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004757.png",
+      "sha256": "2c94aadd080d1c5ceb5ec37bb9ca162fcdac182e24d2c6c72c5a530547ad6935"
+    },
+    {
+      "file": "Screenshot_20261008-004801.png",
+      "expected": {
+        "nickname": "ok",
+        "species": "イーブイ",
+        "level": 14,
+        "sp": 658,
+        "helpSeconds": 3603,
+        "carry": 12,
+        "skillLevel": 1,
+        "mainSkill": "食材ゲットS",
+        "nature": "しんちょう",
+        "subskills": [
+          "おてつだいボーナス",
+          "きのみの数S",
+          "最大所持数アップS",
+          "スキルレベルアップS",
+          "リサーチEXPボーナス"
+        ],
+        "foods": [
+          "モーモーミルク",
+          "モーモーミルク",
+          "リラックスカカオ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-108",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004801.png",
+      "sha256": "a0d98192c8e6f35b06172f9c02afa9bdb8d5d679daee347a64a83514b6daa83b"
+    },
+    {
+      "file": "Screenshot_20261008-004804.png",
+      "expected": {
+        "nickname": "サンドパン",
+        "species": "サンドパン",
+        "level": 30,
+        "sp": 4010,
+        "helpSeconds": 2268,
+        "carry": 22,
+        "skillLevel": 7,
+        "mainSkill": "食材セレクトS",
+        "nature": "しんちょう",
+        "subskills": [
+          "スキル確率アップM",
+          "おてつだいスピードM",
+          "最大所持数アップS",
+          "食材確率アップS",
+          "ゆめのかけらボーナス"
+        ],
+        "foods": [
+          "ずっしりカボチャ",
+          "ワカクサコーン",
+          "ほっこりポテト"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-109",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004804.png",
+      "sha256": "f4602add9c8c5fbced050f9ed15fc1c6fbd33afd915383d77b045b423ebd8262"
+    },
+    {
+      "file": "Screenshot_20261008-004806.png",
+      "expected": {
+        "nickname": "ぼるぐ",
+        "species": "ミカルゲ",
+        "level": 53,
+        "sp": 2381,
+        "helpSeconds": 2916,
+        "carry": 42,
+        "skillLevel": 1,
+        "mainSkill": "おてつだいサポートS",
+        "nature": "むじゃき",
+        "subskills": [
+          "最大所持数アップM",
+          "おてつだいスピードS",
+          "食材確率アップS",
+          "スキル確率アップS",
+          "最大所持数アップS"
+        ],
+        "foods": [
+          "あじわいキノコ",
+          "あじわいキノコ",
+          "あじわいキノコ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-110",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004806.png",
+      "sha256": "02d6888d11eb5230fc8d29219c57414befcbd5a80fe5d07520a3c4af4702fb1a"
+    },
+    {
+      "file": "Screenshot_20261008-004808.png",
+      "expected": {
+        "nickname": "ヒノ★",
+        "species": "ヒノアラシ",
+        "level": 53,
+        "sp": 2527,
+        "helpSeconds": 2790,
+        "carry": 17,
+        "skillLevel": 1,
+        "mainSkill": "エナジーチャージS",
+        "nature": "せっかち",
+        "subskills": [
+          "きのみの数S",
+          "睡眠EXPボーナス",
+          "おてつだいボーナス",
+          "おてつだいスピードS",
+          "最大所持数アップS"
+        ],
+        "foods": [
+          "あったかジンジャー",
+          "あったかジンジャー",
+          "げきからハーブ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-111",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004808.png",
+      "sha256": "fc6b3dcb37ff51584bd828db616db2ba8306003bdce9a518a1b13f75cbc4c175"
+    },
+    {
+      "file": "Screenshot_20261008-004813.png",
+      "expected": {
+        "nickname": "SS79",
+        "species": "ワシボン",
+        "level": 15,
+        "sp": 597,
+        "helpSeconds": 3324,
+        "carry": 10,
+        "skillLevel": 1,
+        "mainSkill": "きのみバースト",
+        "nature": "ゆうかん",
+        "subskills": [
+          "睡眠EXPボーナス",
+          "スキル確率アップM",
+          "スキル確率アップS",
+          "最大所持数アップM",
+          "最大所持数アップL"
+        ],
+        "foods": [
+          "マメミート",
+          "ワカクサコーン",
+          "めざましコーヒー"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-112",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004813.png",
+      "sha256": "68c21e84ede67f150971bdc77866f095666dedd7104113949f3c43d112d190c9"
+    },
+    {
+      "file": "Screenshot_20261008-004816.png",
+      "expected": {
+        "nickname": "おてボ無し",
+        "species": "ワニノコ",
+        "level": 15,
+        "sp": 687,
+        "helpSeconds": 3936,
+        "carry": 11,
+        "skillLevel": 1,
+        "mainSkill": "エナジーチャージS",
+        "nature": "いじっぱり",
+        "subskills": [
+          "きのみの数S",
+          "おてつだいスピードM",
+          "食材確率アップM",
+          "ゆめのかけらボーナス",
+          "スキル確率アップS"
+        ],
+        "foods": [
+          "マメミート",
+          "マメミート",
+          "マメミート"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-113",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004816.png",
+      "sha256": "78c576497bfe461f0c76c6b9a5f66e36f2061e523966e72ded08205fb4a86af0"
+    },
+    {
+      "file": "Screenshot_20261008-004819.png",
+      "expected": {
+        "nickname": "お通し",
+        "species": "ラティオス",
+        "level": 28,
+        "sp": 1506,
+        "helpSeconds": 2648,
+        "carry": 19,
+        "skillLevel": 2,
+        "mainSkill": "りゅうせいぐん (きのみバースト)",
+        "nature": "すなお",
+        "subskills": [
+          "睡眠EXPボーナス",
+          "スキルレベルアップS",
+          "最大所持数アップL",
+          "おてつだいスピードS",
+          "スキル確率アップS"
+        ],
+        "foods": [
+          "あんみんトマト",
+          "あんみんトマト",
+          "あんみんトマト"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-114",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004819.png",
+      "sha256": "32a0e3ef1771bebcd503a12b46a60948f89dd2e1be5532def8a40a442ba31ca2"
+    },
+    {
+      "file": "Screenshot_20261008-004821.png",
+      "expected": {
+        "nickname": "70ブイ",
+        "species": "イーブイ",
+        "level": 14,
+        "sp": 673,
+        "helpSeconds": 3603,
+        "carry": 12,
+        "skillLevel": 1,
+        "mainSkill": "食材ゲットS",
+        "nature": "なまいき",
+        "subskills": [
+          "おてつだいボーナス",
+          "ゆめのかけらボーナス",
+          "睡眠EXPボーナス",
+          "スキル確率アップS",
+          "最大所持数アップS"
+        ],
+        "foods": [
+          "モーモーミルク",
+          "リラックスカカオ",
+          "マメミート"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-115",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004821.png",
+      "sha256": "05e8cbf6c151607a410497f3ef4d44d8b4223cee2903250e327b16e88fd59841"
+    },
+    {
+      "file": "Screenshot_20261008-004824.png",
+      "expected": {
+        "nickname": "ラティオス",
+        "species": "ラティオス",
+        "level": 27,
+        "sp": 1322,
+        "helpSeconds": 2654,
+        "carry": 19,
+        "skillLevel": 1,
+        "mainSkill": "りゅうせいぐん (きのみバースト)",
+        "nature": "しんちょう",
+        "subskills": [
+          "スキル確率アップM",
+          "食材確率アップS",
+          "スキル確率アップS",
+          "最大所持数アップS",
+          "おてつだいスピードS"
+        ],
+        "foods": [
+          "あんみんトマト",
+          "あんみんトマト",
+          "とくせんエッグ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-116",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004824.png",
+      "sha256": "3bb3f2aa0a2f7e513d524d2835d6cca6b171804155ac87e9b391945aa3e52d37"
+    },
+    {
+      "file": "Screenshot_20261008-004830.png",
+      "expected": {
+        "nickname": "ボマ★",
+        "species": "ボーマンダ",
+        "level": 70,
+        "sp": 8013,
+        "helpSeconds": 1867,
+        "carry": 38,
+        "skillLevel": 3,
+        "mainSkill": "料理パワーアップS",
+        "nature": "いじっぱり",
+        "subskills": [
+          "きのみの数S",
+          "おてつだいボーナス",
+          "最大所持数アップS",
+          "おてつだいスピードM",
+          "スキル確率アップS"
+        ],
+        "foods": [
+          "ほっこりポテト",
+          "ほっこりポテト",
+          "あったかジンジャー"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-117",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004830.png",
+      "sha256": "6078b977fd258fe84f2ebed5355053704aa2b12a4a6a74bee19ac8da71cc58db"
+    },
+    {
+      "file": "Screenshot_20261008-004833.png",
+      "expected": {
+        "nickname": "80リン",
+        "species": "ゴクリン",
+        "level": 15,
+        "sp": 354,
+        "helpSeconds": 5333,
+        "carry": 8,
+        "skillLevel": 1,
+        "mainSkill": "ゆめのかけらゲットS",
+        "nature": "せっかち",
+        "subskills": [
+          "おてつだいスピードS",
+          "スキルレベルアップS",
+          "最大所持数アップS",
+          "スキル確率アップS",
+          "おてつだいボーナス"
+        ],
+        "foods": [
+          "ワカクサ大豆",
+          "ワカクサ大豆",
+          "あじわいキノコ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-118",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004833.png",
+      "sha256": "5fbb121b2197e8a9e9cf6490bd9079c37dc7aff595086c8e8cd969a9a1f440da"
+    },
+    {
+      "file": "Screenshot_20261008-004835.png",
+      "expected": {
+        "nickname": "ツボツボ",
+        "species": "ツボツボ",
+        "level": 56,
+        "sp": 1715,
+        "helpSeconds": 3204,
+        "carry": 22,
+        "skillLevel": 1,
+        "mainSkill": "きのみジュース (げんきオールS)",
+        "nature": "ようき",
+        "subskills": [
+          "おてつだいボーナス",
+          "スキル確率アップM",
+          "最大所持数アップS",
+          "スキル確率アップS",
+          "おてつだいスピードS"
+        ],
+        "foods": [
+          "ピュアなオイル",
+          "めざましコーヒー",
+          "めざましコーヒー"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-119",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004835.png",
+      "sha256": "95a28a389bbfc31a1c00c8ec578fc38e6106c5687e2fafb4cf11cadbd65bec6e"
+    },
+    {
+      "file": "Screenshot_20261008-004838.png",
+      "expected": {
+        "nickname": "S&P500",
+        "species": "マルノーム",
+        "level": 30,
+        "sp": 6092,
+        "helpSeconds": 3297,
+        "carry": 24,
+        "skillLevel": 8,
+        "mainSkill": "ゆめのかけらゲットS",
+        "nature": "しんちょう",
+        "subskills": [
+          "おてつだいボーナス",
+          "スキル確率アップM",
+          "食材確率アップM",
+          "最大所持数アップS",
+          "最大所持数アップL"
+        ],
+        "foods": [
+          "ワカクサ大豆",
+          "あじわいキノコ",
+          "あじわいキノコ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-120",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004838.png",
+      "sha256": "dc322df0dba74211300f915d43508f00bc3b68ab4ec16e3bfffad032d1965f8b"
+    },
+    {
+      "file": "Screenshot_20261008-004840.png",
+      "expected": {
+        "nickname": "MMしんちょう",
+        "species": "デデンネ",
+        "level": 50,
+        "sp": 4891,
+        "helpSeconds": 1939,
+        "carry": 19,
+        "skillLevel": 6,
+        "mainSkill": "料理チャンスS",
+        "nature": "しんちょう",
+        "subskills": [
+          "リサーチEXPボーナス",
+          "スキル確率アップM",
+          "おてつだいスピードM",
+          "食材確率アップS",
+          "最大所持数アップS"
+        ],
+        "foods": [
+          "とくせんリンゴ",
+          "リラックスカカオ",
+          "リラックスカカオ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-121",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004840.png",
+      "sha256": "a177210e918d076f0c708765d2a3fda73dfa50750d8e9a71935aaacddb8ca4db"
+    },
+    {
+      "file": "Screenshot_20261008-004842.png",
+      "expected": {
+        "nickname": "きのみ無し",
+        "species": "アチャモ",
+        "level": 14,
+        "sp": 571,
+        "helpSeconds": 4188,
+        "carry": 12,
+        "skillLevel": 1,
+        "mainSkill": "げんきチャージS",
+        "nature": "むじゃき",
+        "subskills": [
+          "げんき回復ボーナス",
+          "睡眠EXPボーナス",
+          "おてつだいスピードM",
+          "最大所持数アップS",
+          "おてつだいボーナス"
+        ],
+        "foods": [
+          "あじわいキノコ",
+          "ワカクサ大豆",
+          "ワカクサ大豆"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-122",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004842.png",
+      "sha256": "7cb213d5b143825a7ede08047dc0756cb0b726a6985b3393bc02e0b28e7a6054"
+    },
+    {
+      "file": "Screenshot_20261008-004845.png",
+      "expected": {
+        "nickname": "おてボ無し",
+        "species": "ピンプク",
+        "level": 14,
+        "sp": 363,
+        "helpSeconds": 5653,
+        "carry": 13,
+        "skillLevel": 1,
+        "mainSkill": "げんきオールS",
+        "nature": "ひかえめ",
+        "subskills": [
+          "最大所持数アップS",
+          "きのみの数S",
+          "おてつだいスピードS",
+          "食材確率アップS",
+          "おてつだいスピードM"
+        ],
+        "foods": [
+          "とくせんエッグ",
+          "とくせんエッグ",
+          "とくせんエッグ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-123",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004845.png",
+      "sha256": "117df9ef1f699c04c6159f286b01dcca10da215b763a93f8fdd4524070d2bab4"
+    },
+    {
+      "file": "Screenshot_20261008-004847.png",
+      "expected": {
+        "nickname": "okM",
+        "species": "ポッチャマ",
+        "level": 15,
+        "sp": 641,
+        "helpSeconds": 4374,
+        "carry": 11,
+        "skillLevel": 1,
+        "mainSkill": "おてつだいサポートS",
+        "nature": "すなお",
+        "subskills": [
+          "きのみの数S",
+          "リサーチEXPボーナス",
+          "おてつだいスピードM",
+          "おてつだいボーナス",
+          "スキル確率アップS"
+        ],
+        "foods": [
+          "とくせんエッグ",
+          "ふといながねぎ",
+          "あまいミツ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-124",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004847.png",
+      "sha256": "f102ce886c09643450afab987bfaf4674508479cabebb29835e38f4f38d2b706"
+    },
+    {
+      "file": "Screenshot_20261008-004849.png",
+      "expected": {
+        "nickname": "おてボ無し",
+        "species": "ポッチャマ",
+        "level": 14,
+        "sp": 580,
+        "helpSeconds": 3944,
+        "carry": 11,
+        "skillLevel": 3,
+        "mainSkill": "おてつだいサポートS",
+        "nature": "さみしがり",
+        "subskills": [
+          "スキルレベルアップM",
+          "おてつだいスピードM",
+          "最大所持数アップM",
+          "きのみの数S",
+          "食材確率アップM"
+        ],
+        "foods": [
+          "とくせんエッグ",
+          "ふといながねぎ",
+          "あまいミツ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-125",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004849.png",
+      "sha256": "f9fcaa733c607c5474ab33608c81cbf065fa036019a2e54e1e03fd136b2154bd"
+    },
+    {
+      "file": "Screenshot_20261008-004852.png",
+      "expected": {
+        "nickname": "okやんちゃ",
+        "species": "ポッチャマ",
+        "level": 15,
+        "sp": 598,
+        "helpSeconds": 3936,
+        "carry": 11,
+        "skillLevel": 3,
+        "mainSkill": "おてつだいサポートS",
+        "nature": "やんちゃ",
+        "subskills": [
+          "スキルレベルアップM",
+          "おてつだいボーナス",
+          "きのみの数S",
+          "スキル確率アップM",
+          "食材確率アップS"
+        ],
+        "foods": [
+          "とくせんエッグ",
+          "とくせんエッグ",
+          "あまいミツ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-126",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004852.png",
+      "sha256": "526f232c6c8f81126f52aa2179639ed17734766d529c1254ff03da6e0ef11460"
+    },
+    {
+      "file": "Screenshot_20261008-004854.png",
+      "expected": {
+        "nickname": "おてボ無し",
+        "species": "ポッチャマ",
+        "level": 15,
+        "sp": 634,
+        "helpSeconds": 3936,
+        "carry": 11,
+        "skillLevel": 3,
+        "mainSkill": "おてつだいサポートS",
+        "nature": "いじっぱり",
+        "subskills": [
+          "スキルレベルアップM",
+          "きのみの数S",
+          "おてつだいスピードM",
+          "食材確率アップS",
+          "スキル確率アップM"
+        ],
+        "foods": [
+          "とくせんエッグ",
+          "ふといながねぎ",
+          "あまいミツ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-127",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004854.png",
+      "sha256": "f99882ac1a7ba478b69185683a09669517e3ad61df54b6ffce64ea93274f8458"
+    },
+    {
+      "file": "Screenshot_20261008-004856.png",
+      "expected": {
+        "nickname": "SS83ABA",
+        "species": "バケッチャ (こだましゅ)",
+        "level": 15,
+        "sp": 534,
+        "helpSeconds": 4430,
+        "carry": 7,
+        "skillLevel": 1,
+        "mainSkill": "エナジーチャージS",
+        "nature": "れいせい",
+        "subskills": [
+          "おてつだいスピードM",
+          "最大所持数アップL",
+          "食材確率アップM",
+          "食材確率アップS",
+          "スキル確率アップM"
+        ],
+        "foods": [
+          "ずっしりカボチャ",
+          "ワカクサ大豆",
+          "ずっしりカボチャ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-128",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004856.png",
+      "sha256": "c0529fefc548987cfe9dc3a207b07c00a9e8f473eb15db78fae3086da162377f"
+    },
+    {
+      "file": "Screenshot_20261008-004858.png",
+      "expected": {
+        "nickname": "パンプジン",
+        "species": "パンプジン (ギガだましゅ)",
+        "level": 50,
+        "sp": 2816,
+        "helpSeconds": 2637,
+        "carry": 48,
+        "skillLevel": 2,
+        "mainSkill": "エナジーチャージS",
+        "nature": "がんばりや",
+        "subskills": [
+          "食材確率アップM",
+          "おてつだいスピードM",
+          "最大所持数アップL",
+          "最大所持数アップM",
+          "睡眠EXPボーナス"
+        ],
+        "foods": [
+          "ずっしりカボチャ",
+          "ずっしりカボチャ",
+          "ずっしりカボチャ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-129",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004858.png",
+      "sha256": "506b619d51e9c52943c6e7483ed224598256919b59ece7736a3f2c44b54bbfee"
+    },
+    {
+      "file": "Screenshot_20261008-004900.png",
+      "expected": {
+        "nickname": "おてきの",
+        "species": "ワニノコ",
+        "level": 14,
+        "sp": 526,
+        "helpSeconds": 4383,
+        "carry": 11,
+        "skillLevel": 1,
+        "mainSkill": "エナジーチャージS",
+        "nature": "せっかち",
+        "subskills": [
+          "おてつだいボーナス",
+          "きのみの数S",
+          "最大所持数アップL",
+          "最大所持数アップS",
+          "スキル確率アップS"
+        ],
+        "foods": [
+          "マメミート",
+          "ピュアなオイル",
+          "ピュアなオイル"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-130",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004900.png",
+      "sha256": "8c5ebb4fd890345476d9dcb05b2e41cae03c774c747e62ebd01ba58da4bc20ad"
+    },
+    {
+      "file": "Screenshot_20261008-004902.png",
+      "expected": {
+        "nickname": "ピカチュウ",
+        "species": "ピカチュウ (キャプテン)",
+        "level": 17,
+        "sp": 791,
+        "helpSeconds": 2420,
+        "carry": 21,
+        "skillLevel": 2,
+        "mainSkill": "食材ゲットS",
+        "nature": "ようき",
+        "subskills": [
+          "スキルレベルアップS",
+          "食材確率アップM",
+          "おてつだいスピードS",
+          "きのみの数S",
+          "最大所持数アップS"
+        ],
+        "foods": [
+          "とくせんリンゴ",
+          "とくせんリンゴ",
+          "あったかジンジャー"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-131",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004902.png",
+      "sha256": "baf8192e5b699690680c45d31ea8bc2a8d6f8f5462f1391e34b1ed89331a556f"
+    },
+    {
+      "file": "Screenshot_20261008-004904.png",
+      "expected": {
+        "nickname": "エレズン",
+        "species": "エレズン",
+        "level": 16,
+        "sp": 393,
+        "helpSeconds": 4888,
+        "carry": 6,
+        "skillLevel": 1,
+        "mainSkill": "食材ゲットS",
+        "nature": "さみしがり",
+        "subskills": [
+          "スキル確率アップM",
+          "スキル確率アップS",
+          "食材確率アップM",
+          "おてつだいスピードS",
+          "食材確率アップS"
+        ],
+        "foods": [
+          "モーモーミルク",
+          "とくせんリンゴ",
+          "とくせんリンゴ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-132",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004904.png",
+      "sha256": "fa7a5a8ef5e4fda1c7f9fd7388240b6a05840e8edaa35c74c05217fd20148a6e"
+    },
+    {
+      "file": "Screenshot_20261008-004907.png",
+      "expected": {
+        "nickname": "カイロス",
+        "species": "カイロス",
+        "level": 25,
+        "sp": 1054,
+        "helpSeconds": 2284,
+        "carry": 24,
+        "skillLevel": 1,
+        "mainSkill": "エナジーチャージM",
+        "nature": "ひかえめ",
+        "subskills": [
+          "おてつだいスピードS",
+          "食材確率アップS",
+          "食材確率アップM",
+          "最大所持数アップM",
+          "最大所持数アップL"
+        ],
+        "foods": [
+          "あまいミツ",
+          "とくせんリンゴ",
+          "とくせんリンゴ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-133",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004907.png",
+      "sha256": "b25657fc9b5a0946c812f03ee09c5fc2db8c5fdb5cdb0a346624d2f8f4f39546"
+    },
+    {
+      "file": "Screenshot_20261008-004909.png",
+      "expected": {
+        "nickname": "タツベイ",
+        "species": "タツベイ",
+        "level": 18,
+        "sp": 596,
+        "helpSeconds": 4607,
+        "carry": 9,
+        "skillLevel": 1,
+        "mainSkill": "料理パワーアップS",
+        "nature": "さみしがり",
+        "subskills": [
+          "おてつだいボーナス",
+          "きのみの数S",
+          "スキル確率アップS",
+          "げんき回復ボーナス",
+          "スキル確率アップM"
+        ],
+        "foods": [
+          "ほっこりポテト",
+          "あったかジンジャー",
+          "ほっこりポテト"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-134",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004909.png",
+      "sha256": "81b9a04a96e750e8c940e67d01d48bf94fc6cf10dcd0b5b7aa5a895dae8c2a06"
+    },
+    {
+      "file": "Screenshot_20261008-004912.png",
+      "expected": {
+        "nickname": "ピンプク",
+        "species": "ピンプク",
+        "level": 15,
+        "sp": 368,
+        "helpSeconds": 5247,
+        "carry": 7,
+        "skillLevel": 1,
+        "mainSkill": "げんきオールS",
+        "nature": "ずぶとい",
+        "subskills": [
+          "おてつだいスピードS",
+          "おてつだいボーナス",
+          "スキル確率アップS",
+          "最大所持数アップS",
+          "食材確率アップS"
+        ],
+        "foods": [
+          "とくせんエッグ",
+          "ほっこりポテト",
+          "ほっこりポテト"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-135",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004912.png",
+      "sha256": "5811bb4c95b7234c9dde3a5a3620058c02ceceb8eb8b9d9ca8da7c5177ccb165"
+    },
+    {
+      "file": "Screenshot_20261008-004914.png",
+      "expected": {
+        "nickname": "ゼニガメ",
+        "species": "ゼニガメ",
+        "level": 15,
+        "sp": 600,
+        "helpSeconds": 3936,
+        "carry": 10,
+        "skillLevel": 1,
+        "mainSkill": "食材ゲットS",
+        "nature": "ゆうかん",
+        "subskills": [
+          "おてつだいボーナス",
+          "スキル確率アップM",
+          "食材確率アップS",
+          "げんき回復ボーナス",
+          "リサーチEXPボーナス"
+        ],
+        "foods": [
+          "モーモーミルク",
+          "リラックスカカオ",
+          "リラックスカカオ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-136",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004914.png",
+      "sha256": "2def3416c62afde875f8490b35515b0b3a2049ac5564e7074fc94532b930e926"
+    },
+    {
+      "file": "Screenshot_20261008-004916.png",
+      "expected": {
+        "nickname": "お通し",
+        "species": "ミュウツー",
+        "level": 27,
+        "sp": 1623,
+        "helpSeconds": 2180,
+        "carry": 24,
+        "skillLevel": 2,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "まじめ",
+        "subskills": [
+          "睡眠EXPボーナス",
+          "スキルレベルアップS",
+          "最大所持数アップL",
+          "おてつだいスピードS",
+          "スキル確率アップS"
+        ],
+        "foods": [
+          "ワカクサ大豆",
+          "ワカクサコーン",
+          "ワカクサ大豆"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-137",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004916.png",
+      "sha256": "921b71eb919c959c2eb45b837404852410af1e55edeaf8c9e2c2edd378247da7"
+    },
+    {
+      "file": "Screenshot_20261008-004918.png",
+      "expected": {
+        "nickname": "ゆうかん",
+        "species": "ゴクリン",
+        "level": 16,
+        "sp": 487,
+        "helpSeconds": 5150,
+        "carry": 8,
+        "skillLevel": 1,
+        "mainSkill": "ゆめのかけらゲットS",
+        "nature": "ゆうかん",
+        "subskills": [
+          "おてつだいボーナス",
+          "最大所持数アップS",
+          "スキル確率アップS",
+          "おてつだいスピードS",
+          "食材確率アップS"
+        ],
+        "foods": [
+          "ワカクサ大豆",
+          "ワカクサ大豆",
+          "あじわいキノコ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-138",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004918.png",
+      "sha256": "67d214dab1b713bcd772d90a916acbeb441d7aff2f8a561430fa27ccdc4e1f42"
+    },
+    {
+      "file": "Screenshot_20261008-004921.png",
+      "expected": {
+        "nickname": "6体目",
+        "species": "ミュウツー",
+        "level": 26,
+        "sp": 1325,
+        "helpSeconds": 1828,
+        "carry": 24,
+        "skillLevel": 1,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "ゆうかん",
+        "subskills": [
+          "おてつだいスピードS",
+          "食材確率アップS",
+          "最大所持数アップL",
+          "スキル確率アップM",
+          "食材確率アップM"
+        ],
+        "foods": [
+          "ワカクサ大豆",
+          "ワカクサコーン",
+          "ほっこりポテト"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-139",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004921.png",
+      "sha256": "72ca223fd52a938ef8f0eba646884c2078f22a0b31331471bf3f91ab447f6050"
+    },
+    {
+      "file": "Screenshot_20261008-004923.png",
+      "expected": {
+        "nickname": "10体目",
+        "species": "ミュウツー",
+        "level": 26,
+        "sp": 1954,
+        "helpSeconds": 1828,
+        "carry": 24,
+        "skillLevel": 3,
+        "mainSkill": "サイコブレイク (きのみゾーン)",
+        "nature": "ゆうかん",
+        "subskills": [
+          "スキルレベルアップM",
+          "おてつだいスピードS",
+          "スキル確率アップS",
+          "最大所持数アップS",
+          "睡眠EXPボーナス"
+        ],
+        "foods": [
+          "ワカクサ大豆",
+          "ワカクサコーン",
+          "ワカクサ大豆"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-140",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004923.png",
+      "sha256": "87bdd92d4b3bf94fcfd96ecfcec04fb6be343cb2c3d06aa22a537827acd72b75"
+    },
+    {
+      "file": "Screenshot_20261008-004925.png",
+      "expected": {
+        "nickname": "ワニノコ",
+        "species": "ワニノコ",
+        "level": 14,
+        "sp": 588,
+        "helpSeconds": 4383,
+        "carry": 11,
+        "skillLevel": 1,
+        "mainSkill": "エナジーチャージS",
+        "nature": "むじゃき",
+        "subskills": [
+          "きのみの数S",
+          "おてつだいボーナス",
+          "おてつだいスピードS",
+          "最大所持数アップS",
+          "最大所持数アップM"
+        ],
+        "foods": [
+          "マメミート",
+          "マメミート",
+          "ピュアなオイル"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-141",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004925.png",
+      "sha256": "287afd44711302c580183a5847f6072d6129ec8ace5a5704da66dfb40ab19ef3"
+    },
+    {
+      "file": "Screenshot_20261008-004927.png",
+      "expected": {
+        "nickname": "ムンナ",
+        "species": "ムンナ",
+        "level": 14,
+        "sp": 503,
+        "helpSeconds": 5551,
+        "carry": 12,
+        "skillLevel": 1,
+        "mainSkill": "ゆめのかけらゲットS",
+        "nature": "なまいき",
+        "subskills": [
+          "睡眠EXPボーナス",
+          "食材確率アップS",
+          "おてつだいボーナス",
+          "スキル確率アップS",
+          "きのみの数S"
+        ],
+        "foods": [
+          "モーモーミルク",
+          "あまいミツ",
+          "めざましコーヒー"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "MEKA142-142",
+      "imagePath": "corpora/meka142/images/Screenshot_20261008-004927.png",
+      "sha256": "c0578037dbbb554897d0284950b08d68a3b4697f03f01551ba2280acaf181120"
+    }
+  ]
+}

@@ -1,0 +1,1302 @@
+{
+  "schema": 1,
+  "corpusId": "nano30",
+  "label": "nano30",
+  "category": "real-user",
+  "priority": "P1_REAL_USER",
+  "status": "ACTIVE_CANONICAL",
+  "count": 30,
+  "notes": "Canonical PNG real-user corpus. Future corpora such as body30 use the same manifest schema.",
+  "records": [
+    {
+      "file": "IMG_4221.png",
+      "expected": {
+        "nickname": "蝶",
+        "species": "バタフリー",
+        "level": 70,
+        "sp": 5503,
+        "helpSeconds": 1853,
+        "carry": 31,
+        "skillLevel": 3,
+        "mainSkill": "食材ゲットS",
+        "nature": "すなお",
+        "subskills": [
+          "きのみの数S",
+          "スキル確率アップM",
+          "おてつだいボーナス",
+          "おてつだいスピードM",
+          "スキルレベルアップS"
+        ],
+        "foods": [
+          "あまいミツ",
+          "あんみんトマト",
+          "あまいミツ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-001",
+      "imagePath": "corpora/nano30/images/IMG_4221.png",
+      "sha256": "d9ce2896fbbbd092b99c82a7d7a440bfedc20df7e6256ebf8170e61e27928d12"
+    },
+    {
+      "file": "IMG_4222.png",
+      "expected": {
+        "nickname": "ほむら",
+        "species": "キュウコン",
+        "level": 70,
+        "sp": 6043,
+        "helpSeconds": 1770,
+        "carry": 31,
+        "skillLevel": 2,
+        "mainSkill": "げんきエールS",
+        "nature": "ようき",
+        "subskills": [
+          "きのみの数S",
+          "おてつだいスピードM",
+          "おてつだいボーナス",
+          "おてつだいスピードS",
+          "スキル確率アップS"
+        ],
+        "foods": [
+          "ワカクサ大豆",
+          "ワカクサ大豆",
+          "ほっこりポテト"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-002",
+      "imagePath": "corpora/nano30/images/IMG_4222.png",
+      "sha256": "25f0b08ed41d8dda889a4e772cacf1181f5cddc128ba5439c4e5de513269af66"
+    },
+    {
+      "file": "IMG_4223.png",
+      "expected": {
+        "nickname": "ふっかちゃん",
+        "species": "カモネギ",
+        "level": 70,
+        "sp": 7076,
+        "helpSeconds": 2223,
+        "carry": 21,
+        "skillLevel": 1,
+        "mainSkill": "エナジーチャージS",
+        "nature": "うっかりや",
+        "subskills": [
+          "ゆめのかけらボーナス",
+          "おてつだいスピードM",
+          "食材確率アップM",
+          "食材確率アップS",
+          "スキル確率アップS"
+        ],
+        "foods": [
+          "ふといながねぎ",
+          "ふといながねぎ",
+          "ふといながねぎ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-003",
+      "imagePath": "corpora/nano30/images/IMG_4223.png",
+      "sha256": "799d7c7250e7137fe681bc0832a5dfbeea4f676a41e411e4389a522efe30320b"
+    },
+    {
+      "file": "IMG_4224.png",
+      "expected": {
+        "nickname": "もちたま",
+        "species": "ラッキー",
+        "level": 70,
+        "sp": 6301,
+        "helpSeconds": 2091,
+        "carry": 26,
+        "skillLevel": 2,
+        "mainSkill": "げんきオールS",
+        "nature": "さみしがり",
+        "subskills": [
+          "おてつだいボーナス",
+          "おてつだいスピードM",
+          "睡眠EXPボーナス",
+          "食材確率アップM",
+          "最大所持数アップS"
+        ],
+        "foods": [
+          "とくせんエッグ",
+          "とくせんエッグ",
+          "とくせんエッグ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-004",
+      "imagePath": "corpora/nano30/images/IMG_4224.png",
+      "sha256": "1573ff58122446c25bfadf04b16421e134a719eb8c45488d9f04e69b1cd115cb"
+    },
+    {
+      "file": "IMG_4225.png",
+      "expected": {
+        "nickname": "メタ",
+        "species": "メタモン",
+        "level": 70,
+        "sp": 5757,
+        "helpSeconds": 2594,
+        "carry": 23,
+        "skillLevel": 7,
+        "mainSkill": "へんしん(スキルコピー)",
+        "nature": "おとなしい",
+        "subskills": [
+          "睡眠EXPボーナス",
+          "食材確率アップM",
+          "スキル確率アップM",
+          "おてつだいスピードM",
+          "最大所持数アップM"
+        ],
+        "foods": [
+          "ピュアなオイル",
+          "ふといながねぎ",
+          "おいしいシッポ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-005",
+      "imagePath": "corpora/nano30/images/IMG_4225.png",
+      "sha256": "bc97d4d03fcc4798adbacdd1f54333da2d4e7b1e1a4d753b5fc6d9ba4bcd5a1b"
+    },
+    {
+      "file": "IMG_4226.png",
+      "expected": {
+        "nickname": "ぽこあ",
+        "species": "メタモン",
+        "level": 70,
+        "sp": 4630,
+        "helpSeconds": 2788,
+        "carry": 23,
+        "skillLevel": 1,
+        "mainSkill": "へんしん(スキルコピー)",
+        "nature": "ひかえめ",
+        "subskills": [
+          "睡眠EXPボーナス",
+          "おてつだいスピードM",
+          "おてつだいボーナス",
+          "スキル確率アップM",
+          "最大所持数アップS"
+        ],
+        "foods": [
+          "ピュアなオイル",
+          "ふといながねぎ",
+          "おいしいシッポ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-006",
+      "imagePath": "corpora/nano30/images/IMG_4226.png",
+      "sha256": "32572ad7e02813de763e869426549da736cee221852c2c37069271ad0c866df5"
+    },
+    {
+      "file": "IMG_4227.png",
+      "expected": {
+        "nickname": "フワイゴン",
+        "species": "フライゴン",
+        "level": 70,
+        "sp": 6870,
+        "helpSeconds": 2001,
+        "carry": 28,
+        "skillLevel": 3,
+        "mainSkill": "エナジーチャージS",
+        "nature": "がんばりや",
+        "subskills": [
+          "おてつだいボーナス",
+          "おてつだいスピードM",
+          "食材確率アップM",
+          "食材確率アップS",
+          "最大所持数アップM"
+        ],
+        "foods": [
+          "つやつやアボカド",
+          "つやつやアボカド",
+          "つやつやアボカド"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-007",
+      "imagePath": "corpora/nano30/images/IMG_4227.png",
+      "sha256": "7f3381876413fe43381bc4031388625c9098099078c8f7aec57ac953b8384445"
+    },
+    {
+      "file": "IMG_4228.png",
+      "expected": {
+        "nickname": "ネベレー",
+        "species": "チルタリス",
+        "level": 70,
+        "sp": 5777,
+        "helpSeconds": 2715,
+        "carry": 25,
+        "skillLevel": 1,
+        "mainSkill": "げんきチャージS",
+        "nature": "やんちゃ",
+        "subskills": [
+          "おてつだいボーナス",
+          "睡眠EXPボーナス",
+          "きのみの数S",
+          "スキル確率アップM",
+          "スキルレベルアップM"
+        ],
+        "foods": [
+          "とくせんエッグ",
+          "とくせんエッグ",
+          "ワカクサ大豆"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-008",
+      "imagePath": "corpora/nano30/images/IMG_4228.png",
+      "sha256": "184d2b94dbe326f92bfcd6b22f50c97efd291e85679f0ad90efb59048fe9f418"
+    },
+    {
+      "file": "IMG_4229.png",
+      "expected": {
+        "nickname": "レッドブル",
+        "species": "ボーマンダ",
+        "level": 70,
+        "sp": 8911,
+        "helpSeconds": 1867,
+        "carry": 32,
+        "skillLevel": 7,
+        "mainSkill": "料理パワーアップS",
+        "nature": "やんちゃ",
+        "subskills": [
+          "きのみの数S",
+          "おてつだいボーナス",
+          "スキルレベルアップM",
+          "おてつだいスピードM",
+          "睡眠EXPボーナス"
+        ],
+        "foods": [
+          "ほっこりポテト",
+          "ほっこりポテト",
+          "ほっこりポテト"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-009",
+      "imagePath": "corpora/nano30/images/IMG_4229.png",
+      "sha256": "f341a7f9e94579a7c1de5c8a88c6d383315acab36f6720c23d9dc4e7cda8a8cc"
+    },
+    {
+      "file": "IMG_4230.png",
+      "expected": {
+        "nickname": "桜遥",
+        "species": "マニューラ",
+        "level": 70,
+        "sp": 6911,
+        "helpSeconds": 2001,
+        "carry": 32,
+        "skillLevel": 6,
+        "mainSkill": "料理チャンスS",
+        "nature": "ようき",
+        "subskills": [
+          "おてつだいボーナス",
+          "きのみの数S",
+          "おてつだいスピードM",
+          "最大所持数アップS",
+          "食材確率アップM"
+        ],
+        "foods": [
+          "マメミート",
+          "とくせんエッグ",
+          "とくせんエッグ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-010",
+      "imagePath": "corpora/nano30/images/IMG_4230.png",
+      "sha256": "69fbd9e5960b993dcc7b899afa2ac82a71871383932d7547251699852e4335a0"
+    },
+    {
+      "file": "IMG_4231.png",
+      "expected": {
+        "nickname": "おスき",
+        "species": "デデンネ",
+        "level": 70,
+        "sp": 6310,
+        "helpSeconds": 1853,
+        "carry": 25,
+        "skillLevel": 6,
+        "mainSkill": "料理チャンスS",
+        "nature": "せっかち",
+        "subskills": [
+          "おてつだいボーナス",
+          "スキル確率アップM",
+          "きのみの数S",
+          "おてつだいスピードM",
+          "睡眠EXPボーナス"
+        ],
+        "foods": [
+          "とくせんリンゴ",
+          "リラックスカカオ",
+          "リラックスカカオ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-011",
+      "imagePath": "corpora/nano30/images/IMG_4231.png",
+      "sha256": "09628bc9f14922a8b2a2e12b524710fd516ae6ce4961c20ff1c46cabc5a4e532"
+    },
+    {
+      "file": "IMG_4232.png",
+      "expected": {
+        "nickname": "ヤマト",
+        "species": "クワガノン",
+        "level": 70,
+        "sp": 8200,
+        "helpSeconds": 2413,
+        "carry": 29,
+        "skillLevel": 3,
+        "mainSkill": "エナジーチャージS",
+        "nature": "れいせい",
+        "subskills": [
+          "げんき回復ボーナス",
+          "おてつだいボーナス",
+          "食材確率アップM",
+          "きのみの数S",
+          "睡眠EXPボーナス"
+        ],
+        "foods": [
+          "めざましコーヒー",
+          "めざましコーヒー",
+          "めざましコーヒー"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-012",
+      "imagePath": "corpora/nano30/images/IMG_4232.png",
+      "sha256": "d503b0711772e8a4eb579b2c1ad0832635335505cfe205e6558cde6ee5323112"
+    },
+    {
+      "file": "IMG_4233.png",
+      "expected": {
+        "nickname": "神龍",
+        "species": "ジジーロン",
+        "level": 70,
+        "sp": 7037,
+        "helpSeconds": 2594,
+        "carry": 31,
+        "skillLevel": 6,
+        "mainSkill": "料理チャンスS",
+        "nature": "せっかち",
+        "subskills": [
+          "おてつだいボーナス",
+          "食材確率アップM",
+          "睡眠EXPボーナス",
+          "おてつだいスピードM",
+          "きのみの数S"
+        ],
+        "foods": [
+          "ワカクサ大豆",
+          "ワカクサ大豆",
+          "ワカクサ大豆"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-013",
+      "imagePath": "corpora/nano30/images/IMG_4233.png",
+      "sha256": "42329c4abce197383e7c07d57ebd6e2a68be93b62e7b1fb8743779ec8b29d364"
+    },
+    {
+      "file": "IMG_4235.png",
+      "expected": {
+        "nickname": "ラフィ",
+        "species": "パーモット",
+        "level": 70,
+        "sp": 7767,
+        "helpSeconds": 1779,
+        "carry": 31,
+        "skillLevel": 6,
+        "mainSkill": "げんきオールS",
+        "nature": "しんちょう",
+        "subskills": [
+          "睡眠EXPボーナス",
+          "スキル確率アップM",
+          "スキル確率アップS",
+          "おてつだいスピードM",
+          "食材確率アップS"
+        ],
+        "foods": [
+          "リラックスカカオ",
+          "モーモーミルク",
+          "とくせんエッグ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-014",
+      "imagePath": "corpora/nano30/images/IMG_4235.png",
+      "sha256": "2b57fdb5314b725cbfb11577db8d75e70e44ec3a801651d5c28660700133d643"
+    },
+    {
+      "file": "IMG_4236.png",
+      "expected": {
+        "nickname": "イーベイ",
+        "species": "ボーマンダ",
+        "level": 69,
+        "sp": 6726,
+        "helpSeconds": 2080,
+        "carry": 38,
+        "skillLevel": 3,
+        "mainSkill": "料理パワーアップS",
+        "nature": "まじめ",
+        "subskills": [
+          "おてつだいボーナス",
+          "きのみの数S",
+          "おてつだいスピードM",
+          "最大所持数アップL",
+          "最大所持数アップS"
+        ],
+        "foods": [
+          "ほっこりポテト",
+          "ほっこりポテト",
+          "あったかジンジャー"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-015",
+      "imagePath": "corpora/nano30/images/IMG_4236.png",
+      "sha256": "c402f3cbfde47bdf347edbf11657fc92402e5cdf0079ece572f11666e8097b7e"
+    },
+    {
+      "file": "IMG_4237.png",
+      "expected": {
+        "nickname": "チルちゃん",
+        "species": "チルタリス",
+        "level": 68,
+        "sp": 4267,
+        "helpSeconds": 2345,
+        "carry": 20,
+        "skillLevel": 1,
+        "mainSkill": "げんきチャージS",
+        "nature": "さみしがり",
+        "subskills": [
+          "きのみの数S",
+          "おてつだいスピードM",
+          "スキル確率アップS",
+          "食材確率アップS",
+          "食材確率アップM"
+        ],
+        "foods": [
+          "とくせんエッグ",
+          "ワカクサ大豆",
+          "とくせんリンゴ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-016",
+      "imagePath": "corpora/nano30/images/IMG_4237.png",
+      "sha256": "f3a6db28f50d15e1e340e2c1b835a2098e34bbf4c0442855437d1c923d2a105f"
+    },
+    {
+      "file": "IMG_4238.png",
+      "expected": {
+        "nickname": "ツナマヨ",
+        "species": "トゲデマル",
+        "level": 67,
+        "sp": 5153,
+        "helpSeconds": 1813,
+        "carry": 24,
+        "skillLevel": 6,
+        "mainSkill": "ほっぺすりすり(げんきエールS)",
+        "nature": "さみしがり",
+        "subskills": [
+          "おてつだいスピードM",
+          "スキルレベルアップM",
+          "スキル確率アップM",
+          "おてつだいボーナス",
+          "きのみの数S"
+        ],
+        "foods": [
+          "モーモーミルク",
+          "モーモーミルク",
+          "モーモーミルク"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-017",
+      "imagePath": "corpora/nano30/images/IMG_4238.png",
+      "sha256": "9f14bdc8bc441109f7d52e90185da0cc73748a1e0071e46220fbca6375ccc795"
+    },
+    {
+      "file": "IMG_4239.png",
+      "expected": {
+        "nickname": "サロメ",
+        "species": "アーボック",
+        "level": 65,
+        "sp": 4862,
+        "helpSeconds": 2668,
+        "carry": 25,
+        "skillLevel": 2,
+        "mainSkill": "げんきチャージS",
+        "nature": "いじっぱり",
+        "subskills": [
+          "睡眠EXPボーナス",
+          "おてつだいボーナス",
+          "きのみの数S",
+          "スキルレベルアップM",
+          "最大所持数アップS"
+        ],
+        "foods": [
+          "マメミート",
+          "マメミート",
+          "げきからハーブ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-018",
+      "imagePath": "corpora/nano30/images/IMG_4239.png",
+      "sha256": "886b0a81281d8ed82709ad3094b3c7bbe1fe4426a713a0edc8c766c01bbaf081"
+    },
+    {
+      "file": "IMG_4240.png",
+      "expected": {
+        "nickname": "ムサシ",
+        "species": "アーボック",
+        "level": 65,
+        "sp": 4790,
+        "helpSeconds": 2668,
+        "carry": 37,
+        "skillLevel": 2,
+        "mainSkill": "げんきチャージS",
+        "nature": "いじっぱり",
+        "subskills": [
+          "きのみの数S",
+          "おてつだいボーナス",
+          "最大所持数アップL",
+          "おてつだいスピードM",
+          "げんき回復ボーナス"
+        ],
+        "foods": [
+          "マメミート",
+          "とくせんエッグ",
+          "マメミート"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-019",
+      "imagePath": "corpora/nano30/images/IMG_4240.png",
+      "sha256": "819a5c6aedc6547f193917a1992e274114cf077c7b99d48b3fdf08dce596c70e"
+    },
+    {
+      "file": "IMG_4241.png",
+      "expected": {
+        "nickname": "おネギ",
+        "species": "ライチュウ",
+        "level": 65,
+        "sp": 5395,
+        "helpSeconds": 1649,
+        "carry": 32,
+        "skillLevel": 2,
+        "mainSkill": "エナジーチャージS",
+        "nature": "がんばりや",
+        "subskills": [
+          "おてつだいボーナス",
+          "きのみの数S",
+          "おてつだいスピードM",
+          "最大所持数アップM",
+          "食材確率アップM"
+        ],
+        "foods": [
+          "とくせんリンゴ",
+          "あったかジンジャー",
+          "とくせんリンゴ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-020",
+      "imagePath": "corpora/nano30/images/IMG_4241.png",
+      "sha256": "649440e676057c72bb9ee96c597f57a8f778d9ab2144df1db73b688e829f42d3"
+    },
+    {
+      "file": "IMG_4242.png",
+      "expected": {
+        "nickname": "会長",
+        "species": "ゲンガー",
+        "level": 65,
+        "sp": 5069,
+        "helpSeconds": 1649,
+        "carry": 35,
+        "skillLevel": 2,
+        "mainSkill": "エナジーチャージS",
+        "nature": "まじめ",
+        "subskills": [
+          "きのみの数S",
+          "おてつだいスピードM",
+          "最大所持数アップS",
+          "食材確率アップM",
+          "おてつだいスピードS"
+        ],
+        "foods": [
+          "げきからハーブ",
+          "あじわいキノコ",
+          "げきからハーブ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-021",
+      "imagePath": "corpora/nano30/images/IMG_4242.png",
+      "sha256": "07632247c5cb1a5d63e5b7f7e00626c9ff99b1aed5ad8e88edb5a04ea2648e6b"
+    },
+    {
+      "file": "IMG_4243.png",
+      "expected": {
+        "nickname": "Mt.Fuji",
+        "species": "メガニウム",
+        "level": 65,
+        "sp": 5679,
+        "helpSeconds": 2441,
+        "carry": 36,
+        "skillLevel": 1,
+        "mainSkill": "エナジーチャージS",
+        "nature": "のんき",
+        "subskills": [
+          "きのみの数S",
+          "睡眠EXPボーナス",
+          "ゆめのかけらボーナス",
+          "おてつだいスピードM",
+          "食材確率アップS"
+        ],
+        "foods": [
+          "リラックスカカオ",
+          "あまいミツ",
+          "あまいミツ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-022",
+      "imagePath": "corpora/nano30/images/IMG_4243.png",
+      "sha256": "822aa9c8af32d308dfeda1c3caabd45d433901d021fe5c780f0413547cae618e"
+    },
+    {
+      "file": "IMG_4244.png",
+      "expected": {
+        "nickname": "ハイビスカス",
+        "species": "メガニウム",
+        "level": 65,
+        "sp": 5521,
+        "helpSeconds": 2197,
+        "carry": 36,
+        "skillLevel": 5,
+        "mainSkill": "エナジーチャージS",
+        "nature": "ゆうかん",
+        "subskills": [
+          "スキルレベルアップM",
+          "睡眠EXPボーナス",
+          "きのみの数S",
+          "食材確率アップS",
+          "最大所持数アップS"
+        ],
+        "foods": [
+          "リラックスカカオ",
+          "あまいミツ",
+          "ふといながねぎ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-023",
+      "imagePath": "corpora/nano30/images/IMG_4244.png",
+      "sha256": "491537bfc7a3d5920de2720072bbb02a2c6d3261e716aa76d7c3c15bc2feac36"
+    },
+    {
+      "file": "IMG_4245.png",
+      "expected": {
+        "nickname": "イワーコ",
+        "species": "ハガネール",
+        "level": 65,
+        "sp": 4641,
+        "helpSeconds": 2249,
+        "carry": 45,
+        "skillLevel": 2,
+        "mainSkill": "食材ゲットS",
+        "nature": "うっかりや",
+        "subskills": [
+          "きのみの数S",
+          "最大所持数アップM",
+          "おてつだいスピードM",
+          "食材確率アップM",
+          "スキルレベルアップS"
+        ],
+        "foods": [
+          "あんみんトマト",
+          "マメミート",
+          "ほっこりポテト"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-024",
+      "imagePath": "corpora/nano30/images/IMG_4245.png",
+      "sha256": "5a058d0e8710a743f809d4978b4c1c837b9bf6e128bd2e28a73d5152f05872ad"
+    },
+    {
+      "file": "IMG_4246.png",
+      "expected": {
+        "nickname": "チキンエッグ",
+        "species": "デリバード",
+        "level": 65,
+        "sp": 5029,
+        "helpSeconds": 1874,
+        "carry": 44,
+        "skillLevel": 1,
+        "mainSkill": "プレゼント(食材ゲットS)",
+        "nature": "れいせい",
+        "subskills": [
+          "睡眠EXPボーナス",
+          "最大所持数アップL",
+          "おてつだいスピードM",
+          "食材確率アップS",
+          "スキル確率アップS"
+        ],
+        "foods": [
+          "とくせんエッグ",
+          "とくせんエッグ",
+          "とくせんエッグ"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-025",
+      "imagePath": "corpora/nano30/images/IMG_4246.png",
+      "sha256": "76e1c5176f7c28283f337d9112ad6f99e9f6b345cd6b21f6e056244182b51d8b"
+    },
+    {
+      "file": "IMG_4247.png",
+      "expected": {
+        "nickname": "ミネルヴァ",
+        "species": "ジュペッタ",
+        "level": 65,
+        "sp": 4581,
+        "helpSeconds": 1949,
+        "carry": 39,
+        "skillLevel": 2,
+        "mainSkill": "エナジーチャージS",
+        "nature": "うっかりや",
+        "subskills": [
+          "きのみの数S",
+          "おてつだいスピードM",
+          "最大所持数アップM",
+          "最大所持数アップS",
+          "スキルレベルアップS"
+        ],
+        "foods": [
+          "ピュアなオイル",
+          "ピュアなオイル",
+          "ピュアなオイル"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-026",
+      "imagePath": "corpora/nano30/images/IMG_4247.png",
+      "sha256": "db4eff5598fda1ac46dfb21ed0ac943498749d695f3b13a1f3b9f5aadf1b2dad"
+    },
+    {
+      "file": "IMG_4248.png",
+      "expected": {
+        "nickname": "ふわったま",
+        "species": "ムシャーナ",
+        "level": 65,
+        "sp": 6698,
+        "helpSeconds": 2441,
+        "carry": 35,
+        "skillLevel": 8,
+        "mainSkill": "ゆめのかけらゲットS",
+        "nature": "なまいき",
+        "subskills": [
+          "睡眠EXPボーナス",
+          "スキルレベルアップM",
+          "きのみの数S",
+          "げんき回復ボーナス",
+          "スキル確率アップM"
+        ],
+        "foods": [
+          "モーモーミルク",
+          "あまいミツ",
+          "めざましコーヒー"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-027",
+      "imagePath": "corpora/nano30/images/IMG_4248.png",
+      "sha256": "86af655518e016fb75dddadd2557d37f6e1b45861f2ab658d0ae7db40390770b"
+    },
+    {
+      "file": "IMG_4249.png",
+      "expected": {
+        "nickname": "アヤメ",
+        "species": "マスカーニャ",
+        "level": 65,
+        "sp": 5307,
+        "helpSeconds": 2040,
+        "carry": 35,
+        "skillLevel": 2,
+        "mainSkill": "料理パワーアップS",
+        "nature": "ゆうかん",
+        "subskills": [
+          "きのみの数S",
+          "最大所持数アップS",
+          "食材確率アップM",
+          "最大所持数アップM",
+          "スキル確率アップS"
+        ],
+        "foods": [
+          "ほっこりポテト",
+          "モーモーミルク",
+          "ほっこりポテト"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-028",
+      "imagePath": "corpora/nano30/images/IMG_4249.png",
+      "sha256": "241fa4b101b3bf21382d698dcfcef63bc159295706d113f9970a4167325c4af5"
+    },
+    {
+      "file": "IMG_4250.png",
+      "expected": {
+        "nickname": "うおーぐる",
+        "species": "ウォーグル",
+        "level": 64,
+        "sp": 6289,
+        "helpSeconds": 1938,
+        "carry": 23,
+        "skillLevel": 6,
+        "mainSkill": "きのみバースト",
+        "nature": "おだやか",
+        "subskills": [
+          "きのみの数S",
+          "おてつだいスピードM",
+          "スキル確率アップM",
+          "スキル確率アップS",
+          "おてつだいスピードS"
+        ],
+        "foods": [
+          "マメミート",
+          "ワカクサコーン",
+          "マメミート"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-029",
+      "imagePath": "corpora/nano30/images/IMG_4250.png",
+      "sha256": "e8f3403cb8c0a307321a9d04a7f62d35cbd4ebb6b0e5b428e0af0cd0dd18ac2a"
+    },
+    {
+      "file": "IMG_4251.png",
+      "expected": {
+        "nickname": "ダークライ",
+        "species": "ダークライ",
+        "level": 62,
+        "sp": 3904,
+        "helpSeconds": 2011,
+        "carry": 36,
+        "skillLevel": 1,
+        "mainSkill": "ナイトメア(エナジーチャージM)",
+        "nature": "てれや",
+        "subskills": [
+          "睡眠EXPボーナス",
+          "おてつだいスピードM",
+          "おてつだいスピードS",
+          "きのみの数S",
+          "スキル確率アップM"
+        ],
+        "foods": [
+          "マメミート",
+          "―",
+          "―"
+        ]
+      },
+      "goldenStatus": "VERIFIED_GOLDEN",
+      "scoreFields": [
+        "nickname",
+        "species",
+        "level",
+        "sp",
+        "helpSeconds",
+        "carry",
+        "skillLevel",
+        "mainSkill",
+        "nature",
+        "subskills",
+        "foods"
+      ],
+      "assetId": "NANO30-030",
+      "imagePath": "corpora/nano30/images/IMG_4251.png",
+      "sha256": "9c51d1ef206f44b2dc81d76b9ebcda4ce742fea839d8fed10a0a95d5f2eea58c"
+    }
+  ]
+}
