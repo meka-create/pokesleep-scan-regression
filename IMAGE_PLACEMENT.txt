@@ -1,6 +1,0 @@
-Place regression images in these folders without renaming them:
-- corpora/meka142/images/
-- corpora/nano30/images/
-- corpora/legacy51/images/
-
-The manifests already contain the expected filenames.
