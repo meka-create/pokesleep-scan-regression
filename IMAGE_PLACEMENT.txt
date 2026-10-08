@@ -1,4 +1,4 @@
-Candidate124 primary Gate image placement (the Runner contains no image corpus):
+Candidate125 primary Gate image placement (the Runner contains no image corpus):
 corpora/meka142/images/  (142)
 corpora/nano30/images/   (30)
 Archive-only legacy51/ is excluded from the formal Gate.

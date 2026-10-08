@@ -1,8 +1,8 @@
 {
-  "runnerId": "candidate124-device-regression-runner-v1",
-  "candidateReleaseId": "2026-10-08-candidate124-species-ocr-consensus-rescue",
+  "runnerId": "candidate125-device-regression-runner-v1",
+  "candidateReleaseId": "2026-10-09-candidate125-carry-corroborated-first-food",
   "testOnly": true,
-  "formalBaseline": "Candidate123",
+  "formalBaseline": "Candidate124",
   "candidateRecognitionLogicChanged": true,
   "legacy51Gate": false,
   "imagesBundled": false,
@@ -10,13 +10,14 @@
     "productOriginalAppExact": true,
     "productOriginalIndexExact": true,
     "runnerAppReversesToProductApp": true,
-    "candidate123FrozenCoreExact": true,
     "primaryCorpusCounts": {
       "meka142": 142,
       "nano30": 30,
       "total": 172
     },
     "legacy51FormalGate": false,
-    "bundledCorpusImages": 0
-  }
+    "bundledCorpusImages": 0,
+    "candidate124FrozenCoreExact": true
+  },
+  "purpose": "TEST-ONLY C125 first-food carry-corroboration replay on 172 canonical images; the unchanged Candidate124 recognition core and CSV contract are preserved."
 }

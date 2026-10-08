@@ -1,20 +1,22 @@
-# Candidate124 Device Regression Runner v1 — TEST ONLY
+# Candidate125 Device Regression Runner v1 — TEST ONLY
 
-Candidate124 release ID: `2026-10-08-candidate124-species-ocr-consensus-rescue`.
-Formal baseline is **Candidate123**, Candidate124 is **PROVISIONAL / HOLD** until the two device gates pass.
+Candidate125 release ID: `2026-10-09-candidate125-carry-corroborated-first-food`.
+**Formal baseline: Candidate124**. Candidate125 is **PROVISIONAL / HOLD** until both real-device Gates pass.
 
-1. Copy the exact same 142 `meka142` and 30 `nano30` image files from the previous validated Runner into `corpora/meka142/images/` and `corpora/nano30/images/`. Image files are **not included**.
-2. Start a local HTTP server with `start_server.bat` / `start_server.command`. Access the test page using iPhone Safari and Android Chrome (same LAN).
-3. Run `主要corpusを実行` on each device. Export and attach the two Candidate124 JSON results.
-4. Do not use `legacy51` for formal Gate. Do not publish the test Runner.
+## 実機テスト手順
 
-## Priority Gate targets (retrospective hypotheses, not yet real-device outcomes)
+1. 前回と同じ142枚の `meka142` 画像と30枚の `nano30` 画像を、それぞれ `corpora/meka142/images/` と `corpora/nano30/images/` に配置します。ZIPに画像は含まれません。画像やGoldenを改変しないでください。
+2. `start_server.bat` / `start_server.command` 等でHTTPサーバーを起動し、同一LANのiPhone Safari・Android ChromeでRunnerにアクセスします。
+3. それぞれ「主要corpusを実行」を実行し、`candidate125_regression_primary-corpora_...json` をダウンロードしてChatに添付してください。
+4. `legacy51` は正式Gateに含めません。TEST Runnerを製品として公開しないでください。
 
-- iPhone: `MEKA142-060` カイリュー should become safe UNIQUE with correct mainSkill/skillLevel/foods.
-- Android: `MEKA142-044`, `MEKA142-049` クワッス and `MEKA142-056` イーブイ（ホリデー） should become safe UNIQUE with correct structured fields/foods.
-- `MEKA142-107` ラティアス and `NANO30-001` バタフリー should remain blank + species review pending independent fixes.
-- All remaining `meka142`/`nano30` species results should not regress. No newly silent-wrong species or values.
-- iPhone memory guard: 89 successful worker recycles, 0 failures/processing errors (compare actual counters, which may depend on exact runtime session).
-- Compare CSV/schema/checkpoints, OCR call counts, timing, and per-field review changes case-by-case versus Candidate123.
+## Gate expectations (offline replay; not device results)
 
-The Candidate124 patch uses no additional OCR calls; it reuses existing retry evidence and requires two agreeing PSM passes, classifier UNIQUE and a consistent carry match. If evidence is ambiguous it abstains.
+- iPhone `NANO30-001` バタフリー：食材1を `とくせんリンゴ`→`あまいミツ` に修正、種族を安全に `バタフリー` へ一意化。食材1の `reviewState.foods` は **true** を維持（画像一部遮蔽）。ケースは `FAIL_VALUE`→`CORRECT_NEEDS_REVIEW` の見込み。
+- Android `NANO30-001`：同じ改善と要確認維持を期待。
+- 他の各171ケースはCandidate124から認識値・要確認状態・classifier/inferenceの意図しない差分なしが原則です。
+- `MEKA142-107` ラティアスは未救済。曖昧な情報で種族を強制確定させないでください。
+- iPhone memory guard・Tesseract呼び出し・worker recycle・CSV header/schema・checkpoint・processingErrorをCandidate124の実機JSONと比較してください。
+- Candidate125は追加OCR呼び出しなし。既存の食材画像候補・最大所持数一致・classifier一意性を組み合わせた限定的な食材1救済であり、根拠不足では従来値と要確認を保持します。
+
+元の製品Runtimeは別ZIPです。Runner専用hook・IndexedDB名前空間・ServiceWorker無効化は製品コードに含まれません。

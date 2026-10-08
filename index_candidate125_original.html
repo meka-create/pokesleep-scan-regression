@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <meta name="color-scheme" content="light" />
-<title>TEST Runner - 個体値ぶっこみスキャン for Pokémon Sleep</title>
+<title>個体値ぶっこみスキャン for Pokémon Sleep</title>
 <link rel="canonical" href="https://meka-create.github.io/pokesleep-scan/">
 <meta name="description" content="Pokémon Sleepの個体詳細スクリーンショットをOCR解析し、種族・Lv・食材・メインスキル・サブスキル・性格などを読み取り、pokesleep-tool互換CSVへ出力するPWAツールです。">
 <meta property="og:type" content="website">
@@ -271,13 +271,10 @@ body.analysis-pull-guard{touch-action:pan-x pan-y pinch-zoom}
 </div>
 
 <script>
-window.__BUKKOMI_REGRESSION_MODE__=true;
-</script>
-<script>
 (async()=>{
   window.__BUKKOMI_SESSION_ACTIVE__=false;
   window.__BUKKOMI_PENDING_RELEASE_ID__='';
-  const localFiles=['master_data.js','classifier.js','food_color_features.js','food_matcher.js','app_regression.js','regression_harness.js'];
+  const localFiles=['master_data.js','classifier.js','food_color_features.js','food_matcher.js','app.js'];
   const loadScript=src=>new Promise((resolve,reject)=>{
     const el=document.createElement('script');
     el.src=src;
@@ -342,7 +339,13 @@ window.__BUKKOMI_REGRESSION_MODE__=true;
       u.searchParams.set('release',releaseId);
       await loadScript(u.toString());
     }
-    // TEST RUNNER: Service Worker registration intentionally disabled.
+    if('serviceWorker' in navigator && (location.protocol==='https:'||location.hostname==='localhost'||location.hostname==='127.0.0.1')){
+      const swUrl=new URL('sw.js',location.href);
+      swUrl.searchParams.set('release',releaseId);
+      navigator.serviceWorker.register(swUrl.toString(),{scope:'./',updateViaCache:'none'})
+        .then(reg=>reg.update())
+        .catch(err=>console.warn('Service Worker registration failed.',err));
+    }
   }catch(err){
     const n=document.getElementById('originNotice');
     if(n){n.style.display='block';n.textContent='読み込みに失敗しました。ページを再読み込みしてください。';}
@@ -382,7 +385,6 @@ window.__BUKKOMI_REGRESSION_MODE__=true;
 </script>
 <script>
 (()=>{
-  if(window.__BUKKOMI_REGRESSION_MODE__===true)return;
   const TIPS_SEEN_KEY='bukkomi_scan_tips_seen_v3';
   const btn=document.getElementById('tipsBtn');
   const dialog=document.getElementById('tipsDialog');
