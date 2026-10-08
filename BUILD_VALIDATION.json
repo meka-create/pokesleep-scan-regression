@@ -1,16 +1,16 @@
 {
-  "runnerId": "candidate122-device-regression-runner-v1",
-  "candidateReleaseId": "2026-10-08-candidate122-review-safety-guard",
+  "runnerId": "candidate123-device-regression-runner-v1",
+  "candidateReleaseId": "2026-10-08-candidate123-numeric-review-guard",
   "testOnly": true,
   "candidateRecognitionLogicChanged": false,
+  "formalBaseline": "Candidate122",
   "formalGate": "meka142 142 + nano30 30 = 172 images; iPhone Safari + Android Chrome",
   "legacy51Gate": false,
   "changes": [
-    "Candidate122 review-only false-confirm safety guards",
-    "Candidate121 ±1-second classifier tolerance inherited unchanged",
-    "Runner v3 semantic scoring equivalence inherited",
-    "meka142 golden v2 correction for MEKA142-104 Lv70 subskill (M -> S)",
-    "runner-only IndexedDB isolation and narrow TEST API hook"
+    "Candidate123 numeric review badges for SP, carry, helpSeconds",
+    "Runner only IndexedDB isolation + existing TEST API hook",
+    "Runner counts added numeric review flags in verdicts and reviewFields",
+    "Candidate122 OCR, classifier, CSV and iOS memory guard unchanged"
   ],
   "imagesBundled": false,
   "validation": {
