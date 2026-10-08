@@ -1,32 +1,22 @@
 {
-  "runnerId": "candidate123-device-regression-runner-v1",
-  "candidateReleaseId": "2026-10-08-candidate123-numeric-review-guard",
+  "runnerId": "candidate124-device-regression-runner-v1",
+  "candidateReleaseId": "2026-10-08-candidate124-species-ocr-consensus-rescue",
   "testOnly": true,
-  "candidateRecognitionLogicChanged": false,
-  "formalBaseline": "Candidate122",
-  "formalGate": "meka142 142 + nano30 30 = 172 images; iPhone Safari + Android Chrome",
+  "formalBaseline": "Candidate123",
+  "candidateRecognitionLogicChanged": true,
   "legacy51Gate": false,
-  "changes": [
-    "Candidate123 numeric review badges for SP, carry, helpSeconds",
-    "Runner only IndexedDB isolation + existing TEST API hook",
-    "Runner counts added numeric review flags in verdicts and reviewFields",
-    "Candidate122 OCR, classifier, CSV and iOS memory guard unchanged"
-  ],
   "imagesBundled": false,
   "validation": {
     "productOriginalAppExact": true,
     "productOriginalIndexExact": true,
     "runnerAppReversesToProductApp": true,
-    "candidate121FrozenCoreExact": true,
+    "candidate123FrozenCoreExact": true,
     "primaryCorpusCounts": {
       "meka142": 142,
       "nano30": 30,
       "total": 172
     },
-    "meka142GoldenVersion": "VERIFIED_GOLDEN_V2",
     "legacy51FormalGate": false,
-    "bundledCorpusImages": 0,
-    "runnerJsSyntax": "PASS",
-    "runnerJsonParse": "PASS"
+    "bundledCorpusImages": 0
   }
 }

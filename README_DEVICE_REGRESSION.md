@@ -1,25 +1,20 @@
-# Candidate123 Device Regression Runner v1 — TEST ONLY
+# Candidate124 Device Regression Runner v1 — TEST ONLY
 
-Release: `2026-10-08-candidate123-numeric-review-guard`. Candidate122正式baselineからの数値安全ガード（review-only）を検証します。
+Candidate124 release ID: `2026-10-08-candidate124-species-ocr-consensus-rescue`.
+Formal baseline is **Candidate123**, Candidate124 is **PROVISIONAL / HOLD** until the two device gates pass.
 
-1. 既存の Candidate122 Runner に置いていた `corpora/meka142/images/` と `corpora/nano30/images/` を、このRunnerの同名フォルダへコピー（画像は同梱していません）。
-2. PCで `start_server.bat` 等を使用してRunnerを起動し、同一LANのiPhone SafariとAndroid Chromeからアクセス。Candidate122版とは異なるテスト用IndexedDB名です。
-3. **「主要corpusを実行」** を各端末で1回ずつ実行。legacy51はarchiveであり正式Gateには使用しない。
-4. `candidate123_regression_primary-corpora_...json` を両方保存。デバイスの処理中にブラウザを閉じない。
+1. Copy the exact same 142 `meka142` and 30 `nano30` image files from the previous validated Runner into `corpora/meka142/images/` and `corpora/nano30/images/`. Image files are **not included**.
+2. Start a local HTTP server with `start_server.bat` / `start_server.command`. Access the test page using iPhone Safari and Android Chrome (same LAN).
+3. Run `主要corpusを実行` on each device. Export and attach the two Candidate124 JSON results.
+4. Do not use `legacy51` for formal Gate. Do not publish the test Runner.
 
-## 重要Gate
+## Priority Gate targets (retrospective hypotheses, not yet real-device outcomes)
 
-- 合計172枚/端末、処理エラー0、Recognition output / classifier / foods / CSVがCandidate122と同値。
-- 追加Review flags（対象フィールドのみ）を確認。
-  - iPhone: MEKA142-034 SP、MEKA142-105 carry、MEKA142-107 helpSeconds/carry（合計4）
-  - Android: MEKA142-069 SP、MEKA142-105 carry、MEKA142-107 helpSeconds/carry、MEKA142-133 carry（合計5）
-- SP再読取の誤候補だけで正しいSPを誤って警告することがないか（特にMEKA142-061）。
-- すでに正しく自動確定した値に不要なreview増加がないこと。
-- iOS Tesseract worker recycle全成功、processingError 0。
-- Android速度悪化は別評価。
+- iPhone: `MEKA142-060` カイリュー should become safe UNIQUE with correct mainSkill/skillLevel/foods.
+- Android: `MEKA142-044`, `MEKA142-049` クワッス and `MEKA142-056` イーブイ（ホリデー） should become safe UNIQUE with correct structured fields/foods.
+- `MEKA142-107` ラティアス and `NANO30-001` バタフリー should remain blank + species review pending independent fixes.
+- All remaining `meka142`/`nano30` species results should not regress. No newly silent-wrong species or values.
+- iPhone memory guard: 89 successful worker recycles, 0 failures/processing errors (compare actual counters, which may depend on exact runtime session).
+- Compare CSV/schema/checkpoints, OCR call counts, timing, and per-field review changes case-by-case versus Candidate123.
 
-## 注意
-
-この版は **PRELIMINARY / HOLD** です。実機Gate終了まで本番公開しないでください。数値は自動修正されず、要確認バッジだけを追加します。数値手動編集UIの実装は含まれません。
-
-CSVの列・値および出力判定の処理はCandidate122から変更していません。数値フィールドは本CSVには出力されないものとして扱います。
+The Candidate124 patch uses no additional OCR calls; it reuses existing retry evidence and requires two agreeing PSM passes, classifier UNIQUE and a consistent carry match. If evidence is ambiguous it abstains.
