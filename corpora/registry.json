@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "runnerId": "candidate120-device-regression-runner-v1",
-  "candidateReleaseId": "2026-10-07-candidate120-ios-ocr-recycle-hardening",
+  "runnerId": "candidate121-device-regression-runner-v1",
+  "candidateReleaseId": "2026-10-08-candidate121-help-seconds-tolerance",
   "primaryDeviceGates": [
     "iPhone Safari",
     "Android Chrome"

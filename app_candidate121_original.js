@@ -60,7 +60,7 @@ const NATURES=POKESLEEP_MASTER.natures.map(x=>x.ja);
 const SUBSKILLS=POKESLEEP_MASTER.subskills.map(x=>x.ja);
 const SPECIES_NAMES=[...new Set(POKESLEEP_MASTER.pokemon.map(x=>x.name))];
 const $=s=>document.querySelector(s);let selected=[],results=[],worker=null,paddleOcr=null,paddleInitPromise=null,paddleUnavailableError=null,paddleRuntimeGeneration=0,isRunning=false,analysisPause=null,checkpointPreparing=false,selectionSnapshotPreparing=false,selectionSnapshotGeneration=0,checkpointRestoreRunning=false,checkpointSessionActive=false,checkpointPersistenceWarningShown=false,renderPending=false,modalObjectUrl='',modalReturnFocus=null,appDialogResolver=null,appDialogReturnFocus=null,localProgressVisible=true,localProgressState='idle',localProgressMaxPct=0,floatingProgressState='idle',floatingProgressDone=0,floatingProgressTotal=0,floatingProgressReviews=0,floatingCompletionTimer=null,floatingCompletionPending=false,floatingCompletionDismissed=false,preManualCsvSnapshot=null,wakeLockSentinel=null,wakeLockRequestPromise=null,wakeLockRetryTimer=null;const checkpointFailureLog=[];const layoutCache=new WeakMap(),profileCardCache=new WeakMap(),stableSourcePromises=new WeakMap(),stableSourceFiles=new WeakSet();
-const CHECKPOINT_DB_NAME='bukkomi-scan-regression-c121-v1',CHECKPOINT_DB_VERSION=2,CHECKPOINT_SCHEMA_VERSION=1,CHECKPOINT_RELEASE_ID='2026-10-08-candidate121-help-seconds-tolerance',CHECKPOINT_COMPATIBILITY_ID='checkpoint-compat-2026-10-07-candidate109-v3',CHECKPOINT_LEGACY_COMPAT_RELEASE_IDS=new Set([]),CHECKPOINT_META_KEY='active',CHECKPOINT_FILE_WRITE_BATCH=3,CHECKPOINT_TTL_MS=7*24*60*60*1000,IMAGE_SOURCE_READ_TIMEOUT_MS=15000,IMAGE_DECODE_TIMEOUT_MS=15000,RUNTIME_RESET_TIMEOUT_MS=4000,IOS_OCR_WORKER_RECYCLE_RECOGNIZE_LIMIT=16;let checkpointDbPromise=null,checkpointDb=null,checkpointDbOpening=null,checkpointSaveChain=Promise.resolve(),checkpointManualSaveStates=new Map(),ocrRecognizeCallsSinceWorkerReset=0,ocrRecognizeCallsTotal=0,ocrWorkerRecycleAttempts=0,ocrWorkerRecycleCount=0,ocrWorkerRecycleFailures=0,ocrWorkerRecycleLastError='',ocrMemoryGuardRestoredSnapshot=null;
+const CHECKPOINT_DB_NAME='bukkomi-scan-checkpoint-v1',CHECKPOINT_DB_VERSION=2,CHECKPOINT_SCHEMA_VERSION=1,CHECKPOINT_RELEASE_ID='2026-10-08-candidate121-help-seconds-tolerance',CHECKPOINT_COMPATIBILITY_ID='checkpoint-compat-2026-10-07-candidate109-v3',CHECKPOINT_LEGACY_COMPAT_RELEASE_IDS=new Set([]),CHECKPOINT_META_KEY='active',CHECKPOINT_FILE_WRITE_BATCH=3,CHECKPOINT_TTL_MS=7*24*60*60*1000,IMAGE_SOURCE_READ_TIMEOUT_MS=15000,IMAGE_DECODE_TIMEOUT_MS=15000,RUNTIME_RESET_TIMEOUT_MS=4000,IOS_OCR_WORKER_RECYCLE_RECOGNIZE_LIMIT=16;let checkpointDbPromise=null,checkpointDb=null,checkpointDbOpening=null,checkpointSaveChain=Promise.resolve(),checkpointManualSaveStates=new Map(),ocrRecognizeCallsSinceWorkerReset=0,ocrRecognizeCallsTotal=0,ocrWorkerRecycleAttempts=0,ocrWorkerRecycleCount=0,ocrWorkerRecycleFailures=0,ocrWorkerRecycleLastError='',ocrMemoryGuardRestoredSnapshot=null;
 function pullRefreshGuardActive(){return !!(isRunning||analysisPause||checkpointPreparing||selectionSnapshotPreparing);}
 function analysisWakeLockShouldHold(){return !!((isRunning||checkpointPreparing)&&!analysisPause);}
 function wakeLockApiSupported(){return typeof navigator!=='undefined'&&!!navigator.wakeLock?.request;}
@@ -1070,46 +1070,4 @@ function csvDownloadFilename(d=new Date()){return `pokesleep_ocr_integrated_v12_
 async function downloadCSV(){if(isRunning||analysisPause||!results.length||!await confirmCsvAction('保存'))return;triggerBlobDownload(new Blob([buildCsvText()],{type:'text/csv;charset=utf-8'}),csvDownloadFilename());}
 async function copyCSV(){if(isRunning||analysisPause||!results.length||!await confirmCsvAction('コピー'))return;const text=buildCsvText(),btn=$('#copyCsv');try{if(navigator.clipboard?.writeText)await navigator.clipboard.writeText(text);else throw new Error('Clipboard API unavailable');}catch(_){const ta=document.createElement('textarea');ta.value=text;ta.setAttribute('readonly','');ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();const ok=document.execCommand('copy');ta.remove();if(!ok){await showAppDialog({title:'コピーできませんでした',message:'ブラウザのクリップボード機能を利用できませんでした。CSV保存を利用してください。',primaryLabel:'閉じる',tone:'error'});return;}}const old=btn.textContent;btn.textContent='コピーしました';btn.classList.add('copied');setTimeout(()=>{btn.textContent=old;btn.classList.remove('copied');},1500);}
 setTimeout(()=>{void initCheckpointRecovery();},0);
-
-// ===== DEVICE REGRESSION RUNNER TEST HOOK (test bundle only) =====
-// Recognition/OCR/classifier logic above is unchanged from Candidate121.
-// This hook exposes a narrow API so the separate regression harness can feed
-// canonical image assets through the same production analysis functions.
-if(window.__BUKKOMI_REGRESSION_MODE__===true){
- const regressionReset=async()=>{
-  if(isRunning)throw new Error('Cannot reset while analysis is running');
-  analysisPause=null;renderPending=false;preManualCsvSnapshot=null;
-  cancelScheduledCheckpointResultSaves();
-  try{await checkpointSaveChain.catch(()=>{});}catch(_){}
-  try{await clearAnalysisCheckpoint();}catch(e){console.warn('Regression checkpoint clear failed',e);}
-  checkpointSessionActive=false;
-  try{await releaseAnalysisRuntimeAfterCompletion();}catch(e){console.warn('Regression runtime release failed',e);}
-  selected=[];results=[];checkpointFailureLog.length=0;
-  checkpointPersistenceWarningShown=false;
-  updateUploadSelectionUI(0);setProgressState('idle',{done:0,total:0});setFloatingProgress('idle');
-  syncSessionGuard();syncRunActionButton();render();
-  return true;
- };
- const regressionRun=async files=>{
-  if(!Array.isArray(files)||!files.length)throw new Error('No regression files supplied');
-  if(files.length>MAX_FILES)throw new Error(`Regression partition exceeds production MAX_FILES=${MAX_FILES}`);
-  await regressionReset();
-  selected=[...files];updateUploadSelectionUI(selected.length);syncRunActionButton();render();
-  const ok=await runAll();
-  return {ok:!!ok,paused:!!analysisPause,pauseIndex:Number.isInteger(analysisPause?.index)?analysisPause.index:null,diagnostics:diagnosticObject()};
- };
- window.__BUKKOMI_REGRESSION_API__={
-  schema:1,
-  buildId:BUILD_ID,
-  releaseId:CHECKPOINT_RELEASE_ID,
-  maxFiles:MAX_FILES,
-  reset:regressionReset,
-  runFiles:regressionRun,
-  diagnostics:()=>diagnosticObject(),
-  state:()=>({isRunning:!!isRunning,paused:!!analysisPause,pauseIndex:Number.isInteger(analysisPause?.index)?analysisPause.index:null,selected:selected.length,results:results.length,ocrMemoryGuard:ocrMemoryGuardSnapshot()})
- };
- window.dispatchEvent(new CustomEvent('bukkomi-regression-api-ready'));
-}
-// ===== END DEVICE REGRESSION RUNNER TEST HOOK =====
-
 })();
